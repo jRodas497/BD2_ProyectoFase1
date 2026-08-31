@@ -1,0 +1,29 @@
+# --- Datos derivados: se reconstruyen con scripts/preparar-fuentes.sh ---
+# data/raw/ sale de descomprimir los .zip de fuentes/ (65 MB duplicados)
+data/raw/
+# sources/ es el clon del repo publico KeithGalli/Olympics-Dataset (117 MB)
+sources/
+
+# --- Base de datos ---
+*.dump
+*.backup
+staging/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# --- Sistema y editores ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- draw.io ---
+*.drawio.bkp
+*.drawio.dtmp
