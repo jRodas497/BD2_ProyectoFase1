@@ -1,0 +1,1762 @@
+evento_id,disciplina_id,nombre,categoria_sexo,es_por_equipos
+1,82,Singles,M,true
+2,82,Doubles,M,true
+3,82,Doubles,Mixto,true
+4,80,Singles,M,true
+5,80,Doubles,M,true
+6,82,"Singles, Handicap, Men (Olympic (non-medal))",Abierto,false
+7,82,"Doubles, Handicap, Men (Olympic (non-medal))",Abierto,false
+8,39,"Épée, Individual",M,false
+9,39,Tennis,Abierto,false
+10,39,Doubles,M,false
+11,39,"Doubles, Handicap, Mixed (Olympic (non-medal))",Abierto,false
+12,39,"Singles, Handicap, Men (Olympic (non-medal))",Abierto,false
+13,39,"Doubles, Handicap, Men (Olympic (non-medal))",Abierto,false
+14,82,"Doubles, Covered Courts",Mixto,true
+15,82,"Singles, Covered Courts",M,false
+16,82,"Singles, Men (Olympic (non-medal))",Abierto,false
+17,82,"Doubles, Handicap, Mixed (Olympic (non-medal))",Abierto,false
+18,82,"Doubles, Covered Courts",M,true
+19,82,Polo,Abierto,false
+20,82,"Polo, Men (Olympic (non-medal))",Abierto,false
+21,9,Singles,M,false
+22,82,"Singles, Covered Courts",F,false
+23,82,Singles,F,true
+24,82,Doubles,F,true
+25,9,Doubles,F,true
+26,9,Doubles,Mixto,true
+27,82,"Singles, Handicap, Women (Olympic (non-medal))",Abierto,false
+28,80,Singles,F,false
+29,80,Doubles,F,true
+30,9,Singles,F,true
+31,9,Doubles,M,true
+32,9,"Singles, Men (Olympic (non-medal))",Abierto,false
+33,82,"Singles, Women (Olympic (non-medal))",Abierto,false
+34,80,Team,F,true
+35,82,"Doubles, Men (Olympic (non-medal))",Abierto,true
+36,46,Hockey,M,true
+37,46,Tennis,Abierto,false
+38,46,Singles,M,false
+39,46,Doubles,M,false
+40,7,100 metres,M,false
+41,7,400 metres,M,false
+42,7,800 metres,M,false
+43,7,110 metres Hurdles,M,true
+44,7,High Jump,M,true
+45,7,Pole Vault,M,true
+46,7,Long Jump,M,false
+47,7,Triple Jump,M,false
+48,7,Tennis,Abierto,true
+49,7,Singles,M,false
+50,7,Doubles,M,false
+51,80,Team,M,true
+52,82,Swimming,Abierto,false
+53,82,100 metres Freestyle,M,false
+54,82,500 metres Freestyle,M,false
+55,82,"1,200 metres Freestyle",M,false
+56,4,Architecture,Abierto,false
+57,82,Weightlifting,Abierto,false
+58,82,"Unlimited, Two Hands",M,false
+59,82,Wrestling,Abierto,false
+60,82,"Unlimited Class, Greco-Roman",M,false
+61,82,Athletics,Abierto,false
+62,82,Pole Vault,M,false
+63,82,Long Jump,M,false
+64,82,Shot Put,M,false
+65,56,Individual,M,false
+66,56,Team,M,true
+67,3,Individual,M,false
+68,3,Individual,F,false
+69,3,Team,F,true
+70,3,Team,M,true
+71,3,"Target Archery, 28 metres, Team",M,true
+72,3,"Target Archery, 33 metres, Team",M,true
+73,3,"Target Archery, 50 metres, Team",M,true
+74,3,"Pole Archery, Small Birds, Individual",M,false
+75,3,"Pole Archery, Large Birds, Individual",M,false
+76,3,"Pole Archery, Small Birds, Team",M,true
+77,3,"Pole Archery, Large Birds, Team",M,true
+78,3,Sur La Perche À La Herse,M,false
+79,3,"Au Chapelet, 33 metres",M,false
+80,3,"Au Chapelet, 50 metres",M,false
+81,3,"Au Cordon Doré, 33 metres",M,false
+82,3,"Au Cordon Doré, 50 metres",M,false
+83,3,Championnat Du Monde,M,false
+84,3,"Target Archery, 28 metres, Individual",M,false
+85,3,"Target Archery, 33 metres, Individual",M,false
+86,3,"Target Archery, 50 metres, Individual",M,false
+87,3,Continental Style,M,false
+88,3,Double York Round,M,false
+89,3,Sur La Perche À La Pyramide,M,false
+90,3,"French Championship, Individual, Men (Olympic (non-medal))",Abierto,false
+91,3,Double National Round,F,false
+92,7,"1,500 metres",M,false
+93,7,Marathon,M,true
+94,9,"Doubles, Women (Olympic (non-medal))",Abierto,true
+95,9,"Doubles, Men (Olympic (non-medal))",Abierto,true
+96,9,"Singles, Women (Olympic (non-medal))",Abierto,false
+97,9,"Doubles, Mixed (Olympic (non-medal))",Abierto,false
+98,19,Welterweight,M,true
+99,19,Light-Heavyweight,M,false
+100,19,Featherweight,M,false
+101,19,Light-Welterweight,M,false
+102,19,Flyweight,M,false
+103,19,Lightweight,M,false
+104,19,Heavyweight,M,false
+105,19,Bantamweight,M,true
+106,19,Light-Flyweight,M,false
+107,19,Middleweight,M,true
+108,19,Light-Middleweight,M,false
+109,19,Super-Heavyweight,M,false
+110,74,Softball,F,true
+111,12,Baseball,M,true
+112,12,"Baseball, Men (Olympic (non-medal))",Abierto,false
+113,3,Team,Mixto,true
+114,3,Double Columbia Round,F,false
+115,3,Team Round,F,true
+116,3,"Flight Shooting, Women (Olympic (non-medal))",Abierto,false
+117,3,Double American Round,M,false
+118,3,Team Round,M,true
+119,3,"Flight Shooting, Men (Olympic (non-medal))",Abierto,false
+120,66,8 metres,Abierto,true
+121,66,Tennis,Abierto,false
+122,66,Singles,M,false
+123,66,Doubles,Mixto,false
+124,66,Doubles,M,false
+125,66,"Singles, Covered Courts",M,false
+126,66,"Doubles, Covered Courts",M,false
+127,4,"Painting, Unknown Event",Abierto,false
+128,44,Individual,M,false
+129,44,"Individual, Men (Olympic (non-medal))",Abierto,false
+130,44,Tennis,Abierto,true
+131,44,Doubles,M,false
+132,44,Team,M,true
+133,44,"Team, Men (Olympic (non-medal))",Abierto,true
+134,44,Singles,M,false
+135,44,"Singles, Men (Olympic (non-medal))",Abierto,false
+136,44,"Doubles, Men (Olympic (non-medal))",Abierto,false
+137,44,"Individual, Handicap, Men (Olympic (non-medal))",Abierto,false
+138,44,Doubles,Mixto,false
+139,44,"Doubles, Handicap, Mixed (Olympic (non-medal))",Abierto,false
+140,44,"Doubles, Handicap, Men (Olympic (non-medal))",Abierto,false
+141,44,"Singles, Handicap, Men (Olympic (non-medal))",Abierto,false
+142,48,Singles,M,false
+143,82,"Long Jump, Men (Olympic (non-medal))",Abierto,false
+144,82,"Long Jump, Handicap, Men (Olympic (non-medal))",Abierto,false
+145,82,Golf,Abierto,false
+146,82,Individual,M,false
+147,13,Basketball,M,true
+148,31,"Road Race, Individual",M,true
+149,13,Basketball,F,true
+150,7,Triple Jump,F,false
+151,45,Handball,F,true
+152,8,"Australian Rules Football, Men (Olympic (non-medal))",Abierto,false
+153,66,One Person Dinghy,Abierto,false
+154,7,Decathlon,M,false
+155,18,Four,M,true
+156,19,Football,Abierto,false
+157,19,Football,M,false
+158,19,Athletics,Abierto,false
+159,19,"100 yards, Men (Olympic (non-medal))",Abierto,false
+160,19,"440 yards, Men (Olympic (non-medal))",Abierto,false
+161,19,"100 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+162,19,"220 yards, Handicap, Men (Olympic (non-medal))",Abierto,true
+163,19,"440 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+164,23,"Kayak Doubles, 500 metres",F,true
+165,23,"Kayak Singles, 500 metres",F,false
+166,23,"Kayak Doubles, 500 metres",M,true
+167,23,"Kayak Fours, 1,000 metres",M,true
+168,23,"Kayak Singles, 500 metres",M,false
+169,23,"Kayak Doubles, 1,000 metres",M,true
+170,23,"Kayak Singles, 1,000 metres",M,false
+171,22,"Kayak Singles, Slalom",M,false
+172,23,"Kayak Fours, 500 metres",F,true
+173,22,"Kayak Singles, Slalom",F,false
+174,21,"Kayak Singles, 10,000 metres",M,false
+175,22,"Canadian Singles, Slalom",M,false
+176,23,Canoe Marathon,Abierto,true
+177,23,"Kayak Doubles, 10,000 metres",M,true
+178,23,"Kayak Relay, 4 × 500 metres",M,true
+179,22,"Canadian Doubles, Slalom",M,true
+180,23,"Canadian Singles, 1,000 metres",M,false
+181,23,"Canadian Singles, 10,000 metres",M,false
+182,23,"Canadian Doubles, 1,000 metres",M,true
+183,23,"Canadian Doubles, 10,000 metres",M,true
+184,23,"Folding Kayak Doubles, 10,000 metres",M,false
+185,23,"Folding Kayak Singles, 10,000 metres",M,false
+186,21,"Kayak Doubles, 10,000 metres",M,true
+187,23,"Kayak Singles, 10,000 metres",M,false
+188,21,"Folding Kayak Singles, 10,000 metres",M,false
+189,21,"Folding Kayak Doubles, 10,000 metres",M,true
+190,23,"Canadian Singles, 500 metres",M,false
+191,23,"Canadian Doubles, 500 metres",M,true
+192,68,"Small-Bore Rifle, Prone, 50 metres",Abierto,false
+193,21,"Canadian Doubles, 10,000 metres",M,true
+194,21,"Canadian Singles, 10,000 metres",M,false
+195,63,Single Sculls,F,false
+196,32,"Team Pursuit, 4,000 metres",M,true
+197,31,"Road Race, Team",M,true
+198,31,100 kilometres Team Time Trial,M,true
+199,59,Polo,M,true
+200,64,Rugby,M,true
+201,63,Eights,M,true
+202,34,Individual,Abierto,false
+203,34,Team,Abierto,true
+204,36,Team,Abierto,true
+205,36,Individual,Abierto,false
+206,37,Individual,Abierto,false
+207,37,Team,Abierto,true
+208,85,Tug-Of-War,M,true
+209,51,Lacrosse,M,true
+210,34,Hacks and Hunter Combined,Abierto,false
+211,33,Springboard,F,false
+212,37,Individual,M,false
+213,37,Team,M,true
+214,36,Individual,M,false
+215,36,Team,M,true
+216,34,Individual,M,false
+217,34,Team,M,true
+218,37,Equestrian Eventing,Abierto,true
+219,89,"Winter Pentathlon, Men (Olympic (non-medal))",Abierto,false
+220,34,Equestrian Eventing,Abierto,false
+221,38,Individual,M,false
+222,38,Team,M,true
+223,35,Four-In-Hand Competition,Abierto,false
+224,37,Equestrian Dressage,Abierto,true
+225,39,"Sabre, Team",M,true
+226,39,Equestrian Eventing,Abierto,false
+227,39,Individual,M,false
+228,39,Team,M,true
+229,37,Long Jump,Abierto,false
+230,37,Hacks and Hunter Combined,Abierto,false
+231,37,High Jump,Abierto,false
+232,56,Equestrian Eventing,Abierto,false
+233,37,Equestrian Driving,Abierto,false
+234,37,Four-In-Hand Competition,Abierto,false
+235,34,Equestrian Driving,Abierto,false
+236,34,Four-In-Hand Competition,Abierto,false
+237,18,Four/Five,M,true
+238,39,"Sabre, Individual",M,true
+239,32,20 kilometres,M,false
+240,32,"Individual Pursuit, 4,000 metres",M,false
+241,32,Sprint,M,true
+242,31,Cycling Track,Abierto,true
+243,31,Sprint,M,false
+244,31,"1,000 metres Time Trial",M,false
+245,31,Points Race,M,false
+246,31,"Road Race, Individual",F,true
+247,31,Cycling Mountain Bike,Abierto,false
+248,31,Cross-Country,F,false
+249,30,Cross-Country,F,false
+250,32,Individual Pursuit,F,false
+251,32,Points Race,F,false
+252,31,Individual Time Trial,F,false
+253,31,Individual Pursuit,F,false
+254,31,Points Race,F,false
+255,31,Team Pursuit,F,true
+256,32,Sprint,F,false
+257,32,500 metres Time Trial,F,false
+258,18,Two,F,true
+259,7,"3,000 metres",F,false
+260,75,"3,000 metres",F,false
+261,75,"5,000 metres",F,false
+262,75,Team Pursuit (6 laps),F,true
+263,32,Keirin,F,false
+264,32,Team Sprint,F,true
+265,31,Sprint,F,false
+266,31,"Individual Pursuit, 4,000 metres",M,false
+267,32,"1,000 metres Time Trial",M,false
+268,32,Points Race,M,false
+269,32,Madison,M,true
+270,32,50 kilometres,M,false
+271,31,"Team Pursuit, 4,000 metres",M,true
+272,32,"Tandem Sprint, 2,000 metres",M,true
+273,32,"Team Pursuit, 1,980 yards",M,true
+274,32,"5,000 metres",M,false
+275,32,100 kilometres,M,false
+276,31,Individual Time Trial,M,false
+277,32,¼ mile,M,false
+278,32,½ mile,M,false
+279,32,5 miles,M,false
+280,32,25 miles,M,false
+281,32,"½ mile, Handicap, Men (Olympic (non-medal))",Abierto,false
+282,30,Cross-Country,M,false
+283,31,333⅓ metres Time Trial,M,false
+284,31,100 kilometres,M,false
+285,32,Team Sprint,M,true
+286,32,⅓ mile,M,false
+287,32,1 mile,M,true
+288,32,2 miles,M,false
+289,32,"1 mile, Novice, Men (Olympic (non-medal))",Abierto,false
+290,31,"Tandem Sprint, 2,000 metres",M,false
+291,32,333⅓ metres Time Trial,M,false
+292,31,50 kilometres,M,false
+293,32,Keirin,M,false
+294,31,Madison,M,false
+295,32,Omnium,M,false
+296,32,25 kilometres,M,false
+297,41,Football,M,true
+298,41,Cycling Track,Abierto,false
+299,41,Sprint,M,false
+300,63,Single Sculls,M,false
+301,63,Coxed Pairs (1 kilometre),M,false
+302,63,Coxed Pairs (1 mile),M,false
+303,63,Coxed Fours,M,true
+304,63,Cycling Track,Abierto,false
+305,63,Sprint,M,false
+306,63,"5,000 metres",M,false
+307,31,"10,000 metres",M,false
+308,31,Cross-Country,M,false
+309,32,"1 mile, Handicap, Men (Olympic (non-medal))",Abierto,false
+310,32,"5 miles, Handicap, Men (Olympic (non-medal))",Abierto,false
+311,31,"5,000 metres",M,false
+312,31,12-Hours Race,M,false
+313,31,20 kilometres,M,false
+314,32,12-Hours Race,M,true
+315,17,"Bicycle Polo, Men (Olympic (non-medal))",Abierto,false
+316,31,Athletics,Abierto,false
+317,31,4 × 100 metres Relay,M,false
+318,26,18 kilometres,M,false
+319,26,50 kilometres,M,false
+320,39,Cycling Road,Abierto,false
+321,39,"Road Race, Individual",M,false
+322,39,Cycling Track,Abierto,false
+323,39,333⅓ metres Time Trial,M,false
+324,39,"10,000 metres",M,false
+325,39,100 kilometres,M,false
+326,39,12-Hours Race,M,false
+327,46,Hockey,F,true
+328,7,400 metres,F,false
+329,7,4 × 400 metres Relay,F,true
+330,60,Singles,M,false
+331,18,Two,M,true
+332,59,"Polo, Men (Olympic (non-medal))",Abierto,false
+333,24,Cricket,M,true
+334,25,"Singles, One Ball",Abierto,false
+335,25,Doubles,Abierto,true
+336,25,"Singles, Two Balls",Abierto,false
+337,25,"Singles, Two Balls, Handicap, Men (Olympic (non-medal))",Abierto,false
+338,44,Individual,F,false
+339,57,A-Class (Open),Abierto,true
+340,64,Tug-Of-War,Abierto,true
+341,64,Tug-Of-War,M,true
+342,64,Athletics,Abierto,false
+343,64,200 metres Hurdles,M,false
+344,64,Discus Throw,M,false
+345,85,Athletics,Abierto,false
+346,85,"Shot Put, Handicap, Men (Olympic (non-medal))",Abierto,false
+347,39,"Foil, Individual",M,true
+348,57,B-Class (Under 60 feet),Abierto,true
+349,57,C-Class,Abierto,true
+350,60,Doubles,M,false
+351,48,Racquets,Abierto,true
+352,48,Doubles,M,false
+353,85,Wrestling,Abierto,true
+354,85,"Heavyweight, Greco-Roman",M,false
+355,85,"Heavyweight, Freestyle",M,false
+356,19,Tug-Of-War,Abierto,false
+357,19,Tug-Of-War,M,false
+358,64,100 metres,M,false
+359,64,400 metres,M,false
+360,85,Weightlifting,Abierto,true
+361,85,"Unlimited, Two Hands",M,false
+362,7,Shot Put,M,false
+363,7,Discus Throw,M,true
+364,7,"Discus Throw, Greek Style",M,false
+365,7,Pentathlon (Ancient),M,false
+366,7,Weightlifting,Abierto,false
+367,7,"Unlimited, Two Hands",M,false
+368,44,"Driving Contest, Men (Olympic (non-medal))",Abierto,false
+369,44,"Putting Contest, Men (Olympic (non-medal))",Abierto,false
+370,85,56-pound Weight Throw,M,false
+371,7,"Shot Put, Handicap, Men (Olympic (non-medal))",Abierto,false
+372,7,Tug-Of-War,Abierto,true
+373,7,Tug-Of-War,M,true
+374,85,"Lightweight, Freestyle",M,false
+375,7,"High Jump, Men (Olympic (non-medal))",Abierto,false
+376,7,"High Jump, Handicap, Men (Olympic (non-medal))",Abierto,false
+377,85,All-Around Dumbbell Contest,M,false
+378,7,56-pound Weight Throw,M,false
+379,7,"56-pound Weight Throw, Men (Olympic (non-medal))",Abierto,false
+380,7,"Discus Throw, Men (Olympic (non-medal))",Abierto,false
+381,7,Hammer Throw,M,true
+382,7,"Discus Throw, Handicap, Men (Olympic (non-medal))",Abierto,true
+383,7,"Hammer Throw, Handicap, Men (Olympic (non-medal))",Abierto,true
+384,7,Javelin Throw,M,false
+385,7,"Javelin Throw, Both Hands",M,false
+386,7,4 × 100 metres Relay,M,true
+387,7,Hockey,Abierto,false
+388,7,Hockey,M,false
+389,46,Athletics,Abierto,false
+390,46,"3,000 metres Steeplechase",M,false
+391,51,"Lacrosse, Men (Olympic (non-medal))",Abierto,false
+392,39,"Foil, Individual",F,true
+393,39,"Foil, Team",F,true
+394,39,"Épée, Individual",F,false
+395,39,"Épée, Team",F,true
+396,39,"Foil, Team",M,true
+397,39,"Épée, Team",M,true
+398,79,100 metres Freestyle,M,true
+399,79,500 metres Freestyle,M,false
+400,39,"Sabre, Individual, Three Hits",M,false
+401,39,"Sabre, Masters, Individual",M,false
+402,39,Modern Pentathlon,Abierto,true
+403,39,"Foil, Individual, Open (Olympic (non-medal))",Abierto,false
+404,79,400 metres Freestyle,M,false
+405,79,Water Polo,Abierto,true
+406,79,Water Polo,M,true
+407,39,Water Polo,Abierto,false
+408,39,Water Polo,M,false
+409,39,Hockey,Abierto,false
+410,39,Hockey,M,false
+411,47,Ice Hockey,M,true
+412,39,"Foil, Masters, Individual",M,false
+413,39,"Épée, Masters, Individual",M,false
+414,39,"Épée, Masters and Amateurs, Individual",M,false
+415,39,25 kilometres,M,false
+416,4,Literature,Abierto,false
+417,68,"Free Pistol, 50 yards",M,false
+418,68,"Small-Bore Rifle, 50 and 100 yards, Team",M,true
+419,39,Athletics,Abierto,false
+420,39,"100 metres, Professionals, Men (Olympic (non-medal))",Abierto,false
+421,39,"400 metres, Professionals, Men (Olympic (non-medal))",Abierto,false
+422,39,"110 metres Hurdles, Professionals, Men (Olympic (non-medal))",Abierto,false
+423,39,"High Jump, Professionals, Men (Olympic (non-medal))",Abierto,false
+424,39,"Long Jump, Professionals, Men (Olympic (non-medal))",Abierto,false
+425,39,"Shot Put, Professionals, Men (Olympic (non-medal))",Abierto,false
+426,39,"100 metres, Professionals, Handicap, Men (Olympic (non-medal))",Abierto,false
+427,39,"400 metres, Professionals, Handicap, Men (Olympic (non-medal))",Abierto,false
+428,39,"High Jump, Professionals, Handicap, Men (Olympic (non-medal))",Abierto,false
+429,39,"Long Jump, Professionals, Handicap, Men (Olympic (non-medal))",Abierto,false
+430,39,"Shot Put, Professionals, Handicap, Men (Olympic (non-medal))",Abierto,false
+431,39,Rowing,Abierto,false
+432,39,Eights,M,false
+433,4,"Painting, Paintings",Abierto,true
+434,39,Shooting,Abierto,false
+435,39,"Dueling Pistol Au Commandement, 25 metres",M,false
+436,39,"Dueling Pistol, 30 metres, Team",M,false
+437,39,Swimming,Abierto,false
+438,39,100 metres Freestyle,M,false
+439,39,Fencing,Abierto,false
+440,68,"Trap, Team",M,true
+441,66,Three Person Keelboat,Abierto,true
+442,56,Fencing,Abierto,true
+443,56,"Épée, Team",M,true
+444,4,"Painting, Drawings And Water Colors",Abierto,true
+445,4,"Painting, Graphic Arts",Abierto,true
+446,4,"Painting, Applied Arts",Abierto,true
+447,39,Art Competitions,Abierto,false
+448,39,"Painting, Graphic Arts",Abierto,true
+449,56,"Sabre, Individual",M,false
+450,39,"Foil, Individual, Boys (Olympic (non-medal))",Abierto,false
+451,39,"Single Sticks, Individual",M,false
+452,7,200 metres,M,false
+453,41,Football,F,true
+454,33,Platform,F,false
+455,33,Synchronized Platform,F,true
+456,33,Platform,M,false
+457,33,Synchronized Platform,M,true
+458,41,Athletics,Abierto,true
+459,41,110 metres Hurdles,M,false
+460,11,"Bandy, Men (Olympic (non-medal))",Abierto,false
+461,7,4 × 400 metres Relay,M,true
+462,41,"120 yards Hurdles, Men (Olympic (non-medal))",Abierto,false
+463,41,"440 yards, Boys (Olympic (non-medal))",Abierto,false
+464,5,Individual All-Around,F,false
+465,5,Floor Exercise,F,false
+466,5,Horse Vault,F,false
+467,5,Uneven Bars,F,false
+468,5,Balance Beam,F,false
+469,5,Team All-Around,F,true
+470,61,Individual,F,false
+471,5,Team Portable Apparatus,F,true
+472,61,Group,F,true
+473,5,Individual All-Around,M,false
+474,5,Team All-Around,M,true
+475,5,Floor Exercise,M,false
+476,5,Horse Vault,M,false
+477,5,Parallel Bars,M,false
+478,5,Horizontal Bar,M,true
+479,5,Rings,M,true
+480,5,Pommelled Horse,M,false
+481,7,Pole Vault,F,false
+482,5,"Individual All-Around, Field Sports",M,false
+483,5,"Individual All-Around, Apparatus Work",M,false
+484,5,"Team All-Around, Swedish System",M,true
+485,88,Featherweight,M,false
+486,5,"Team All-Around, Free System",M,true
+487,5,Rope Climbing,M,false
+488,5,Side Horse,M,false
+489,66,6 metres,Abierto,true
+490,41,Artistic Gymnastics,Abierto,false
+491,41,"Team All-Around, Free System",M,false
+492,4,"Architecture, Open (Olympic (non-medal))",Abierto,true
+493,68,"Free Rifle, Three Positions, 300 metres",M,false
+494,68,"Free Rifle, Three Positions, 300 metres, Team",M,true
+495,68,"Military Rifle, Prone, 300 metres, Team",M,true
+496,68,"Military Rifle, Prone, 600 metres",M,false
+497,68,"Military Rifle, Prone, 600 metres, Team",M,true
+498,68,"Military Rifle, Standing, 300 metres",M,false
+499,68,"Military Rifle, Standing, 300 metres, Team",M,true
+500,68,"Military Rifle, Prone, 300 and 600 metres, Team",M,true
+501,68,"Running Target, Single Shot, Team",M,true
+502,68,"Running Target, Double Shot, Team",M,true
+503,68,"Running Target, Single Shot",M,false
+504,68,"Running Target, Double Shot",M,true
+505,5,"26th Federal Festival, Society and Association Contests, Non-Simultaneous, National Championships, Men (Olympic (non-medal))",Abierto,false
+506,5,"Individual All-Around, 5 Events",M,false
+507,5,"Festival for Societies of the Seine, Artistic, Individual, Men (Olympic (non-medal))",Abierto,false
+508,5,"Festival for Societies of the Seine, Individual (#2), Men (Olympic (non-medal))",Abierto,false
+509,5,"Festival for Societies of the Seine, Advanced, Men (Olympic (non-medal))",Abierto,false
+510,90,"Lightweight, Greco-Roman",M,false
+511,5,"Parallel Bars, Teams",M,true
+512,5,"Horizontal Bar, Teams",M,true
+513,5,Athletics,Abierto,false
+514,5,High Jump,M,true
+515,5,Shot Put,M,false
+516,5,100 metres,M,false
+517,5,Pole Vault,M,false
+518,5,Long Jump,M,true
+519,5,Triple Jump,M,false
+520,7,Artistic Gymnastics,Abierto,true
+521,7,Rope Climbing,M,false
+522,7,Standing Long Jump,M,true
+523,7,Individual All-Around,M,false
+524,7,"Individual All-Around, 5 Events",M,false
+525,7,Team All-Around,M,false
+526,5,Cycling Road,Abierto,false
+527,5,"Road Race, Individual",M,false
+528,5,Shooting,Abierto,false
+529,5,"Military Pistol, 25 metres",M,false
+530,5,"Military Rifle, 200 metres",M,false
+531,5,Tumbling,M,false
+532,5,Decathlon,M,false
+533,5,Club Swinging,M,false
+534,33,Plain High,M,false
+535,33,Artistic Gymnastics,Abierto,false
+536,33,"Team All-Around, Free System",M,false
+537,5,Standing Long Jump,M,false
+538,5,Javelin Throw,M,false
+539,7,Standing High Jump,M,true
+540,5,400 metres,M,false
+541,5,Discus Throw,M,false
+542,85,"Javelin Throw, Freestyle",M,false
+543,5,Fencing,Abierto,false
+544,5,"Sabre, Individual",M,false
+545,5,110 metres Hurdles,M,false
+546,33,Tug-Of-War,Abierto,false
+547,33,Tug-Of-War,M,false
+548,39,Artistic Gymnastics,Abierto,false
+549,39,Team All-Around,M,false
+550,5,"Individual All-Around, 4 Events",M,false
+551,5,"Individual All-Around, Men (Olympic (non-medal))",Abierto,false
+552,5,"Horse Vault, Men (Olympic (non-medal))",Abierto,false
+553,5,"Parallel Bars, Men (Olympic (non-medal))",Abierto,false
+554,5,"Side Horse, Men (Olympic (non-medal))",Abierto,false
+555,45,Handball,M,true
+556,45,Handball,Abierto,false
+557,2,Combined,M,false
+558,2,Cross Country Skiing,Abierto,true
+559,2,4 × 10 kilometres Relay,M,true
+560,49,Half-Middleweight,F,false
+561,49,Lightweight,F,false
+562,49,Heavyweight,F,false
+563,49,"Half-Heavyweight, Women (Olympic (non-medal))",Abierto,false
+564,49,Half-Heavyweight,F,false
+565,49,"Lightweight, Women (Olympic (non-medal))",Abierto,false
+566,49,Extra-Lightweight,F,false
+567,49,Middleweight,F,false
+568,49,"Half-Middleweight, Women (Olympic (non-medal))",Abierto,false
+569,49,Half-Lightweight,F,false
+570,49,"Half-Lightweight, Women (Olympic (non-medal))",Abierto,false
+571,49,"Extra-Lightweight, Women (Olympic (non-medal))",Abierto,false
+572,49,"Middleweight, Women (Olympic (non-medal))",Abierto,false
+573,90,"Heavyweight, Freestyle",F,false
+574,49,"Heavyweight, Women (Olympic (non-medal))",Abierto,false
+575,49,Lightweight,M,false
+576,49,Half-Middleweight,M,false
+577,49,Half-Lightweight,M,false
+578,49,Open Class,M,false
+579,49,Extra-Lightweight,M,false
+580,49,Middleweight,M,false
+581,49,Half-Heavyweight,M,false
+582,49,Heavyweight,M,false
+583,90,"Welterweight, Greco-Roman",M,false
+584,90,"Welterweight, Freestyle",M,false
+585,56,Shooting,Abierto,true
+586,56,"Rapid-Fire Pistol, 25 metres",M,false
+587,54,Military Ski Patrol,M,true
+588,56,"Sabre, Team",M,false
+589,58,Individual,M,false
+590,56,"Épée, Individual",M,true
+591,56,Athletics,Abierto,false
+592,56,Pole Vault,M,false
+593,56,Swimming,Abierto,false
+594,56,200 metres Breaststroke,M,false
+595,56,400 metres Breaststroke,M,false
+596,68,"Rapid-Fire Pistol, 25 metres",M,false
+597,37,Modern Pentathlon,Abierto,false
+598,63,Double Sculls,F,true
+599,63,Coxless Pairs,F,true
+600,63,Lightweight Double Sculls,F,true
+601,63,Coxless Pairs,M,true
+602,63,Coxless Fours,M,true
+603,63,Coxed Pairs,M,true
+604,63,Quadruple Sculls,M,true
+605,63,Double Sculls,M,true
+606,63,Lightweight Coxless Fours,M,true
+607,63,Lightweight Double Sculls,M,true
+608,63,Coxed Fours,F,true
+609,63,Eights,F,true
+610,63,Coxless Fours,F,true
+611,63,Quadruple Sculls,F,true
+612,63,"Coxed Fours, Outriggers",M,true
+613,63,"Coxless Fours, Boys (Olympic (non-medal))",Abierto,true
+614,63,"Eights, Boys (Olympic (non-medal))",Abierto,true
+615,19,Rowing,Abierto,false
+616,19,Eights,M,false
+617,63,"Coxless Pairs, Boys (Olympic (non-medal))",Abierto,true
+618,4,"Literature, Lyric Works",Abierto,false
+619,87,Water Polo,M,true
+620,63,Water Polo,Abierto,true
+621,63,Water Polo,M,true
+622,63,Coxed Quadruple Sculls,F,true
+623,63,"Coxed Fours, Inriggers",M,true
+624,67,"Savate, Men (Olympic (non-medal))",Abierto,false
+625,63,"Single Sculls, Association, Men (Olympic (non-medal))",Abierto,false
+626,79,200 metres Breaststroke,M,true
+627,4,"Sculpturing, Medals And Reliefs",Abierto,true
+628,4,"Sculpturing, Statues",Abierto,false
+629,4,"Sculpturing, Unknown Event",Abierto,true
+630,63,Art Competitions,Abierto,false
+631,63,"Painting, Graphic Arts",Abierto,true
+632,63,"Coxless Fours, Intermediate, Men (Olympic (non-medal))",Abierto,true
+633,63,"Coxless Fours, Men (Olympic (non-medal))",Abierto,true
+634,63,"Coxless Pairs, Intermediate, Men (Olympic (non-medal))",Abierto,true
+635,66,Two Person Keelboat,Abierto,true
+636,63,"Double Sculls, Intermediate, Men (Olympic (non-medal))",Abierto,false
+637,63,"Eights, Intermediate, Men (Olympic (non-medal))",Abierto,false
+638,68,"Air Rifle, 10 metres",F,false
+639,68,Trap,Abierto,false
+640,68,Trap,M,false
+641,68,Double Trap,M,true
+642,68,"Air Pistol, 10 metres",F,false
+643,68,"Sporting Pistol, 25 metres",F,false
+644,68,"Free Pistol, 50 metres",Abierto,false
+645,68,"Small-Bore Rifle, Three Positions, 50 metres",F,true
+646,68,"Free Pistol, 50 metres",M,false
+647,68,"Small-Bore Rifle, Prone, 50 metres",M,false
+648,68,"Small-Bore Rifle, Three Positions, 50 metres",M,false
+649,68,"Rapid-Fire Pistol, 25 metres",Abierto,false
+650,68,"Small-Bore Rifle, Three Positions, 50 metres",Abierto,false
+651,68,Skeet,M,false
+652,68,"Running Target, 50 metres",Abierto,false
+653,68,Skeet,Abierto,false
+654,68,"Air Rifle, 10 metres",M,true
+655,68,"Air Pistol, 10 metres",M,false
+656,68,Double Trap,F,false
+657,68,Trap,F,false
+658,68,"Running Target, Single and Double Shot",M,false
+659,68,"Small-Bore Rifle, Prone, 50 and 100 yards",M,false
+660,68,"Small-Bore Rifle, Disappearing Target, 25 yards",M,false
+661,68,"Small-Bore Rifle, Moving Target, 25 yards",M,false
+662,68,"Running Target, 50 metres",M,false
+663,68,"Running Target, 10 metres",M,false
+664,79,1 mile Freestyle,M,false
+665,79,4 × 250 metres Freestyle Relay,M,false
+666,56,"Free Pistol, 50 metres",M,false
+667,56,"Dueling Pistol, 30 metres",M,false
+668,68,"Military Rifle, Three Positions, 300 metres",M,false
+669,68,"Military Rifle, Any Position, 600 metres",M,false
+670,68,"Dueling Pistol, 30 metres",M,false
+671,68,"Military Revolver, 1873-1874 Gras Model, 20 metres",M,false
+672,68,"Military Revolver, 20 metres",M,false
+673,68,Dueling Pistol Au Visé 20 metres,M,false
+674,68,"Dueling Pistol Au Commandement, 25 metres",M,false
+675,68,"Free Rifle, Any Position, 300 metres",M,false
+676,68,"Military Rifle, 1873-1874 Gras Model, Kneeling Or Standing, 200 metres",M,false
+677,68,"Military Rifle, Kneeling Or Standing, 300 metres",M,false
+678,68,"Free Pistol, 50 metres, Team",M,true
+679,68,"Free Rifle, Prone, 600 metres",M,false
+680,68,"Free Rifle, 400, 600 and 800 metres, Team",M,true
+681,68,"Small-Bore Rifle, Standing, 50 metres",M,false
+682,68,"Smal-Bore Rifle, Standing, 50 metres, Team",M,true
+683,68,"Military Pistol, Team",M,true
+684,68,"Free Rifle, Kneeling, 300 metres",M,false
+685,68,"Free Rifle, Prone, 300 metres",M,false
+686,68,"Free Rifle, Standing, 300 metres",M,false
+687,68,"Free Pistol, 50 yards, Team",M,true
+688,68,"Military Pistol, 30 metres",M,false
+689,68,"Free Rifle, 1,000 yards",M,false
+690,68,"Military Rifle, 200/500/600/800/900/1,000 yards, Team",M,true
+691,68,Skeet,F,false
+692,68,"Free Rifle, Three Positions, 300 metres",Abierto,false
+693,68,"Military Rifle, Prone, 300 metres",M,false
+694,68,"Military Rifle, 200, 400, 500 and 600 metres, Team",M,true
+695,68,"Small-Bore Rifle, Prone, 50 metres, Team",M,true
+696,68,"Small-Bore Rifle, Any Position, 50 metres",M,false
+697,68,"Small-Bore Rifle, Disappearing Target, 25 metres",M,false
+698,7,Shooting,Abierto,false
+699,7,"Free Rifle, Any Position, 300 metres",M,false
+700,7,"Military Rifle, 200 metres",M,false
+701,7,"Unlimited, One Hand",M,false
+702,39,"Rapid-Fire Pistol, 25 metres",M,false
+703,54,"Military Ski Patrol, Men (Olympic (non-medal))",Abierto,false
+704,71,Skeleton,M,false
+705,68,"Free Pistol, 25 metres",M,false
+706,68,"Trap, Single Shot, 16 metres",M,false
+707,68,"Trap, Double Shot, 14 metres",M,false
+708,68,"Dueling Pistol, 30 metres, Team",M,true
+709,39,Trap,M,false
+710,5,"26th Federal Festival, Society and Association Contests, Non-Simultaneous, Shooting Championships, Honorary Members and Associates, Men (Olympic (non-medal))",Abierto,false
+711,56,"Free Pistol, 50 metres, Team",M,false
+712,56,"Dueling Pistol, 30 metres, Team",M,false
+713,68,"Military Pistol, 25 metres",M,false
+714,68,"Muzzle-Loading Pistol, 25 metres",M,false
+715,68,"Military Rifle, 200 metres",M,false
+716,68,"Small-Bore Rifle, Disappearing Target, 25 metres, Team",M,true
+717,68,"Free Pistol, 30 metres",M,false
+718,63,17-Man Naval Rowing Boats,M,false
+719,6,Team,F,true
+720,4,"Architecture, Further Entries",Abierto,false
+721,68,Fencing,Abierto,false
+722,68,"Sabre, Individual",M,false
+723,7,"Rapid-Fire Pistol, 25 metres",M,false
+724,7,"Small-Bore Rifle, Prone, 50 metres",M,false
+725,39,"Free Pistol, 50 yards",M,false
+726,39,"Free Pistol, 50 yards, Team",M,false
+727,39,"Small-Bore Rifle, 50 and 100 yards, Team",M,false
+728,39,"Small-Bore Rifle, Disappearing Target, 25 yards",M,false
+729,39,"Small-Bore Rifle, Moving Target, 25 yards",M,false
+730,39,"Free Pistol, 50 metres",M,false
+731,39,"Free Pistol, 50 metres, Team",M,false
+732,39,"Dueling Pistol, 30 metres",M,false
+733,39,"Small-Bore Rifle, Any Position, 50 metres",M,false
+734,39,"Small-Bore Rifle, Prone, 50 metres, Team",M,false
+735,39,"Small-Bore Rifle, Disappearing Target, 25 metres",M,false
+736,39,"Small-Bore Rifle, Disappearing Target, 25 metres, Team",M,false
+737,68,Art Competitions,Abierto,false
+738,68,Sculpturing,Abierto,false
+739,79,100 metres Backstroke,F,true
+740,6,Solo,F,false
+741,6,Duet,F,true
+742,79,50 metres Freestyle,M,false
+743,79,200 metres Freestyle,M,false
+744,79,100 metres Breaststroke,M,false
+745,79,4 × 200 metres Freestyle Relay,M,true
+746,79,"1,500 metres Freestyle",M,true
+747,79,100 metres Butterfly,M,false
+748,79,200 metres Butterfly,M,false
+749,79,200 metres Individual Medley,F,false
+750,79,100 metres Breaststroke,F,false
+751,79,200 metres Breaststroke,F,true
+752,79,100 metres Freestyle,F,true
+753,79,50 metres Freestyle,F,false
+754,79,100 metres Butterfly,F,false
+755,79,4 × 100 metres Medley Relay,M,true
+756,79,100 metres Backstroke,M,true
+757,79,4 × 200 metres Freestyle Relay,F,true
+758,79,4 × 100 metres Medley Relay,F,true
+759,79,400 metres Individual Medley,F,false
+760,79,400 metres Freestyle,F,false
+761,79,800 metres Freestyle,F,false
+762,79,4 × 100 metres Freestyle Relay,F,true
+763,79,200 metres Backstroke,F,false
+764,79,200 metres Freestyle,F,false
+765,79,200 metres Butterfly,F,false
+766,79,200 metres Backstroke,M,false
+767,79,200 metres Individual Medley,M,false
+768,79,400 metres Individual Medley,M,false
+769,33,Plain High,F,true
+770,33,Swimming,Abierto,true
+771,33,100 metres Freestyle,F,false
+772,33,300 metres Freestyle,F,false
+773,33,Synchronized Springboard,F,true
+774,79,4 × 100 metres Freestyle Relay,M,true
+775,19,Diving,Abierto,false
+776,19,Springboard,M,false
+777,19,Swimming,Abierto,false
+778,19,100 metres Freestyle,M,false
+779,19,400 metres Freestyle,M,false
+780,19,"1,500 metres Freestyle",M,false
+781,19,4 × 200 metres Freestyle Relay,M,false
+782,33,Springboard,M,false
+783,79,"1,000 metres Freestyle",M,false
+784,79,200 metres Obstacle Course,M,false
+785,33,Wrestling,Abierto,false
+786,33,"Welterweight, Freestyle",M,false
+787,79,400 metres Breaststroke,M,false
+788,79,"1,200 metres Freestyle",M,false
+789,87,Swimming,Abierto,true
+790,87,100 metres Freestyle,M,false
+791,87,400 metres Freestyle,M,false
+792,79,440 yards Freestyle,M,false
+793,79,880 yards Freestyle,M,false
+794,87,200 metres Freestyle,M,false
+795,87,"1,000 metres Freestyle",M,false
+796,87,"4,000 metres Freestyle",M,false
+797,33,4 × 200 metres Freestyle Relay,M,false
+798,33,100 metres Freestyle,M,false
+799,33,100 metres Backstroke,M,false
+800,33,Synchronized Springboard,M,true
+801,79,Rowing,Abierto,false
+802,5,Swimming,Abierto,true
+803,5,100 metres Freestyle,M,false
+804,5,4 × 200 metres Freestyle Relay,M,true
+805,5,200 metres Breaststroke,M,false
+806,79,Underwater Swimming,M,false
+807,7,Fencing,Abierto,false
+808,7,"Foil, Individual",M,false
+809,7,"Sabre, Individual",M,false
+810,7,"Free Pistol, 30 metres",M,false
+811,7,"Military Pistol, 25 metres",M,false
+812,7,"Muzzle-Loading Pistol, 25 metres",M,false
+813,7,Swimming,Abierto,false
+814,7,100 metres Freestyle,M,true
+815,7,500 metres Freestyle,M,false
+816,7,"1,200 metres Freestyle",M,false
+817,87,4 × 200 metres Freestyle Relay,M,true
+818,33,Modern Pentathlon,Abierto,false
+819,33,Individual,M,false
+820,33,Art Competitions,Abierto,false
+821,33,"Architecture, Designs For Town Planning",Abierto,false
+822,79,300 metres Freestyle,F,false
+823,79,"4,000 metres Freestyle",M,true
+824,79,200 metres Team Swimming,M,true
+825,7,Parallel Bars,M,false
+826,33,Team All-Around,M,false
+827,33,4 × 250 metres Freestyle Relay,M,false
+828,79,50 yards Freestyle,M,false
+829,79,4 × 50 yards Freestyle Relay,M,true
+830,79,100 yards Backstroke,M,false
+831,79,440 yards Breaststroke,M,false
+832,33,50 yards Freestyle,M,false
+833,33,100 yards Freestyle,M,false
+834,33,440 yards Freestyle,M,false
+835,33,4 × 50 yards Freestyle Relay,M,false
+836,33,100 yards Backstroke,M,false
+837,33,440 yards Breaststroke,M,false
+838,33,400 metres Freestyle,M,false
+839,33,1 mile Freestyle,M,false
+840,79,100 yards Freestyle,M,false
+841,79,220 yards Freestyle,M,false
+842,87,200 metres Team Swimming,M,false
+843,79,100 metres Freestyle For Sailors,M,false
+844,79,"440 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+845,33,"1,500 metres Freestyle",M,false
+846,84,Olympic Distance,F,false
+847,33,200 metres Breaststroke,F,false
+848,79,"Water Polo, Women (Olympic (non-medal))",Abierto,false
+849,87,"Water Polo, Women (Olympic (non-medal))",Abierto,true
+850,33,400 metres Freestyle,F,false
+851,33,4 × 100 metres Freestyle Relay,F,false
+852,33,Water Polo,Abierto,true
+853,33,Water Polo,M,true
+854,7,Diving,Abierto,false
+855,7,Platform,M,false
+856,33,200 metres Breaststroke,M,false
+857,87,"1,500 metres Freestyle",M,false
+858,33,100 metres Backstroke,F,false
+859,56,Individual,F,false
+860,79,Plunge For Distance,M,true
+861,79,"880 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+862,79,"220 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+863,79,"1 mile, Handicap, Men (Olympic (non-medal))",Abierto,false
+864,33,"880 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+865,79,"100 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+866,15,Beach Volleyball,M,true
+867,15,Beach Volleyball,F,true
+868,86,Volleyball,F,true
+869,86,Volleyball,M,true
+870,87,100 metres Backstroke,M,false
+871,87,200 metres Breaststroke,M,false
+872,87,200 metres Backstroke,M,true
+873,87,200 metres Obstacle Course,M,true
+874,41,Water Polo,Abierto,false
+875,41,Water Polo,M,false
+876,79,Football,Abierto,false
+877,79,Football,M,false
+878,88,Bantamweight,M,false
+879,88,Middle-Heavyweight,M,false
+880,88,Lightweight,M,false
+881,88,Middleweight,M,false
+882,88,Light-Heavyweight,M,false
+883,88,Heavyweight II,M,false
+884,88,Heavyweight I,M,false
+885,88,Heavyweight,M,false
+886,88,Super-Heavyweight,M,false
+887,7,Long Jump,F,false
+888,7,4 × 100 metres Relay,F,true
+889,88,Flyweight,M,false
+890,88,Wrestling,Abierto,false
+891,88,"Light-Heavyweight, Freestyle",M,false
+892,88,"Unlimited, One Hand",M,false
+893,90,"Light-Heavyweight, Freestyle",M,false
+894,90,"Lightweight, Freestyle",M,false
+895,7,20 kilometres Race Walk,F,false
+896,90,"Featherweight, Greco-Roman",M,true
+897,88,Athletics,Abierto,false
+898,88,4 × 100 metres Relay,M,false
+899,88,"Unlimited, Two Hands",M,false
+900,88,All-Around Dumbbell Contest,M,false
+901,90,"Featherweight, Freestyle",M,false
+902,90,"Light-Flyweight, Freestyle",M,false
+903,90,"Bantamweight, Freestyle",M,false
+904,90,"Flyweight, Freestyle",M,false
+905,90,"Middleweight, Freestyle",M,true
+906,90,"Bantamweight, Greco-Roman",M,false
+907,90,"Heavyweight, Freestyle",M,false
+908,90,"Middleweight, Greco-Roman",M,false
+909,90,"Super-Heavyweight, Greco-Roman",M,false
+910,90,"Super-Heavyweight, Freestyle",M,false
+911,90,"Heavyweight, Greco-Roman",M,true
+912,90,"Light-Heavyweight, Greco-Roman",M,false
+913,90,"Flyweight, Greco-Roman",M,false
+914,90,"Middleweight B, Greco-Roman",M,false
+915,90,"Middleweight A, Greco-Roman",M,false
+916,90,"Light-Flyweight, Greco-Roman",M,false
+917,88,"Heavyweight, Greco-Roman",M,false
+918,88,High Jump,M,false
+919,88,Standing High Jump,M,false
+920,88,Pole Vault,M,false
+921,88,Long Jump,M,false
+922,88,Standing Long Jump,M,false
+923,88,Triple Jump,M,false
+924,90,"All-Around, Greco-Roman",M,false
+925,90,"Unlimited Class, Greco-Roman",M,false
+926,90,Glíma,Abierto,false
+927,90,"Glíma, Men (Olympic (non-medal))",Abierto,false
+928,43,"Glíma, Men (Olympic (non-medal))",Abierto,false
+929,90,Athletics,Abierto,true
+930,90,"880 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+931,90,Rowing,Abierto,false
+932,90,"Double Sculls, Intermediate, Men (Olympic (non-medal))",Abierto,false
+933,90,"Shot Put, Handicap, Men (Olympic (non-medal))",Abierto,true
+934,66,Two Person Dinghy,F,true
+935,66,Windsurfer,F,false
+936,66,One Person Dinghy,F,false
+937,66,Multihull,Abierto,true
+938,66,Three Person Keelboat,F,true
+939,66,Two Person Dinghy,Abierto,true
+940,66,5.5 metres,Abierto,true
+941,66,7 metres,Abierto,true
+942,66,Two Person Heavyweight Dinghy,Abierto,true
+943,66,Windsurfer,M,false
+944,66,One Person Dinghy,M,false
+945,66,One Person Heavyweight Dinghy,M,false
+946,66,Windsurfer,Abierto,false
+947,66,Open,Abierto,false
+948,66,1-2 Ton,Abierto,true
+949,66,12 metres,Abierto,true
+950,66,40 metres²,Abierto,true
+951,66,Two Person Dinghy,M,true
+952,66,10 metres,Abierto,true
+953,66,½-1 Ton,Abierto,false
+954,4,"Music, Compositions For Orchestra",Abierto,false
+955,66,Two Person Keelboat,M,true
+956,66,30 metres²,Abierto,true
+957,66,12 foot,Abierto,true
+958,66,10-20 Ton,Abierto,false
+959,66,2-3 Ton,Abierto,true
+960,66,Skiff,Abierto,true
+961,66,0-½ Ton,Abierto,true
+962,66,20+ Ton,Abierto,false
+963,66,6.5 metres,Abierto,true
+964,66,3-10 Ton,Abierto,false
+965,66,"Windsurfer, Men (Olympic (non-medal))",Abierto,false
+966,66,Multihull,Mixto,true
+967,7,400 metres Hurdles,M,false
+968,7,200 metres,F,false
+969,7,800 metres,F,false
+970,7,"1,500 metres",F,true
+971,7,Javelin Throw,F,false
+972,7,Heptathlon,F,false
+973,7,"3,000 metres Steeplechase",M,true
+974,7,"5,000 metres",M,false
+975,7,20 kilometres Race Walk,M,false
+976,7,50 kilometres Race Walk,M,false
+977,7,"10,000 metres",M,true
+978,7,High Jump,F,false
+979,7,100 metres,F,true
+980,7,Discus Throw,F,false
+981,7,100 metres Hurdles,F,true
+982,7,"10,000 metres",F,false
+983,7,Marathon,F,false
+984,7,Shot Put,F,false
+985,7,80 metres Hurdles,F,false
+986,7,Hammer Throw,F,false
+987,7,"5,000 metres",F,false
+988,7,10 kilometres Race Walk,F,false
+989,7,400 metres Hurdles,F,false
+990,7,Pentathlon,F,false
+991,7,5 miles,M,false
+992,7,10 miles Race Walk,M,false
+993,7,10 kilometres Race Walk,M,true
+994,7,Boxing,Abierto,false
+995,7,Lightweight,M,false
+996,7,Pentathlon,M,false
+997,7,"100 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+998,7,"120 yards Hurdles, Handicap, Men (Olympic (non-medal))",Abierto,false
+999,7,"3,500 metres Race Walk",M,false
+1000,7,"Cross-Country, Individual",M,false
+1001,7,"3,000 metres Race Walk",M,false
+1002,7,60 metres,M,false
+1003,7,"100 metres, Handicap, Men (Olympic (non-medal))",Abierto,false
+1004,7,Athletics,Abierto,false
+1005,7,"5,000 metres, Team",M,true
+1006,7,"Discus Throw, Both Hands",M,false
+1007,7,"2,500 metres Steeplechase",M,false
+1008,7,"2,500 metres Steeplechase, Handicap, Men (Olympic (non-medal))",Abierto,false
+1009,7,"3,200 metres Steeplechase",M,false
+1010,7,"3,000 metres, Team",M,true
+1011,7,"Cross-Country, Team",M,true
+1012,7,Standing Triple Jump,M,false
+1013,7,"Javelin Throw, Freestyle",M,true
+1014,7,Wrestling,Abierto,false
+1015,7,"Light-Heavyweight, Greco-Roman",M,false
+1016,7,"1,600 metres Medley Relay",M,true
+1017,7,"1 mile, Handicap, Men (Olympic (non-medal))",Abierto,false
+1018,7,"56-pound Weight Throw, Handicap, Men (Olympic (non-medal))",Abierto,false
+1019,7,"Pole Vault, Handicap, Men (Olympic (non-medal))",Abierto,false
+1020,7,Heavyweight,M,false
+1021,7,200 metres Hurdles,M,false
+1022,7,"4,000 metres Steeplechase",M,true
+1023,7,"1,500 metres, Handicap, Men (Olympic (non-medal))",Abierto,false
+1024,7,"440 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+1025,7,"880 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+1026,88,Heavyweight,F,false
+1027,7,"800 metres, Handicap, Men (Olympic (non-medal))",Abierto,false
+1028,79,Athletics,Abierto,false
+1029,79,Shot Put,M,false
+1030,79,Discus Throw,M,false
+1031,7,"3,000 metres Steeplechase",F,false
+1032,7,"Shot Put, Both Hands",M,false
+1033,7,Stone Throw,M,false
+1034,16,20 kilometres,M,false
+1035,5,Pentathlon,M,false
+1036,7,"3 miles, Team",M,true
+1037,7,Rugby,Abierto,true
+1038,7,Rugby,M,true
+1039,7,"110 metres Hurdles, Handicap, Men (Olympic (non-medal))",Abierto,false
+1040,7,"400 metres, Handicap, Men (Olympic (non-medal))",Abierto,false
+1041,7,"4 miles, Team",M,true
+1042,7,"Doubles, Handicap, Men (Olympic (non-medal))",Abierto,false
+1043,7,"Heavyweight, Greco-Roman",M,false
+1044,7,"400 metres Hurdles, Handicap, Men (Olympic (non-medal))",Abierto,false
+1045,7,"Heavyweight, Freestyle",M,false
+1046,90,Shot Put,M,false
+1047,90,Discus Throw,M,false
+1048,7,"2,590 metres Steeplechase",M,false
+1049,7,"Unlimited Class, Greco-Roman",M,false
+1050,7,"120 yards Hurdles, Men (Olympic (non-medal))",Abierto,true
+1051,7,"Long Jump, Men (Olympic (non-medal))",Abierto,true
+1052,7,"Triple Jump, Men (Olympic (non-medal))",Abierto,false
+1053,7,"Standing Triple Jump, Men (Olympic (non-medal))",Abierto,false
+1054,7,"Stone Throw, Men (Olympic (non-medal))",Abierto,false
+1055,7,All-Around Championship,M,false
+1056,7,"Hammer Throw, Men (Olympic (non-medal))",Abierto,false
+1057,26,Ski Jumping,Abierto,true
+1058,26,"Large Hill, Individual",M,false
+1059,26,Nordic Combined,Abierto,true
+1060,26,Individual,M,false
+1061,7,Horse Vault,M,false
+1062,7,"Parallel Bars, Teams",M,false
+1063,7,Horizontal Bar,M,false
+1064,7,"Horizontal Bar, Teams",M,false
+1065,7,Rings,M,false
+1066,7,Pommelled Horse,M,false
+1067,7,Football,Abierto,true
+1068,7,Football,M,false
+1069,7,Basketball,Abierto,false
+1070,7,Basketball,M,false
+1071,7,"1,500 metres Race Walk",M,false
+1072,7,100 metres Backstroke,M,false
+1073,7,200 metres Breaststroke,M,false
+1074,7,"Long Jump, Handicap, Men (Olympic (non-medal))",Abierto,false
+1075,4,"Literature, Dramatic Works",Abierto,false
+1076,7,Glíma,Abierto,false
+1077,7,"Glíma, Men (Olympic (non-medal))",Abierto,false
+1078,26,4 × 10 kilometres Relay,M,true
+1079,7,"6-hour race, Professionals, Men (Olympic (non-medal))",Abierto,false
+1080,40,Pairs,Mixto,true
+1081,26,15 kilometres,M,false
+1082,26,30 kilometres,M,false
+1083,7,"1 mile, Men (Olympic (non-medal))",Abierto,true
+1084,7,Art Competitions,Abierto,false
+1085,7,"Literature, Epic Works",Abierto,false
+1086,5,Marathon,M,false
+1087,5,"Discus Throw, Greek Style",M,false
+1088,5,Pentathlon (Ancient),M,false
+1089,7,Baseball,Abierto,true
+1090,7,"Baseball, Men (Olympic (non-medal))",Abierto,true
+1091,7,"440 yards, Men (Olympic (non-medal))",Abierto,true
+1092,7,"880 yards, Men (Olympic (non-medal))",Abierto,true
+1093,7,"100 yards, Men (Olympic (non-medal))",Abierto,true
+1094,7,"2 miles, Men (Olympic (non-medal))",Abierto,true
+1095,7,"5 miles, Boys (Olympic (non-medal))",Abierto,false
+1096,7,"220 yards, Men (Olympic (non-medal))",Abierto,true
+1097,7,"120 yards Hurdles, Boys (Olympic (non-medal))",Abierto,false
+1098,7,"1 mile, Boys (Olympic (non-medal))",Abierto,true
+1099,7,"Shot Put, Men (Olympic (non-medal))",Abierto,false
+1100,7,"Special Scratch Pole Vault #2, Men (Olympic (non-medal))",Abierto,false
+1101,7,"Individual All-Around, Field Sports",M,false
+1102,7,"Individual All-Around, Apparatus Work",M,false
+1103,7,"60 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+1104,7,"1 mile, Team, Handicap, Men (Olympic (non-medal))",Abierto,false
+1105,7,"2 miles, Handicap, Men (Olympic (non-medal))",Abierto,false
+1106,7,"5 miles, Men (Olympic (non-medal))",Abierto,false
+1107,7,"220 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+1108,7,"100 yards, Boys (Olympic (non-medal))",Abierto,false
+1109,7,"220 yards Hurdles, Men (Olympic (non-medal))",Abierto,false
+1110,7,"Pole Vault, Boys (Olympic (non-medal))",Abierto,false
+1111,7,"Pole Vault, Men (Olympic (non-medal))",Abierto,true
+1112,7,"880 yards, Boys (Olympic (non-medal))",Abierto,false
+1113,7,"Middleweight, Greco-Roman",M,false
+1114,4,Sculpturing,Abierto,true
+1115,7,"Military Rifle, Kneeling Or Standing, 300 metres",M,false
+1116,5,400 metres Freestyle,M,false
+1117,5,1 mile Freestyle,M,false
+1118,85,"Middleweight, Greco-Roman",M,false
+1119,85,"Unlimited, One Hand",M,false
+1120,90,Cycling Track,Abierto,false
+1121,90,Sprint,M,false
+1122,90,20 kilometres,M,false
+1123,41,Tennis,Abierto,false
+1124,41,Singles,M,false
+1125,41,Doubles,M,false
+1126,5,"26th Federal Festival, Society and Association Contests, Non-Simultaneous, Olympic Championships, Individual, Men (Olympic (non-medal))",Abierto,false
+1127,85,Discus Throw,M,false
+1128,85,"Discus Throw, Greek Style",M,false
+1129,5,Wrestling,Abierto,false
+1130,5,"Lightweight, Greco-Roman",M,false
+1131,63,6-Man Naval Rowing Boats,M,false
+1132,5,Cycling Track,Abierto,false
+1133,5,"Tandem Sprint, 2,000 metres",M,false
+1134,39,Coxed Fours,M,false
+1135,41,Rowing,Abierto,false
+1136,41,6-Man Naval Rowing Boats,M,false
+1137,41,100 metres,M,false
+1138,5,Rowing,Abierto,false
+1139,5,Coxed Fours,M,false
+1140,63,Shooting,Abierto,false
+1141,63,"Free Pistol, 25 metres",M,false
+1142,63,"Free Pistol, 50 metres",M,false
+1143,63,"Military Revolver, 1873-1874 Gras Model, 20 metres",M,false
+1144,63,"Military Revolver, 20 metres",M,false
+1145,63,Rowing,Abierto,false
+1146,82,High Jump,M,false
+1147,14,Two-Man Teams With Cesta,M,true
+1148,5,"Festival for Societies of the Seine, Olympic Competition, Individual, Men (Olympic (non-medal))",Abierto,false
+1149,41,Coxed Fours,M,false
+1150,41,Fencing,Abierto,false
+1151,41,"Foil, Individual",M,false
+1152,52,Singles,F,false
+1153,2,Slalom,F,false
+1154,26,5 kilometres,F,false
+1155,26,10 kilometres,F,false
+1156,26,20 kilometres,F,false
+1157,40,Singles,F,false
+1158,26,3 × 5 kilometres Relay,F,true
+1159,16,7.5 kilometres Sprint,F,false
+1160,16,15 kilometres,F,false
+1161,16,3 × 7.5 kilometres Relay,F,true
+1162,16,4 × 7.5 kilometres Relay,F,true
+1163,75,"1,500 metres",F,false
+1164,2,Downhill,F,true
+1165,2,Giant Slalom,F,false
+1166,26,30 kilometres,F,false
+1167,26,5/10 kilometres Pursuit,F,false
+1168,26,4 × 5 kilometres Relay,F,true
+1169,26,15 kilometres,F,false
+1170,26,5/5 kilometres Pursuit,F,false
+1171,75,"1,000 metres",F,false
+1172,69,"3,000 metres Relay",F,true
+1173,16,10 kilometres Pursuit,F,false
+1174,16,4 × 6 kilometres Relay,F,true
+1175,40,Ice Dancing,Mixto,true
+1176,75,500 metres,F,false
+1177,2,Super G,F,false
+1178,2,Combined,F,false
+1179,75,"5,000 metres",M,false
+1180,69,500 metres,F,false
+1181,69,"500 metres, Women (Olympic (non-medal))",Abierto,false
+1182,69,"1,000 metres, Women (Olympic (non-medal))",Abierto,false
+1183,69,"1,500 metres, Women (Olympic (non-medal))",Abierto,false
+1184,69,"3,000 m, Women (Olympic (non-medal))",Abierto,false
+1185,69,"1,000 metres",F,false
+1186,42,Moguls,F,false
+1187,16,Cross Country Skiing,Abierto,true
+1188,16,5 kilometres,F,false
+1189,16,5/10 kilometres Pursuit,F,false
+1190,42,"Aerials, Women (Olympic (non-medal))",Abierto,false
+1191,42,Aerials,F,false
+1192,69,"3,000 metres Relay, Women (Olympic (non-medal))",Abierto,true
+1193,42,"Ballet, Women (Olympic (non-medal))",Abierto,false
+1194,16,12.5 kilometres Mass Start,F,false
+1195,76,"Individual, Women (Olympic (non-medal))",Abierto,false
+1196,26,Sprint,F,false
+1197,16,Sprint,F,false
+1198,42,Ski Cross,F,false
+1199,16,30 kilometres,F,false
+1200,42,"Moguls, Women (Olympic (non-medal))",Abierto,false
+1201,26,15 kilometres Skiathlon,F,false
+1202,40,"Ice Dancing, Mixed (Olympic (non-medal))",Abierto,false
+1203,26,Team Sprint,F,true
+1204,75,Mass Start,F,false
+1205,69,"1,500 metres",F,false
+1206,16,4 × 5 kilometres Relay,F,false
+1207,40,Singles,M,false
+1208,58,Team,M,true
+1209,16,10 kilometres Sprint,M,false
+1210,16,4 × 7.5 kilometres Relay,M,true
+1211,2,Giant Slalom,M,false
+1212,2,Slalom,M,false
+1213,75,500 metres,M,false
+1214,75,"1,000 metres",M,false
+1215,2,Downhill,M,false
+1216,2,Super G,M,false
+1217,72,"Large Hill, Individual",M,false
+1218,75,"1,500 metres",M,false
+1219,72,"Normal Hill, Individual",M,false
+1220,72,"Large Hill, Team",M,true
+1221,69,"500 metres, Men (Olympic (non-medal))",Abierto,false
+1222,69,"1,000 metres, Men (Olympic (non-medal))",Abierto,false
+1223,69,"1,500 metres, Men (Olympic (non-medal))",Abierto,false
+1224,69,"5,000 metres Relay, Men (Olympic (non-medal))",Abierto,true
+1225,69,"3,000 m, Men (Olympic (non-medal))",Abierto,false
+1226,69,"5,000 metres Relay",M,true
+1227,26,10 kilometres,M,false
+1228,26,10/15 kilometres Pursuit,M,false
+1229,18,Curling,Abierto,true
+1230,18,Curling,M,false
+1231,42,Moguls,M,false
+1232,52,Doubles,Abierto,true
+1233,26,10/10 kilometres Pursuit,M,false
+1234,52,Singles,M,false
+1235,18,Luge,Abierto,false
+1236,18,Singles,M,false
+1237,16,10 kilometres,M,false
+1238,16,30 kilometres,M,false
+1239,16,10/15 kilometres Pursuit,M,false
+1240,16,4 × 10 kilometres Relay,M,true
+1241,75,"10,000 metres",M,true
+1242,75,Allround,M,false
+1243,26,Sprint,M,false
+1244,26,30 kilometres Skiathlon,M,false
+1245,26,Team Sprint,M,true
+1246,16,15 kilometres,M,false
+1247,26,Military Ski Patrol,Abierto,false
+1248,26,Military Ski Patrol,M,false
+1249,42,"Aerials, Men (Olympic (non-medal))",Abierto,false
+1250,42,Aerials,M,false
+1251,2,Ski Jumping,Abierto,false
+1252,2,"Large Hill, Individual",M,false
+1253,47,"Ice Hockey Exhibition, Men (Olympic (non-medal))",Abierto,true
+1254,2,18 kilometres,M,false
+1255,2,Nordic Combined,Abierto,true
+1256,2,Individual,M,false
+1257,58,Ski Jumping,Abierto,true
+1258,58,"Large Hill, Individual",M,false
+1259,69,500 metres,M,false
+1260,69,"1,000 metres",M,false
+1261,42,"Moguls, Men (Olympic (non-medal))",Abierto,false
+1262,18,Skeleton,Abierto,false
+1263,18,Skeleton,M,false
+1264,54,Nordic Combined,Abierto,false
+1265,54,Individual,M,false
+1266,54,Ski Jumping,Abierto,false
+1267,54,"Large Hill, Individual",M,false
+1268,16,12.5 kilometres Pursuit,M,false
+1269,16,15 kilometres Mass Start,M,false
+1270,16,2 × 6 kilometres and 2 × 7.5 kilometres Relay,Mixto,true
+1271,58,Cross Country Skiing,Abierto,false
+1272,58,18 kilometres,M,false
+1273,75,Team Pursuit (8 laps),M,true
+1274,69,"1,500 metres",M,false
+1275,40,Special Figures,M,false
+1276,58,"Large Hill, Team",M,false
+1277,2,50 kilometres,M,false
+1278,47,Cross Country Skiing,Abierto,false
+1279,47,50 kilometres,M,false
+1280,47,Ski Jumping,Abierto,false
+1281,47,"Large Hill, Individual",M,false
+1282,58,Military Ski Patrol,Abierto,false
+1283,58,"Military Ski Patrol, Men (Olympic (non-medal))",Abierto,false
+1284,58,"Normal Hill, Individual",M,false
+1285,47,Speed Skating,Abierto,true
+1286,47,500 metres,M,false
+1287,47,"1,500 metres",M,false
+1288,47,"5,000 metres",M,false
+1289,47,Allround,M,false
+1290,18,Ice Hockey,Abierto,true
+1291,18,Ice Hockey,M,true
+1292,75,Ice Hockey,Abierto,false
+1293,75,Ice Hockey,M,false
+1294,2,Bobsleigh,Abierto,false
+1295,2,Four,M,false
+1296,52,Team Relay,Mixto,true
+1297,72,Alpine Skiing,Abierto,false
+1298,72,Combined,M,false
+1299,16,50 kilometres,M,false
+1300,26,"Military Ski Patrol, Men (Olympic (non-medal))",Abierto,false
+1301,2,15 kilometres,M,false
+1302,42,"Ballet, Men (Olympic (non-medal))",Abierto,false
+1303,58,Sprint,M,false
+1304,58,"Normal Hill / 10 km, Individual",M,false
+1305,58,"Large Hill / 10 km, Individual",M,false
+1306,54,Cross Country Skiing,Abierto,false
+1307,54,50 kilometres,M,false
+1308,2,30 kilometres,M,false
+1309,4,"Sculpturing, Medals",Abierto,true
+1310,23,"Kayak Singles, 200 metres",F,false
+1311,23,"Kayak Singles, 200 metres",M,false
+1312,23,"Kayak Doubles, 200 metres",M,true
+1313,23,"Kayak Fours, 500 metres",M,true
+1314,32,Omnium,F,false
+1315,29,BMX,M,false
+1316,83,Individual,M,false
+1317,83,Individual,F,false
+1318,26,Team,M,false
+1319,90,"Lightweight, Freestyle",F,false
+1320,66,"Windsurfer, Women (Olympic (non-medal))",Abierto,false
+1321,68,"Trap, Team",Mixto,true
+1322,68,"Air Pistol, 10 metres, Team",Mixto,true
+1323,79,Marathon Swimming,Abierto,false
+1324,79,10 kilometres Open Water,F,false
+1325,53,10 kilometres Open Water,F,false
+1326,79,10 kilometres Open Water,M,false
+1327,53,10 kilometres Open Water,M,false
+1328,81,Featherweight,M,false
+1329,81,Flyweight,M,false
+1330,81,Flyweight,F,false
+1331,81,Featherweight,F,false
+1332,81,Welterweight,M,false
+1333,81,"Finweight, Men (Olympic (non-medal))",Abierto,false
+1334,81,Welterweight,F,false
+1335,81,Heavyweight,M,false
+1336,81,Heavyweight,F,false
+1337,81,"Lightweight, Women (Olympic (non-medal))",Abierto,false
+1338,81,"Welterweight, Women (Olympic (non-medal))",Abierto,false
+1339,81,"Bantamweight, Men (Olympic (non-medal))",Abierto,false
+1340,81,"Middleweight, Women (Olympic (non-medal))",Abierto,false
+1341,81,"Heavyweight, Women (Olympic (non-medal))",Abierto,false
+1342,84,Olympic Distance,M,false
+1343,84,Athletics,Abierto,false
+1344,84,"10,000 metres",F,false
+1345,87,Water Polo,F,true
+1346,88,Light-Heavyweight,F,false
+1347,88,Lightweight,F,false
+1348,88,Middleweight,F,false
+1349,88,Super-Heavyweight,F,false
+1350,88,Featherweight,F,false
+1351,88,Flyweight,F,false
+1352,26,Alpine Skiing,Abierto,false
+1353,26,Combined,M,false
+1354,72,Nordic Combined,Abierto,true
+1355,72,Individual,M,false
+1356,47,Football,Abierto,false
+1357,47,Football,M,false
+1358,42,Ski Cross,M,false
+1359,47,"10,000 metres",M,false
+1360,18,Alpine Skiing,Abierto,false
+1361,18,Giant Slalom,M,false
+1362,58,50 kilometres,M,false
+1363,47,Skijoring,Abierto,false
+1364,47,"Ski Joring, Men (Olympic (non-medal))",Abierto,false
+1365,2,Two,M,false
+1366,16,Sprint,M,false
+1367,73,Giant Slalom,M,false
+1368,73,Parallel Giant Slalom,M,false
+1369,73,Giant Slalom,F,false
+1370,73,Cross,M,false
+1371,73,Parallel Slalom,M,false
+1372,73,Halfpipe,M,false
+1373,73,Halfpipe,F,false
+1374,73,Cross,F,false
+1375,73,Parallel Giant Slalom,F,false
+1376,27,Curling,F,true
+1377,27,"Curling, Women (Olympic (non-medal))",Abierto,true
+1378,27,Curling,M,true
+1379,27,"Curling, Men (Olympic (non-medal))",Abierto,true
+1380,47,Ice Hockey,F,true
+1381,66,18 foot,Abierto,true
+1382,73,Slopestyle,F,false
+1383,16,10/10 kilometres Pursuit,M,false
+1384,40,Team,Mixto,true
+1385,73,Parallel Slalom,F,false
+1386,71,Skeleton,F,false
+1387,2,Team,Mixto,true
+1388,18,Four,Abierto,true
+1389,79,"High Jump, Men (Olympic (non-medal))",Abierto,false
+1390,79,Standing High Jump,M,false
+1391,79,"Pole Vault, Men (Olympic (non-medal))",Abierto,false
+1392,79,"High Jump, Handicap, Men (Olympic (non-medal))",Abierto,false
+1393,79,"Pole Vault, Handicap, Men (Olympic (non-medal))",Abierto,true
+1394,87,Plunge For Distance,M,false
+1395,87,"220 yards, Handicap, Men (Olympic (non-medal))",Abierto,false
+1396,87,"1 mile, Handicap, Men (Olympic (non-medal))",Abierto,false
+1397,62,Singles,M,false
+1398,68,Unknown Event,M,false
+1399,79,4 × 100 metres Medley Relay,Mixto,true
+1400,79,"1,500 metres Freestyle",F,false
+1401,66,Skiff,F,true
+1402,66,Skiff,M,true
+1403,68,"Air Rifle, 10 metres, Team",Mixto,true
+1404,23,"Canadian Singles, 200 metres",M,false
+1405,39,"Sabre, Individual",F,false
+1406,39,"Sabre, Team",F,true
+1407,84,Relay,Mixto,true
+1408,32,Team Pursuit,F,true
+1409,31,Keirin,M,false
+1410,80,Doubles,Mixto,true
+1411,90,"Flyweight, Freestyle",F,false
+1412,90,"Featherweight, Freestyle",F,false
+1413,90,"Middleweight, Freestyle",F,false
+1414,75,Mass Start,M,false
+1415,72,"Normal Hill, Team",Mixto,true
+1416,73,Slopestyle,M,false
+1417,69,"2,000 metres Relay",Mixto,true
+1418,73,Big Air,F,false
+1419,73,Team Cross,Mixto,false
+1420,49,Team,Mixto,true
+1421,29,BMX,F,false
+1422,31,Team Sprint,M,false
+1423,32,Cycling Mountain Bike,Abierto,false
+1424,32,Cross-Country,M,false
+1425,7,4 × 400 metres Relay,Mixto,true
+1426,22,"Canadian Singles, Slalom",F,false
+1427,90,"Light-Heavyweight, Freestyle",F,false
+1428,16,Team Sprint,F,false
+1429,16,10 kilometres,F,false
+1430,18,Monobob,F,false
+1431,27,Mixed Doubles,Mixto,true
+1432,42,Team Aerials,Mixto,true
+1433,73,Big Air,M,false
+1434,75,Short Track Speed Skating,Abierto,false
+1435,75,"3,000 metres Relay",F,false
+1436,19,Lightweight,F,false
+1437,19,Flyweight,F,false
+1438,19,Middleweight,F,false
+1439,79,800 metres Freestyle,M,false
+1440,32,Madison,F,true
+1441,31,Omnium,M,false
+1442,32,Cycling Road,Abierto,false
+1443,32,"Road Race, Individual",F,false
+1444,32,Individual Time Trial,F,false
+1445,31,Omnium,F,false
+1446,42,Slopestyle,F,false
+1447,42,Halfpipe,F,false
+1448,42,Slopestyle,M,false
+1449,42,Halfpipe,M,false
+1450,72,"Normal Hill, Individual",F,false
+1451,42,Big Air,F,false
+1452,73,Alpine Skiing,Abierto,false
+1453,73,Super G,F,false
+1454,2,Snowboarding,Abierto,false
+1455,2,Parallel Giant Slalom,F,false
+1456,42,Big Air,M,false
+1457,16,Mixed Sports,Abierto,false
+1458,70,Park,M,false
+1459,55,Cross Country Skiing,Abierto,false
+1460,65,Rugby Sevens,F,true
+1461,19,Featherweight,F,false
+1462,19,Welterweight,F,false
+1463,65,Rugby Sevens,M,true
+1464,32,Individual Time Trial,M,false
+1465,2,Freestyle Skiing,Abierto,false
+1466,26,Mixed Sports,Abierto,true
+1467,55,Ski Jumping,Abierto,true
+1468,55,Nordic Combined,Abierto,false
+1469,55,Snowboarding,Abierto,false
+1470,55,Freestyle Skiing,Abierto,false
+1471,10,"Longest time travelled (#2), Handicap, Open (Olympic (non-medal))",Abierto,false
+1472,10,"Longest time travelled (#3), Open (Olympic (non-medal))",Abierto,false
+1473,10,"Closest landing to target (#3), Combined, Open (Olympic (non-medal))",Abierto,false
+1474,10,"Closest landing to target (#3), Intermediate stop, Open (Olympic (non-medal))",Abierto,false
+1475,10,"Closest landing to target (#3), Final stop, Open (Olympic (non-medal))",Abierto,false
+1476,10,Equestrian Driving,Abierto,false
+1477,10,Four-In-Hand Competition,Abierto,false
+1478,42,Mixed Sports,Abierto,true
+1479,2,Mixed Sports,Abierto,false
+1480,47,3-on-3 Ice Hockey,Abierto,true
+1481,72,Mixed Sports,Abierto,true
+1482,58,Mixed Sports,Abierto,true
+1483,73,Mixed Sports,Abierto,false
+1484,50,"Kumite, >61 kg",F,false
+1485,78,Shortboard,M,false
+1486,28,Park,F,false
+1487,23,"Canadian Singles, 200 metres",F,false
+1488,23,"Canadian Doubles, 500 metres",F,true
+1489,77,Combined,F,false
+1490,70,Street,F,false
+1491,70,Park,F,false
+1492,78,Shortboard,F,false
+1493,28,Park,M,false
+1494,77,Combined,M,false
+1495,50,"Kumite, ≤75 kg",M,false
+1496,70,Street,M,false
+1497,50,"Kumite, ≤55 kg",F,false
+1498,50,"Kumite, ≤67 kg",M,false
+1499,1,3x3 Basketball,M,true
+1500,50,"Kumite, >75 kg",M,false
+1501,1,3x3 Basketball,F,true
+1502,50,"Kumite, ≤61 kg",F,false
+1503,50,Kata,M,false
+1504,50,Kata,F,false
+1505,32,"Road Race, Individual",M,false
+1506,58,"Normal Hill, Team",Mixto,false
+1507,90,Greco-Roman 97kg,M,false
+1508,90,Greco-Roman 77kg,M,false
+1509,90,Greco-Roman 67kg,M,false
+1510,90,Freestyle 57kg,M,false
+1511,90,Freestyle 65kg,M,false
+1512,7,20km Race Walk,F,false
+1513,7,Marathon Race Walk Relay,Mixto,true
+1514,49,60 kg,M,false
+1515,7,100m,F,false
+1516,7,200m,F,false
+1517,7,100m,M,false
+1518,84,Individual,F,false
+1519,84,Individual,M,false
+1520,79,50m Freestyle,F,false
+1521,6,Team,Abierto,true
+1522,6,Duet,Abierto,true
+1523,49,81 kg,M,false
+1524,88,+102kg,M,false
+1525,7,5000m,M,false
+1526,7,5000m,F,false
+1527,79,50m Freestyle,M,false
+1528,22,Kayak Single,M,false
+1529,22,Kayak Cross,M,false
+1530,19,63.5kg,M,false
+1531,19,71kg,M,false
+1532,7,800m,M,false
+1533,7,20km Race Walk,M,false
+1534,7,400m,F,false
+1535,66,Dinghy,F,false
+1536,66,Windsurfing,F,false
+1537,5,Women,F,false
+1538,5,All-Around,F,false
+1539,5,Vault,F,false
+1540,33,10m Platform,M,false
+1541,33,Synchronised 10m Platform,M,false
+1542,33,10m Platform,F,false
+1543,33,Synchronised 10m Platform,F,false
+1544,33,3m Springboard,M,false
+1545,33,Synchronised 3m Springboard,M,false
+1546,79,100m Breaststroke,M,false
+1547,79,200m Breaststroke,M,false
+1548,61,Group All-Around,Abierto,true
+1549,81,+80kg,M,false
+1550,81,49kg,F,false
+1551,78,Men,M,false
+1552,49,90 kg,M,false
+1553,49,100 kg,M,false
+1554,49,+100 kg,M,false
+1555,49,52 kg,F,false
+1556,49,73 kg,M,false
+1557,31,Road Race,F,false
+1558,68,10m Air Rifle,M,false
+1559,68,10m Air Rifle Team,Mixto,true
+1560,68,10m Air Pistol,F,false
+1561,68,25m Pistol,F,false
+1562,68,50m Rifle 3 Positions,M,false
+1563,22,Kayak Single,F,false
+1564,22,Kayak Cross,F,false
+1565,23,Kayak Single 500m,F,false
+1566,23,Kayak Double 500m,F,false
+1567,90,Freestyle 76kg,F,false
+1568,19,60kg,F,false
+1569,19,57kg,F,false
+1570,66,Kite,M,false
+1571,79,100m Freestyle,M,false
+1572,41,Men,M,false
+1573,66,Dinghy,M,false
+1574,79,100m Breaststroke,F,false
+1575,79,200m Breaststroke,F,false
+1576,79,4 x 100m Medley Relay,F,true
+1577,68,10m Air Pistol,M,false
+1578,81,80kg,M,false
+1579,81,57kg,F,false
+1580,53,10km,M,false
+1581,53,10km,F,false
+1582,33,3m Springboard,F,false
+1583,77,Speed,M,false
+1584,49,+78 kg,F,false
+1585,44,Individual Stroke Play,M,false
+1586,7,1500m,M,false
+1587,7,800m,F,false
+1588,44,Individual Stroke Play,F,false
+1589,31,Road Race,M,false
+1590,88,89kg,M,false
+1591,7,1500m,F,false
+1592,23,Kayak Single 1000m,M,false
+1593,7,"10,000m",M,false
+1594,88,49kg,F,false
+1595,7,"10,000m",F,false
+1596,7,100m Hurdles,F,false
+1597,79,100m Backstroke,F,false
+1598,7,400m Hurdles,M,false
+1599,79,200m Freestyle,M,false
+1600,79,400m Freestyle,F,false
+1601,79,800m Freestyle,F,false
+1602,88,59kg,F,false
+1603,49,63 kg,F,false
+1604,23,Canoe Single 1000m,M,false
+1605,7,400m,M,false
+1606,81,67kg,F,false
+1607,81,68kg,M,false
+1608,79,100m Backstroke,M,false
+1609,7,3000m Steeplechase,F,false
+1610,7,4 x 100m Relay,M,true
+1611,88,102kg,M,false
+1612,68,10m Air Rifle,F,false
+1613,66,Windsurfing,M,false
+1614,66,Kite,F,false
+1615,68,Skeet Team,Mixto,true
+1616,79,200m Backstroke,F,false
+1617,68,50m Rifle 3 Positions,F,false
+1618,68,10m Air Pistol Team,Mixto,true
+1619,46,Women,F,false
+1620,46,Men,M,false
+1621,7,4 x 100m Relay,F,true
+1622,5,Men,M,false
+1623,5,Vault,M,false
+1624,29,Men,M,false
+1625,7,400m Hurdles,F,false
+1626,79,400m Freestyle,M,false
+1627,79,100m Freestyle,F,false
+1628,7,200m,M,false
+1629,68,25m Rapid Fire Pistol,M,false
+1630,49,66 kg,M,false
+1631,39,Sabre Individual,M,false
+1632,65,Men,M,false
+1633,19,66kg,F,false
+1634,79,4 x 100m Freestyle Relay,F,true
+1635,79,Relay Only Athlete,Abierto,true
+1636,79,4 x 100m Medley Relay,M,true
+1637,53,1500m Freestyle,M,false
+1638,53,800m Freestyle,M,false
+1639,5,Pommel Horse,M,false
+1640,63,Pair,F,true
+1641,63,Four,F,true
+1642,45,Men,M,false
+1643,90,Greco-Roman 130kg,M,false
+1644,90,Greco-Roman 60kg,M,false
+1645,90,Freestyle 53kg,F,false
+1646,90,Freestyle 62kg,F,false
+1647,90,Freestyle 97kg,M,false
+1648,88,61kg,M,false
+1649,19,+92kg,M,false
+1650,19,50kg,F,false
+1651,23,Canoe Single 200m,F,false
+1652,29,Women,F,false
+1653,19,54kg,F,false
+1654,19,57kg,M,false
+1655,39,Épée Individual,M,false
+1656,61,Individual All-Around,Abierto,false
+1657,39,Sabre Team,M,true
+1658,79,200m Freestyle,F,false
+1659,79,1500m Freestyle,M,false
+1660,39,Foil Individual,F,false
+1661,39,Épée Individual,F,false
+1662,23,Canoe Double 500m,M,false
+1663,30,Cross-country,M,false
+1664,81,+67kg,F,false
+1665,79,100m Butterfly,M,false
+1666,20,B-Boys,Abierto,false
+1667,20,B-Girls,Abierto,false
+1668,88,81kg,F,false
+1669,90,Freestyle 125kg,M,false
+1670,90,Greco-Roman 87kg,M,false
+1671,19,75kg,F,false
+1672,7,4 x 400m Relay,Mixto,true
+1673,7,4 x 400m Relay,F,true
+1674,65,Women,F,false
+1675,79,100m Butterfly,F,false
+1676,79,200m Individual Medley,F,false
+1677,79,400m Individual Medley,F,false
+1678,63,Pair,M,true
+1679,83,Men,M,false
+1680,88,73kg,M,false
+1681,88,71kg,F,false
+1682,79,800m Freestyle,M,false
+1683,49,48 kg,F,false
+1684,88,+81kg,F,false
+1685,77,Boulder & Lead,M,false
+1686,77,Boulder & Lead,F,false
+1687,7,4 x 400m Relay,M,true
+1688,7,3000m Steeplechase,M,false
+1689,22,Canoe Single,M,false
+1690,90,Freestyle 86kg,M,false
+1691,90,Freestyle 74kg,M,false
+1692,90,Freestyle 50kg,F,false
+1693,90,Freestyle 57kg,F,false
+1694,49,57 kg,F,false
+1695,49,78 kg,F,false
+1696,79,200m Individual Medley,M,false
+1697,30,Cross-country,F,false
+1698,19,92kg,M,false
+1699,15,Women,F,false
+1700,81,58kg,M,false
+1701,63,Four,M,true
+1702,63,Eight,M,false
+1703,63,Eight,F,false
+1704,79,200m Butterfly,F,false
+1705,15,Men,M,false
+1706,79,200m Backstroke,M,false
+1707,13,Women,F,false
+1708,49,70 kg,F,false
+1709,5,Team,F,true
+1710,19,51kg,M,false
+1711,23,Canoe Double 500m,F,false
+1712,39,Foil Individual,M,false
+1713,22,Canoe Single,F,false
+1714,5,All-Around,M,false
+1715,5,Team,M,true
+1716,83,Women,F,false
+1717,39,Sabre Individual,F,false
+1718,77,Speed,F,false
+1719,45,Women,F,false
+1720,79,1500m Freestyle,F,false
+1721,19,80kg,M,false
+1722,79,200m Butterfly,M,false
+1723,87,Men,M,false
+1724,78,Women,F,false
+1725,66,Dinghy,Mixto,false
+1726,7,110m Hurdles,M,false
+1727,31,Keirin,F,false
+1728,13,Men,M,false
+1729,86,Men,M,false
+1730,53,200m Freestyle,M,false
+1731,53,400m Freestyle,M,false
+1732,90,Freestyle 68kg,F,false
+1733,23,Kayak Four 500m,F,true
+1734,23,Kayak Four 500m,M,true
+1735,1,Men,M,false
+1736,23,Kayak Double 500m,M,false
+1737,1,Women,F,false
+1738,79,4 x 100m Freestyle Relay,M,true
+1739,79,4 x 100m Medley Relay,Mixto,true
+1740,86,Women,F,false
+1741,32,Team Pursuit,M,true
+1742,31,Team Pursuit,M,true
+1743,41,Women,F,false
+1744,79,4 x 200m Freestyle Relay,F,true
+1745,79,4 x 200m Freestyle Relay,M,true
+1746,79,400m Individual Medley,M,false
+1747,39,Foil Team,M,true
+1748,39,Foil Team,F,true
+1749,39,Épée Team,F,true
+1750,31,Cross-country,F,false
+1751,39,Sabre Team,F,true
+1752,39,Épée Team,M,true
+1753,33,Synchronised 3m Springboard,F,false
+1754,87,Women,F,false
+1755,53,1500m Freestyle,F,false
+1756,53,400m Freestyle,F,false
+1757,31,Cross-country,M,false
+1758,31,Madison,F,false
+1759,31,Individual,F,false
+1760,53,400m Individual Medley,F,false
+1761,53,4 x 200m Freestyle Relay,M,true

@@ -47,8 +47,20 @@ def to_bool_str(v):
     return "true" if bool(v) else "false"
 
 
+# Columnas que el esquema define como enteras (SERIAL/INT/SMALLINT); se fuerzan a Int64
+# nullable para evitar que pandas las escriba como floats ("6.0") cuando hay NULLs de por medio.
+COLUMNAS_ENTERAS = {
+    "pais_id", "ciudad_id", "edicion_id", "numero_olimpiada", "deporte_id", "disciplina_id",
+    "evento_id", "evento_edicion_id", "atleta_id", "pais_nacimiento_id", "estatura_cm",
+    "participacion_id", "medalla_id", "puesto", "fuente_id",
+}
+
+
 def write_csv(df, name, cols):
     df = df.reindex(columns=cols)
+    for col in df.columns:
+        if col in COLUMNAS_ENTERAS:
+            df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
     path = OUT / name
     df.to_csv(path, index=False, na_rep="")
     print(f"  -> {name}: {len(df)} filas")
@@ -594,6 +606,29 @@ cnt_nombre = bios["nombre_normalizado"].value_counts()
 bios_unicos = bios[bios["nombre_normalizado"].map(cnt_nombre) == 1]
 idx_nombre_solo = dict(zip(bios_unicos["nombre_normalizado"], bios_unicos["athlete_id"]))
 
+
+def nombre_nucleo(nombre_normalizado):
+    """Primer + ultimo token del nombre: recupera casos de nombres compuestos, apellidos
+    de casada o alias que rompen la igualdad exacta de nombre_normalizado (ej. 'usain st
+    leo bolt' vs 'usain bolt')."""
+    if not nombre_normalizado:
+        return nombre_normalizado
+    partes = nombre_normalizado.split(" ")
+    if len(partes) <= 2:
+        return nombre_normalizado
+    return partes[0] + " " + partes[-1]
+
+
+res_join["nucleo"] = res_join["nombre_normalizado"].map(nombre_nucleo)
+g3 = res_join.groupby(["nucleo", "noc"])["athlete_id"]
+u3, f3v = g3.nunique(), g3.first()
+idx_nucleo_noc = f3v[u3 == 1].to_dict()
+
+bios["nucleo"] = bios["nombre_normalizado"].map(nombre_nucleo)
+cnt_nucleo = bios["nucleo"].value_counts()
+bios_nucleo_unicos = bios[bios["nucleo"].map(cnt_nucleo) == 1]
+idx_nucleo_solo = dict(zip(bios_nucleo_unicos["nucleo"], bios_nucleo_unicos["athlete_id"]))
+
 # registro de atletas nuevos creados por F2/F3 (para que F3/F4 puedan reusarlos, y F4 no cree ninguno)
 nuevos_por_nombre_noc = {}
 
@@ -604,8 +639,13 @@ def resolver_atleta(nombre_normalizado, noc, anio, permitir_nuevo, fuente_tag):
         return idx_nombre_noc_anio[(nombre_normalizado, noc, anio)], "exacto", 0.90
     if (nombre_normalizado, noc) in idx_nombre_noc:
         return idx_nombre_noc[(nombre_normalizado, noc)], "nombre+noc+anio", 0.75
+    nucleo = nombre_nucleo(nombre_normalizado)
+    if (nucleo, noc) in idx_nucleo_noc:
+        return idx_nucleo_noc[(nucleo, noc)], "nombre+noc+anio", 0.65
     if nombre_normalizado in idx_nombre_solo:
         return idx_nombre_solo[nombre_normalizado], "nombre+noc+anio", 0.55
+    if nucleo in idx_nucleo_solo:
+        return idx_nucleo_solo[nucleo], "nombre+noc+anio", 0.45
     key = (nombre_normalizado, noc)
     if key in nuevos_por_nombre_noc:
         return nuevos_por_nombre_noc[key], "nuevo", 0.50
@@ -722,6 +762,14 @@ participacion_atleta_df = participacion_atleta_df.dropna(subset=["atleta_id"])
 if len(participacion_atleta_df) < antes_pa:
     warn(f"participacion_atleta: {antes_pa - len(participacion_atleta_df)} filas sin atleta_id resuelto, descartadas")
 participacion_atleta_df["atleta_id"] = participacion_atleta_df["atleta_id"].astype(int)
+
+antes_dedup = len(participacion_atleta_df)
+participacion_atleta_df = participacion_atleta_df.drop_duplicates(subset=["participacion_id", "atleta_id"])
+if len(participacion_atleta_df) < antes_dedup:
+    warn(
+        f"participacion_atleta: {antes_dedup - len(participacion_atleta_df)} filas duplicadas "
+        "(mismo atleta repetido en la misma entrada, artefacto de la fuente) colapsadas a una sola"
+    )
 
 print(f"participacion: {len(participacion_df)} | participacion_atleta: {len(participacion_atleta_df)}")
 

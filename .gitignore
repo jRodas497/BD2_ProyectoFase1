@@ -7,7 +7,29 @@ sources/
 # --- Base de datos ---
 *.dump
 *.backup
-staging/
+
+# staging/ es el scratch del ETL (scripts/generar_csv_carga.py); se ignora todo
+# salvo los 15 CSV finales de carga, que si se versionan.
+staging/*
+!staging/pais.csv
+!staging/noc.csv
+!staging/ciudad.csv
+!staging/edicion.csv
+!staging/sede.csv
+!staging/deporte.csv
+!staging/disciplina.csv
+!staging/evento.csv
+!staging/evento_edicion.csv
+!staging/atleta.csv
+!staging/participacion.csv
+!staging/participacion_atleta.csv
+!staging/atleta_fuente.csv
+
+# CSV de carga generados por el otro agente (ChatGPT) sobre los mismos datos:
+# se descartan porque el matching de F4 esta mal (duplica F2) y puesto_texto
+# no respeta la regla de empates (D-011). Se usan los de scripts/generar_csv_carga.py.
+data/data_upload/olympics_15_csv_F1_backbone/
+data/data_upload/olympics_15_csv_F1_backbone.zip
 
 # --- Python ---
 __pycache__/
