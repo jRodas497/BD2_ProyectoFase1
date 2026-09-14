@@ -1,0 +1,10 @@
+SEMANTIC_OK
+f1_bios= 145500
+f1_atleta_fuente= 145500
+team_group_keys= 49016
+team_blank_names= 530
+f1_results_used= 300740
+f1_results_used_kinds= {'Olympic': 297552, 'Olympic non-medal': 1192, 'Intercalated': 1996}
+f1_results_excluded= 7668
+venues_1956= [('20', 'true'), ('38', 'false')]
+errors= 0

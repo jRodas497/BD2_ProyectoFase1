@@ -1,0 +1,51 @@
+GENERACIÓN FINAL — 15 CSV OLÍMPICOS
+
+Estado: VALIDADO (0 errores estructurales; 0 errores semánticos)
+
+Fuentes
+- F1 Olympedia: bios.csv + results.csv + noc_regions.csv. Espina dorsal de identidad.
+- F2 Kaggle 120 years: athlete_events.csv.
+- F3 Kaggle Summer Medals 1896-2024: olympics_dataset.csv.
+- F4 DataCamp: el archivo físico no estuvo disponible en el sandbox actual. Según la especificación entregada es un subconjunto literal de F2; por ello se registró como procedencia espejo de F2 y no generó atletas ni participaciones nuevas.
+
+Conteos finales
+- fuente.csv: 4
+- pais.csv: 206
+- noc.csv: 236
+- ciudad.csv: 42
+- edicion.csv: 60
+- sede.csv: 54
+- deporte.csv: 60
+- disciplina.csv: 93
+- evento.csv: 1,772
+- evento_edicion.csv: 8,831
+- medalla.csv: 3
+- atleta.csv: 294,794
+- participacion.csv: 409,740
+- participacion_atleta.csv: 587,612
+- atleta_fuente.csv: 665,428
+
+Identidad / matching
+- F1 espina: 145,500 atletas, todos metodo_match=espina.
+- F2: 50,468 exacto; 3,589 nombre+noc+anio; 81,514 nuevo.
+- F3: 144,825 exacto; 36,181 nombre+noc+anio; 67,780 nuevo.
+- F4 espejo F2: 135,571 registros de procedencia, todos exacto; 0 nuevos.
+- Atletas finales = 145,500 + 81,514 + 67,780 = 294,794.
+
+Olympedia results
+- Resultados usados: 300,740 (297,552 Olympic; 1,192 Olympic non-medal; 1,996 Intercalated).
+- Excluidos: 7,668 (YOG/referencias auxiliares no correspondientes a la carga olímpica principal).
+
+Validaciones
+- Encabezados exactos de las 15 salidas.
+- UTF-8 sin BOM.
+- IDs autonuméricos consecutivos desde 1.
+- PK y PK compuestas sin duplicados.
+- Todas las FK verificadas.
+- Dominios de sexo, temporada, booleanos, medalla, fuente y metodo_match verificados.
+- 145,500 atletas iniciales cotejados uno a uno contra bios.csv y atleta_fuente fuente=1/espina.
+- 49,016 participaciones por equipos sin duplicados bajo (evento_edicion, noc, team, medal, place).
+- Melbourne 1956 principal y Stockholm 1956 secundaria, sin PK duplicada.
+
+Nota de esquema
+fuente.csv y medalla.csv se generan con encabezados mínimos (id,nombre), porque la especificación entregada define sus IDs/semántica pero indica que esas tablas ya están sembradas y no publica aquí su DDL completo.

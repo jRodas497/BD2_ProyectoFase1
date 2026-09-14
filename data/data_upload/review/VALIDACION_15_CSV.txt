@@ -1,0 +1,10 @@
+VALIDATION_OK
+counts= {'atleta.csv': 294794, 'atleta_fuente.csv': 665428, 'ciudad.csv': 42, 'deporte.csv': 60, 'disciplina.csv': 93, 'edicion.csv': 60, 'evento.csv': 1772, 'evento_edicion.csv': 8831, 'fuente.csv': 4, 'medalla.csv': 3, 'noc.csv': 236, 'pais.csv': 206, 'participacion.csv': 409740, 'participacion_atleta.csv': 587612, 'sede.csv': 54}
+athlete_sex= {'M': 208704, 'F': 81065, 'U': 5025}
+birth_country_fk_nonempty= 110783
+team_participations= 49016
+source_counts= {'1': 145500, '3': 248786, '2': 135571, '4': 135571}
+match_counts= {('1', 'espina'): 145500, ('2', 'exacto'): 50468, ('2', 'nombre+noc+anio'): 3589, ('2', 'nuevo'): 81514, ('3', 'exacto'): 144825, ('3', 'nombre+noc+anio'): 36181, ('3', 'nuevo'): 67780, ('4', 'exacto'): 135571}
+source_new= {'2': 81514, '3': 67780}
+f1_espina= 145500
+errors= 0
