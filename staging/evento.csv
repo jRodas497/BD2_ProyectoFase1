@@ -1539,11 +1539,11 @@ evento_id,disciplina_id,nombre,categoria_sexo,es_por_equipos
 1538,5,All-Around,F,false
 1539,5,Vault,F,false
 1540,33,10m Platform,M,false
-1541,33,Synchronised 10m Platform,M,false
+1541,33,Synchronised 10m Platform,M,true
 1542,33,10m Platform,F,false
-1543,33,Synchronised 10m Platform,F,false
+1543,33,Synchronised 10m Platform,F,true
 1544,33,3m Springboard,M,false
-1545,33,Synchronised 3m Springboard,M,false
+1545,33,Synchronised 3m Springboard,M,true
 1546,79,100m Breaststroke,M,false
 1547,79,200m Breaststroke,M,false
 1548,61,Group All-Around,Abierto,true
@@ -1564,13 +1564,13 @@ evento_id,disciplina_id,nombre,categoria_sexo,es_por_equipos
 1563,22,Kayak Single,F,false
 1564,22,Kayak Cross,F,false
 1565,23,Kayak Single 500m,F,false
-1566,23,Kayak Double 500m,F,false
+1566,23,Kayak Double 500m,F,true
 1567,90,Freestyle 76kg,F,false
 1568,19,60kg,F,false
 1569,19,57kg,F,false
 1570,66,Kite,M,false
 1571,79,100m Freestyle,M,false
-1572,41,Men,M,false
+1572,41,Men,M,true
 1573,66,Dinghy,M,false
 1574,79,100m Breaststroke,F,false
 1575,79,200m Breaststroke,F,false
@@ -1617,8 +1617,8 @@ evento_id,disciplina_id,nombre,categoria_sexo,es_por_equipos
 1616,79,200m Backstroke,F,false
 1617,68,50m Rifle 3 Positions,F,false
 1618,68,10m Air Pistol Team,Mixto,true
-1619,46,Women,F,false
-1620,46,Men,M,false
+1619,46,Women,F,true
+1620,46,Men,M,true
 1621,7,4 x 100m Relay,F,true
 1622,5,Men,M,false
 1623,5,Vault,M,false
@@ -1630,7 +1630,7 @@ evento_id,disciplina_id,nombre,categoria_sexo,es_por_equipos
 1629,68,25m Rapid Fire Pistol,M,false
 1630,49,66 kg,M,false
 1631,39,Sabre Individual,M,false
-1632,65,Men,M,false
+1632,65,Men,M,true
 1633,19,66kg,F,false
 1634,79,4 x 100m Freestyle Relay,F,true
 1635,79,Relay Only Athlete,Abierto,true
@@ -1640,7 +1640,7 @@ evento_id,disciplina_id,nombre,categoria_sexo,es_por_equipos
 1639,5,Pommel Horse,M,false
 1640,63,Pair,F,true
 1641,63,Four,F,true
-1642,45,Men,M,false
+1642,45,Men,M,true
 1643,90,Greco-Roman 130kg,M,false
 1644,90,Greco-Roman 60kg,M,false
 1645,90,Freestyle 53kg,F,false
@@ -1660,7 +1660,7 @@ evento_id,disciplina_id,nombre,categoria_sexo,es_por_equipos
 1659,79,1500m Freestyle,M,false
 1660,39,Foil Individual,F,false
 1661,39,Épée Individual,F,false
-1662,23,Canoe Double 500m,M,false
+1662,23,Canoe Double 500m,M,true
 1663,30,Cross-country,M,false
 1664,81,+67kg,F,false
 1665,79,100m Butterfly,M,false
@@ -1672,7 +1672,7 @@ evento_id,disciplina_id,nombre,categoria_sexo,es_por_equipos
 1671,19,75kg,F,false
 1672,7,4 x 400m Relay,Mixto,true
 1673,7,4 x 400m Relay,F,true
-1674,65,Women,F,false
+1674,65,Women,F,true
 1675,79,100m Butterfly,F,false
 1676,79,200m Individual Medley,F,false
 1677,79,400m Individual Medley,F,false
@@ -1697,19 +1697,19 @@ evento_id,disciplina_id,nombre,categoria_sexo,es_por_equipos
 1696,79,200m Individual Medley,M,false
 1697,30,Cross-country,F,false
 1698,19,92kg,M,false
-1699,15,Women,F,false
+1699,15,Women,F,true
 1700,81,58kg,M,false
 1701,63,Four,M,true
-1702,63,Eight,M,false
-1703,63,Eight,F,false
+1702,63,Eight,M,true
+1703,63,Eight,F,true
 1704,79,200m Butterfly,F,false
-1705,15,Men,M,false
+1705,15,Men,M,true
 1706,79,200m Backstroke,M,false
-1707,13,Women,F,false
+1707,13,Women,F,true
 1708,49,70 kg,F,false
 1709,5,Team,F,true
 1710,19,51kg,M,false
-1711,23,Canoe Double 500m,F,false
+1711,23,Canoe Double 500m,F,true
 1712,39,Foil Individual,M,false
 1713,22,Canoe Single,F,false
 1714,5,All-Around,M,false
@@ -1717,31 +1717,31 @@ evento_id,disciplina_id,nombre,categoria_sexo,es_por_equipos
 1716,83,Women,F,false
 1717,39,Sabre Individual,F,false
 1718,77,Speed,F,false
-1719,45,Women,F,false
+1719,45,Women,F,true
 1720,79,1500m Freestyle,F,false
 1721,19,80kg,M,false
 1722,79,200m Butterfly,M,false
-1723,87,Men,M,false
+1723,87,Men,M,true
 1724,78,Women,F,false
-1725,66,Dinghy,Mixto,false
+1725,66,Dinghy,Mixto,true
 1726,7,110m Hurdles,M,false
 1727,31,Keirin,F,false
-1728,13,Men,M,false
-1729,86,Men,M,false
+1728,13,Men,M,true
+1729,86,Men,M,true
 1730,53,200m Freestyle,M,false
 1731,53,400m Freestyle,M,false
 1732,90,Freestyle 68kg,F,false
 1733,23,Kayak Four 500m,F,true
 1734,23,Kayak Four 500m,M,true
-1735,1,Men,M,false
-1736,23,Kayak Double 500m,M,false
-1737,1,Women,F,false
+1735,1,Men,M,true
+1736,23,Kayak Double 500m,M,true
+1737,1,Women,F,true
 1738,79,4 x 100m Freestyle Relay,M,true
 1739,79,4 x 100m Medley Relay,Mixto,true
-1740,86,Women,F,false
+1740,86,Women,F,true
 1741,32,Team Pursuit,M,true
 1742,31,Team Pursuit,M,true
-1743,41,Women,F,false
+1743,41,Women,F,true
 1744,79,4 x 200m Freestyle Relay,F,true
 1745,79,4 x 200m Freestyle Relay,M,true
 1746,79,400m Individual Medley,M,false
@@ -1751,8 +1751,8 @@ evento_id,disciplina_id,nombre,categoria_sexo,es_por_equipos
 1750,31,Cross-country,F,false
 1751,39,Sabre Team,F,true
 1752,39,Épée Team,M,true
-1753,33,Synchronised 3m Springboard,F,false
-1754,87,Women,F,false
+1753,33,Synchronised 3m Springboard,F,true
+1754,87,Women,F,true
 1755,53,1500m Freestyle,F,false
 1756,53,400m Freestyle,F,false
 1757,31,Cross-country,M,false

@@ -128,24 +128,24 @@ para ese archivo puntual sin perder lo ya cargado por dBeaver.
 
 ### Opción B — `\copy` desde psql (más rápido, útil como respaldo)
 
-Ejecutar desde la raíz del repo (las rutas `staging/*.csv` son relativas al directorio desde
-donde se corre el comando):
+`staging/` está montado dentro del contenedor en `/staging` (solo lectura), así que corre igual
+desde `docker compose exec` sin depender de tener `psql` instalado en el host:
 
 ```bash
 docker compose exec -T db psql -U olimpiadas_app -d olimpiadas <<'SQL'
-\copy pais                  FROM 'staging/pais.csv'                  CSV HEADER
-\copy noc                   FROM 'staging/noc.csv'                   CSV HEADER
-\copy ciudad                FROM 'staging/ciudad.csv'                CSV HEADER
-\copy edicion                FROM 'staging/edicion.csv'               CSV HEADER
-\copy sede                   FROM 'staging/sede.csv'                  CSV HEADER
-\copy deporte                 FROM 'staging/deporte.csv'               CSV HEADER
-\copy disciplina              FROM 'staging/disciplina.csv'            CSV HEADER
-\copy evento                  FROM 'staging/evento.csv'                CSV HEADER
-\copy evento_edicion           FROM 'staging/evento_edicion.csv'         CSV HEADER
-\copy atleta                  FROM 'staging/atleta.csv'                CSV HEADER
-\copy participacion            FROM 'staging/participacion.csv'          CSV HEADER
-\copy participacion_atleta      FROM 'staging/participacion_atleta.csv'    CSV HEADER
-\copy atleta_fuente             FROM 'staging/atleta_fuente.csv'           CSV HEADER
+\copy pais                  FROM '/staging/pais.csv'                  CSV HEADER
+\copy noc                   FROM '/staging/noc.csv'                   CSV HEADER
+\copy ciudad                FROM '/staging/ciudad.csv'                CSV HEADER
+\copy edicion                FROM '/staging/edicion.csv'               CSV HEADER
+\copy sede                   FROM '/staging/sede.csv'                  CSV HEADER
+\copy deporte                 FROM '/staging/deporte.csv'               CSV HEADER
+\copy disciplina              FROM '/staging/disciplina.csv'            CSV HEADER
+\copy evento                  FROM '/staging/evento.csv'                CSV HEADER
+\copy evento_edicion           FROM '/staging/evento_edicion.csv'         CSV HEADER
+\copy atleta                  FROM '/staging/atleta.csv'                CSV HEADER
+\copy participacion            FROM '/staging/participacion.csv'          CSV HEADER
+\copy participacion_atleta      FROM '/staging/participacion_atleta.csv'    CSV HEADER
+\copy atleta_fuente             FROM '/staging/atleta_fuente.csv'           CSV HEADER
 SQL
 ```
 
@@ -189,8 +189,8 @@ UNION ALL SELECT 'disciplina',           count(*) FROM disciplina            -- 
 UNION ALL SELECT 'evento',               count(*) FROM evento                -- 1761
 UNION ALL SELECT 'evento_edicion',       count(*) FROM evento_edicion        -- 8123
 UNION ALL SELECT 'atleta',               count(*) FROM atleta                -- 239678
-UNION ALL SELECT 'participacion',        count(*) FROM participacion         -- 215318
-UNION ALL SELECT 'participacion_atleta', count(*) FROM participacion_atleta  -- 314680
+UNION ALL SELECT 'participacion',        count(*) FROM participacion         -- 212376
+UNION ALL SELECT 'participacion_atleta', count(*) FROM participacion_atleta  -- 314679
 UNION ALL SELECT 'atleta_fuente',        count(*) FROM atleta_fuente;        -- 517009
 ```
 
@@ -224,3 +224,36 @@ histórica suelen ir arriba). Si da 0 filas o error, algo quedó mal enlazado an
   todo lo que dependía de él, porque `CASCADE` también vacía las tablas hijas).
 - **Se quiere reiniciar todo desde cero otra vez**: repetir el paso 2 completo
   (`docker compose down -v` seguido de `docker compose up -d`) y continuar desde el paso 3.
+
+---
+
+## 8. Stored procedures (incisos d y e)
+
+`db/init/05-procedimientos.sql` crea dos `PROCEDURE` de PL/pgSQL: `sp_info_atleta` y `sp_info_pais`
+(ver `docs/modelo-de-datos.md`, sección 7, para el diseño). En un contenedor nuevo se crean solas
+al ejecutarse `db/init/*` en el paso 2 — no dependen de que los 13 CSV ya estén cargados. Si el
+contenedor ya existía desde antes de que este archivo se agregara al repo, aplícalo a mano:
+
+```bash
+docker compose exec -T db psql -U olimpiadas_app -d olimpiadas < db/init/05-procedimientos.sql
+```
+
+Ambos despliegan su resultado con `RAISE NOTICE` (no devuelven un `SELECT`), así que se invocan con
+`CALL`. En **psql** el texto sale directo en la consola; en **dBeaver** aparece en la pestaña
+*Output*/*Server Output* del editor SQL, no en la grilla de resultados.
+
+```sql
+-- (d) sp_info_atleta(p_nombre, p_deporte DEFAULT NULL, p_pais DEFAULT NULL, p_anio DEFAULT NULL)
+CALL sp_info_atleta('Michael Phelps');
+CALL sp_info_atleta('Usain Bolt', 'Athletics', 'JAM', 2016);   -- filtrado por deporte, NOC y año
+
+-- (e) sp_info_pais(p_pais, p_anio DEFAULT NULL, p_temporada DEFAULT NULL, p_deporte DEFAULT NULL)
+CALL sp_info_pais('France');
+CALL sp_info_pais('Guatemala', 2024);                          -- filtrado por año
+CALL sp_info_pais('France', 2024, 'Verano');                   -- filtrado por año y temporada
+```
+
+`p_nombre`/`p_deporte`/`p_pais` hacen `ILIKE '%...%'` (parcial, sin distinguir mayúsculas) y pueden
+matchear a más de un atleta o NOC — en ese caso el procedimiento despliega cada uno por separado.
+`p_pais` en `sp_info_pais` matchea por nombre de país o por nombre/código del comité olímpico (NOC),
+para cubrir tanto países vigentes como NOC históricos disueltos.

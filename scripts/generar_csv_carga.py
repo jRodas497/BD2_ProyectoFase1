@@ -494,6 +494,21 @@ f3_2024_validos["medalla_id"] = f3_2024_validos["Medal"].map(MEDALLA_ID)
 
 es_equipo_por_evento_edicion = f3_2024_validos.groupby("evento_edicion_id")["es_por_equipos_kw"].any().to_dict()
 
+# El keyword-matching de arriba solo mira el texto de "Event", y varias disciplinas 100% de
+# equipo en F3-2024 traen el Event como simple "Men"/"Women" (Basketball, 3x3 Basketball, Beach
+# Volleyball, Football, Handball, Hockey, Rugby Sevens, Volleyball, Water Polo), o usan formas
+# singulares/no cubiertas por la lista de keywords (Rowing "Eight", Canoe/Kayak "Double", Cycling
+# Track "Madison", Diving "Synchronised", Sailing "Skiff"/"Dinghy"/"Multihull"). Se completa con el
+# mismo criterio data-driven que ya usa F1 (linea ~461): si dentro de un evento_edicion hay un
+# grupo (NOC, medalla) con mas de un atleta, es evidencia directa de equipo — un pais gana como
+# maximo una medalla de cada color por evento individual, asi que un grupo NOC+medalla de tamano>1
+# solo ocurre si varios atletas comparten el mismo resultado de equipo.
+medallas_f3 = f3_2024_validos.dropna(subset=["medalla_id"])
+tam_grupo_medalla = medallas_f3.groupby(["evento_edicion_id", "NOC", "medalla_id"]).size()
+for (ee_id, _noc, _medalla), n in tam_grupo_medalla.items():
+    if n > 1:
+        es_equipo_por_evento_edicion[ee_id] = True
+
 f3_new_athletes_needed = []  # se resuelve en la seccion de atletas; aqui solo dejamos marcado el player_id
 
 nuevas_participaciones_f3 = []
