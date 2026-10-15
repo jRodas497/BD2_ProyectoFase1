@@ -50,6 +50,10 @@ scripts/04-restore/restaurar.sh anio 2            # elimina la base y restaura f
 Manual completo: [`docs/manual-usuario.md`](docs/manual-usuario.md). Para tomar las capturas del
 enunciado paso a paso: `scripts/guia_capturas.sh <tipo>`.
 
+La documentación técnica de Persona 1 está en
+[`docs/documentacion-tecnica.pdf`](docs/documentacion-tecnica.pdf), con su fuente editable en
+[`docs/documentacion-tecnica.md`](docs/documentacion-tecnica.md).
+
 Los tiempos quedan en `logs/tiempos.csv` (carga, backup, restore en tres medidas: reconstrucción de
 archivos, recuperación hasta aceptar conexiones y total) y la salida de cada paso en `logs/*.log`.
 `restaurar.sh` siempre parte de una base eliminada. Capturas: usar una terminal que muestre la hora
