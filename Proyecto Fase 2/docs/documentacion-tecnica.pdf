@@ -1,0 +1,467 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 2163 >>
+stream
+BT
+/F1 9 Tf
+36 756 Td
+11 TL
+() Tj T*
+(DOCUMENTACION TECNICA) Tj T*
+() Tj T*
+() Tj T*
+(RESPALDO Y RESTAURACION FISICOS DE LA BASE DE DATOS OLIMPIADAS) Tj T*
+() Tj T*
+() Tj T*
+(**Universidad de San Carlos de Guatemala**  ) Tj T*
+(**Facultad de Ingenieria - Escuela de Ciencias y Sistemas**  ) Tj T*
+(**Sistemas de Bases de Datos 2 - Segundo semestre 2026**  ) Tj T*
+(**Persona 1: Juan Jose Rodas Mansilla**) Tj T*
+() Tj T*
+() Tj T*
+() Tj T*
+() Tj T*
+(1. OBJETIVO Y ALCANCE) Tj T*
+() Tj T*
+() Tj T*
+(La Fase 2 implementa una estrategia de continuidad para PostgreSQL basada en) Tj T*
+(respaldos fisicos. El objetivo es demostrar que una instancia puede reconstruirse) Tj T*
+(despues de perder su directorio de datos y que la informacion restaurada coincide) Tj T*
+(con la informacion cargada originalmente.) Tj T*
+() Tj T*
+(El alcance incluye:) Tj T*
+() Tj T*
+(  - tres tipos de carga: anio, deporte y deportista;) Tj T*
+(  - una carga inicial y tres cargas posteriores por tipo;) Tj T*
+(  - un respaldo completo seguido por tres respaldos incrementales encadenados;) Tj T*
+(  - restauracion del respaldo completo y de cada prefijo de la cadena;) Tj T*
+(  - validacion por conteos, muestras de filas, integridad referencial y fragmentacion;) Tj T*
+(  - medicion separada de reconstruccion de archivos, recuperacion de PostgreSQL y) Tj T*
+(  tiempo total.) Tj T*
+() Tj T*
+(Este documento es la documentacion tecnica. El manual de usuario contiene los) Tj T*
+(comandos operativos detallados y las capturas de pantalla se entregan como) Tj T*
+(evidencia independiente.) Tj T*
+() Tj T*
+() Tj T*
+(2. METODOLOGIA) Tj T*
+() Tj T*
+() Tj T*
+() Tj T*
+(2.1 Preparacion) Tj T*
+() Tj T*
+() Tj T*
+(La ejecucion se realiza desde Proyecto Fase 2/. Se copia .env.example a) Tj T*
+(.env, se generan los lotes con scripts/02-carga/generar_cargas.py y se) Tj T*
+(levanta PostgreSQL 17 mediante Docker Compose.) Tj T*
+() Tj T*
+(La generacion de cargas fue verificada en este repositorio. Se obtuvieron 12) Tj T*
+(tramos, cuatro por tipo:) Tj T*
+() Tj T*
+(   Tipo    Tramo 01    Tramo 02    Tramo 03    Tramo 04   ) Tj T*
+(  ---  ---  ---  ---  ---  ) Tj T*
+0 -14 Td
+(Pagina 1 de 7) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2272 >>
+stream
+BT
+/F1 9 Tf
+36 756 Td
+11 TL
+(   anio    Paris 2024    Tokio 2020    Rio 2016    Londres 2012   ) Tj T*
+(   deporte    100 m femenino, Paris 2024    100 m femenino, Tokio 2020    100 m femenino, Rio 2016  ) Tj T*
+(   100 m femenino, Londres 2012   ) Tj T*
+(   deportista    Usain Bolt, Atenas 2004    Usain Bolt, Pekin 2008    Usain Bolt, Londres 2012   ) Tj T*
+(   Usain Bolt, Rio 2016   ) Tj T*
+() Tj T*
+(Cada tramo contiene solo filas nuevas y sus padres necesarios. Esto evita) Tj T*
+(duplicar datos y mantiene el orden de las llaves foraneas.) Tj T*
+() Tj T*
+() Tj T*
+(2.2 Ciclo experimental) Tj T*
+() Tj T*
+() Tj T*
+(Para cada tipo se ejecuta el siguiente ciclo:) Tj T*
+() Tj T*
+(1. eliminar el volumen de datos y crear una instancia vacia;) Tj T*
+(2. cargar el tramo 01;) Tj T*
+(3. validar las 15 tablas;) Tj T*
+(4. crear el respaldo completo;) Tj T*
+(5. cargar cada tramo 02, 03 y 04;) Tj T*
+(6. validar y medir fragmentacion despues de cada carga;) Tj T*
+(7. crear el incremental correspondiente;) Tj T*
+(8. eliminar nuevamente la instancia;) Tj T*
+(9. restaurar el respaldo completo o el prefijo full + inc1..incN;) Tj T*
+(10. validar que los conteos coincidan con la carga original.) Tj T*
+() Tj T*
+(El orden carga -> validacion -> respaldo es obligatorio. Un incremental se) Tj T*
+(calcula a partir del manifiesto del respaldo anterior, por lo que no se puede) Tj T*
+(saltar un eslabon de la cadena.) Tj T*
+() Tj T*
+() Tj T*
+(2.3 Evidencia y mediciones) Tj T*
+() Tj T*
+() Tj T*
+(Los scripts imprimen fecha y hora y escriben resultados en logs/. El archivo) Tj T*
+(logs/tiempos.csv conserva las duraciones de cargas, respaldos y restauraciones.) Tj T*
+(La validacion consulta las 15 tablas; la fragmentacion usa pgstattuple y) Tj T*
+(pgstatindex.) Tj T*
+() Tj T*
+() Tj T*
+(3. MODELO ENTIDAD-RELACION) Tj T*
+() Tj T*
+() Tj T*
+(El modelo contiene 15 entidades y 16 relaciones. La jerarquia principal es:) Tj T*
+() Tj T*
+(DEPORTE -> DISCIPLINA -> EVENTO -> EVENTO_EDICION) Tj T*
+() Tj T*
+(Las entidades geograficas y de edicion son:) Tj T*
+() Tj T*
+(PAIS <- NOC, CIUDAD -> SEDE -> EDICION) Tj T*
+() Tj T*
+(La participacion se modela con el grano de una entrada al evento:) Tj T*
+() Tj T*
+(EVENTO_EDICION -> PARTICIPACION <- NOC) Tj T*
+0 -14 Td
+(Pagina 2 de 7) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2484 >>
+stream
+BT
+/F1 9 Tf
+36 756 Td
+11 TL
+() Tj T*
+(La relacion muchos-a-muchos entre atletas y participaciones se resuelve con) Tj T*
+(PARTICIPACION_ATLETA. La procedencia de cada registro se conserva mediante) Tj T*
+(ATLETA_FUENTE, relacionada con ATLETA y FUENTE. MEDALLA es un catalogo) Tj T*
+(referenciado opcionalmente por PARTICIPACION.) Tj T*
+() Tj T*
+() Tj T*
+(3.1 Entidades y responsabilidad) Tj T*
+() Tj T*
+() Tj T*
+(   Entidad    Responsabilidad   ) Tj T*
+(  ---  ---  ) Tj T*
+(   pais    Pais o region normalizada   ) Tj T*
+(   noc    Comite olimpico historico, incluido el codigo del periodo   ) Tj T*
+(   ciudad    Ciudad sede   ) Tj T*
+(   edicion    Edicion de los Juegos, ano y temporada   ) Tj T*
+(   sede    Relacion entre una edicion y su ciudad   ) Tj T*
+(   deporte    Categoria deportiva de nivel superior   ) Tj T*
+(   disciplina    Especialidad dentro de un deporte   ) Tj T*
+(   evento    Prueba competitiva   ) Tj T*
+(   evento_edicion    Evento ofrecido en una edicion concreta   ) Tj T*
+(   medalla    Catalogo de oro, plata y bronce   ) Tj T*
+(   atleta    Persona unificada   ) Tj T*
+(   participacion    Entrada de un equipo o atleta en un evento   ) Tj T*
+(   participacion_atleta    Atletas asociados a una participacion   ) Tj T*
+(   fuente    Fuente original del registro   ) Tj T*
+(   atleta_fuente    Trazabilidad del atleta hacia una fuente   ) Tj T*
+() Tj T*
+() Tj T*
+(3.2 Decisiones de diseno) Tj T*
+() Tj T*
+() Tj T*
+(PARTICIPACION no se modela como una fila por atleta. Un equipo de baloncesto) Tj T*
+(tiene una participacion y varias filas en PARTICIPACION_ATLETA; de esta forma) Tj T*
+(no se cuentan varias veces la misma medalla.) Tj T*
+() Tj T*
+(NOC se separa de PAIS porque un pais puede tener varios comites historicos,) Tj T*
+(por ejemplo GER, FRG, GDR y SAA. Esta separacion conserva la historia y) Tj T*
+(permite consultas por pais sin perder el codigo original.) Tj T*
+() Tj T*
+(La jerarquia deporte-disciplina-evento permite reconciliar las fuentes que usan) Tj T*
+(catalogos con distintos niveles de detalle. Las tablas de procedencia permiten) Tj T*
+(auditar el proceso de integracion y detectar coincidencias de atletas.) Tj T*
+() Tj T*
+(El diagrama editable se encuentra en) Tj T*
+(diagramas/modelo-er-olimpiadas.drawio y su imagen de referencia en) Tj T*
+(diagramas/modelo-er-olimpiadas.png.) Tj T*
+() Tj T*
+() Tj T*
+(4. PLAN DE RESPALDO) Tj T*
+() Tj T*
+() Tj T*
+() Tj T*
+(4.1 Tecnologia seleccionada) Tj T*
+0 -14 Td
+(Pagina 3 de 7) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 1904 >>
+stream
+BT
+/F1 9 Tf
+36 756 Td
+11 TL
+() Tj T*
+() Tj T*
+(Se utiliza PostgreSQL 17 porque incorpora pg_basebackup --incremental y) Tj T*
+(pg_combinebackup. Los respaldos son fisicos, en formato plano y con WAL) Tj T*
+(transmitido por streaming:) Tj T*
+() Tj T*
+(text) Tj T*
+(pg_basebackup -Fp -X stream -c fast) Tj T*
+() Tj T*
+() Tj T*
+(La configuracion del contenedor activa:) Tj T*
+() Tj T*
+(text) Tj T*
+(summarize_wal=on) Tj T*
+(wal_level=replica) Tj T*
+(max_wal_senders=5) Tj T*
+() Tj T*
+() Tj T*
+(summarize_wal=on es necesario para que PostgreSQL pueda calcular los bloques) Tj T*
+(modificados desde el manifiesto anterior.) Tj T*
+() Tj T*
+() Tj T*
+(4.2 Cadena de respaldos) Tj T*
+() Tj T*
+() Tj T*
+(Para cada tipo se conserva la siguiente estructura:) Tj T*
+() Tj T*
+(text) Tj T*
+(/backups/<tipo>/full) Tj T*
+(/backups/<tipo>/inc1) Tj T*
+(/backups/<tipo>/inc2) Tj T*
+(/backups/<tipo>/inc3) Tj T*
+() Tj T*
+() Tj T*
+(inc1 se calcula contra full, inc2 contra inc1 e inc3 contra inc2.) Tj T*
+(El archivo backup_label y el manifiesto permiten verificar que cada respaldo) Tj T*
+(es realmente incremental.) Tj T*
+() Tj T*
+() Tj T*
+(4.3 Almacenamiento y restauracion) Tj T*
+() Tj T*
+() Tj T*
+(Docker mantiene dos volumenes persistentes e independientes:) Tj T*
+() Tj T*
+(  - olimpiadas_f2_pgdata: directorio de datos de PostgreSQL;) Tj T*
+(  - olimpiadas_f2_backups: respaldos fisicos.) Tj T*
+() Tj T*
+(El procedimiento de desastre elimina solo el volumen de datos. Los respaldos) Tj T*
+(permanecen disponibles para pg_combinebackup, que reconstruye un directorio) Tj T*
+(completo a partir del full y los incrementales requeridos. Luego PostgreSQL) Tj T*
+(realiza la recuperacion usando el WAL incluido.) Tj T*
+() Tj T*
+(La separacion de volumenes es una medida de seguridad operacional: el evento que) Tj T*
+(destruye la instancia no debe destruir tambien la copia de respaldo.) Tj T*
+0 -14 Td
+(Pagina 4 de 7) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 2088 >>
+stream
+BT
+/F1 9 Tf
+36 756 Td
+11 TL
+() Tj T*
+() Tj T*
+(5. ESPECIFICACIONES DEL SERVIDOR Y REPRODUCIBILIDAD) Tj T*
+() Tj T*
+() Tj T*
+(La infraestructura requerida es:) Tj T*
+() Tj T*
+(   Componente    Requisito o configuracion   ) Tj T*
+(  ---  ---  ) Tj T*
+(   Sistema operativo    Linux o macOS con Bash   ) Tj T*
+(   Contenedores    Docker Engine y Docker Compose v2   ) Tj T*
+(   Base de datos    PostgreSQL 17 Alpine   ) Tj T*
+(   Python    Python 3 para generar cargas   ) Tj T*
+(   Puerto publicado    5435   ) Tj T*
+(   Base y usuario    olimpiadas / olimpiadas_app   ) Tj T*
+(   Almacenamiento    Aproximadamente 1 GB libre   ) Tj T*
+(   Volumenes    Datos y respaldos, separados   ) Tj T*
+() Tj T*
+(Las especificaciones variables de la maquina \(CPU, memoria, version exacta de) Tj T*
+(Docker y hora del sistema\) deben registrarse en la maquina que toma las) Tj T*
+(capturas, con:) Tj T*
+() Tj T*
+(bash) Tj T*
+(lscpu) Tj T*
+(free -h) Tj T*
+(docker version) Tj T*
+(date) Tj T*
+() Tj T*
+() Tj T*
+(No se sustituyen esos valores por estimaciones: las duraciones dependen del) Tj T*
+(hardware, del sistema de archivos y de la carga concurrente.) Tj T*
+() Tj T*
+() Tj T*
+(6. RESULTADOS TECNICOS DE REFERENCIA) Tj T*
+() Tj T*
+() Tj T*
+(Los resultados versionados del ciclo anio muestran que la restauracion) Tj T*
+(conserva los conteos de las cargas:) Tj T*
+() Tj T*
+(   Etapa    participacion    atleta    evento_edicion   ) Tj T*
+(  ---  ---:  ---:  ---:  ) Tj T*
+(   Carga 01 / full    9,579    11,095    351   ) Tj T*
+(   Carga 02 / full + inc1    18,597    19,139    698   ) Tj T*
+(   Carga 03 / full + inc1 + inc2    27,986    26,555    1,015   ) Tj T*
+(   Carga 04 / full + inc1 + inc2 + inc3    36,901    33,100    1,329   ) Tj T*
+() Tj T*
+(En la medicion de referencia:) Tj T*
+() Tj T*
+(   Respaldo    Duracion    Tamano   ) Tj T*
+(  ---  ---:  ---:  ) Tj T*
+(   Full    2.31 s    59,268 KB   ) Tj T*
+(   Incremental 1    2.19 s    38,940 KB   ) Tj T*
+(   Incremental 2    2.22 s    38,716 KB   ) Tj T*
+(   Incremental 3    2.29 s    42,940 KB   ) Tj T*
+0 -14 Td
+(Pagina 5 de 7) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 2811 >>
+stream
+BT
+/F1 9 Tf
+36 756 Td
+11 TL
+() Tj T*
+(   Restauracion    Archivos    Recuperacion    Total   ) Tj T*
+(  ---  ---:  ---:  ---:  ) Tj T*
+(   Full    0.80 s    5.85 s    6.65 s   ) Tj T*
+(   Full + inc1    2.53 s    5.83 s    8.36 s   ) Tj T*
+(   Full + inc1 + inc2    2.51 s    5.82 s    8.33 s   ) Tj T*
+(   Full + inc1 + inc2 + inc3    2.59 s    5.82 s    8.41 s   ) Tj T*
+() Tj T*
+(Los incrementales pesan menos que el full, pero la recuperacion de PostgreSQL) Tj T*
+(permanece aproximadamente constante. La cadena incremental agrega alrededor de) Tj T*
+(1.7 segundos al tiempo total de restauracion en este conjunto pequeno, debido) Tj T*
+(principalmente a la reconstruccion de archivos con pg_combinebackup.) Tj T*
+() Tj T*
+(Estos resultados no deben generalizarse a bases grandes: el tamano reducido hace) Tj T*
+(que el tiempo fijo de arranque y recuperacion domine la medicion. La ventaja) Tj T*
+(principal del incremental se espera en el volumen de datos que debe copiarse) Tj T*
+(despues de la carga inicial.) Tj T*
+() Tj T*
+() Tj T*
+(7. VALIDACION, RIESGOS Y CONCLUSIONES) Tj T*
+() Tj T*
+() Tj T*
+(La validacion combina cuatro controles:) Tj T*
+() Tj T*
+(1. conteos de las 15 tablas en cada etapa;) Tj T*
+(2. muestras de las filas cargadas;) Tj T*
+(3. integridad referencial mediante consultas de llaves sin padre;) Tj T*
+(4. comparacion de los conteos originales contra cada restauracion.) Tj T*
+() Tj T*
+(Las cargas masivas no ejecutan UPDATE ni DELETE, por lo que se esperan cero) Tj T*
+(tuplas muertas. Los indices pueden mostrar fragmentacion de hojas por splits) Tj T*
+(durante inserciones consecutivas; por eso se mide con pgstatindex y no solo) Tj T*
+(con el tamano de la tabla.) Tj T*
+() Tj T*
+(La estrategia recomendada es full mas incrementales encadenados cuando se) Tj T*
+(prioriza reducir el volumen de cada respaldo posterior. Debe aceptarse el costo) Tj T*
+(de reconstruir toda la cadena y conservar todos sus eslabones. Para una) Tj T*
+(recuperacion mas simple y frecuente, un nuevo full puede reducir la dependencia) Tj T*
+(entre respaldos.) Tj T*
+() Tj T*
+(La solucion cumple el objetivo de la fase: usa respaldos fisicos reales,) Tj T*
+(almacenamiento persistente separado, restauracion reproducible y validacion) Tj T*
+(cuantitativa de los datos recuperados.) Tj T*
+() Tj T*
+() Tj T*
+(8. REFERENCIAS DEL REPOSITORIO) Tj T*
+() Tj T*
+() Tj T*
+(  - README.md: preparacion y comandos generales.) Tj T*
+(  - docs/manual-usuario.md: procedimiento operativo y solucion de problemas.) Tj T*
+(  - docs/modelo-de-datos.md: diccionario, cardinalidades y normalizacion.) Tj T*
+(  - docs/HANDOFF-decisiones.md: decisiones de diseno.) Tj T*
+(  - scripts/03-backup/: respaldos full e incrementales.) Tj T*
+(  - scripts/04-restore/: eliminacion y restauracion.) Tj T*
+0 -14 Td
+(Pagina 6 de 7) Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 178 >>
+stream
+BT
+/F1 9 Tf
+36 756 Td
+11 TL
+(  - scripts/05-validacion/: validacion y fragmentacion.) Tj T*
+(  - logs/: resultados de ejecuciones y tiempos.) Tj T*
+0 -14 Td
+(Pagina 7 de 7) Tj
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000160 00000 n 
+0000000287 00000 n 
+0000002502 00000 n 
+0000002629 00000 n 
+0000004953 00000 n 
+0000005080 00000 n 
+0000007616 00000 n 
+0000007744 00000 n 
+0000009701 00000 n 
+0000009830 00000 n 
+0000011971 00000 n 
+0000012100 00000 n 
+0000014964 00000 n 
+0000015093 00000 n 
+0000015323 00000 n 
+trailer
+<< /Size 18 /Root 1 0 R >>
+startxref
+15394
+%%EOF

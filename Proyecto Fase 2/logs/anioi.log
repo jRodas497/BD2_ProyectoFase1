@@ -1,0 +1,2 @@
+[2026-10-15 13:43:40] BACKUP INCREMENTAL anioi #N-1 -> /backups/anioi/incN-1 (base: /backups/anioi/full)
+pg_basebackup: error: could not create directory "/backups/anioi": Permission denied

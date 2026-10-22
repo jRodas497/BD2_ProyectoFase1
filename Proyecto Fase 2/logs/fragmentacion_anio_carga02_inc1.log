@@ -1,4 +1,4 @@
-=== FRAGMENTACION anio_carga02_inc1 — 2026-10-12 19:39:04 CST ===
+=== FRAGMENTACION anio_carga02_inc1 — 2026-10-14 21:42:19 CST ===
         tabla         |   tamano   | tuplas_vivas | tuplas_muertas | dead_pct | free_pct 
 ----------------------+------------+--------------+----------------+----------+----------
  atleta_fuente        | 2752 kB    |        32767 |              0 |     0.00 |     0.56
@@ -22,9 +22,9 @@
 ------------------------------------------------+---------+-------------------+------------------------
  atleta_fuente_pkey                             | 1456 kB |             62.82 |                  26.67
  idx_af_fuente_id                               | 1384 kB |             62.68 |                  40.35
- participacion_atleta_pkey                      | 1328 kB |             60.70 |                  48.17
+ participacion_atleta_pkey                      | 1224 kB |             65.90 |                  51.66
  idx_atleta_nombre_norm                         | 840 kB  |             68.70 |                  51.46
- idx_pa_atleta                                  | 712 kB  |             73.99 |                  49.43
+ idx_pa_atleta                                  | 712 kB  |             74.33 |                  47.13
  participacion_pkey                             | 592 kB  |             63.66 |                   2.78
  atleta_pkey                                    | 576 kB  |             67.37 |                  25.71
  idx_part_evento_edicion                        | 184 kB  |             86.44 |                  33.33
@@ -52,4 +52,4 @@
  disciplina_pkey                                | 16 kB   |             12.32 |                   0.00
 (30 rows)
 
-=== fin 2026-10-12 19:39:04 CST ===
+=== fin 2026-10-14 21:42:19 CST ===

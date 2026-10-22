@@ -140,3 +140,294 @@ pg_basebackup: base backup completed
  Container proyectofase2-db-run-b76ab681e979 Created 
 [2026-10-12 19:40:03] RESTORE anio [full+inc1+inc2+inc3]: archivos 2.585s + recuperación 5.824s = total 8.409s
 [2026-10-12 19:40:06] ######## CICLO anio COMPLETO ########
+[2026-10-14 21:41:40] ######## CICLO anio ########
+[2026-10-14 21:41:48] CARGA anio/01_paris_2024: inicio
+  pais: COPY 205
+  noc: COPY 236
+  ciudad: COPY 42
+  edicion: COPY 1
+  sede: COPY 1
+  deporte: COPY 32
+  disciplina: COPY 47
+  evento: COPY 351
+  evento_edicion: COPY 351
+  atleta: COPY 11095
+  participacion: COPY 9579
+  participacion_atleta: COPY 14891
+  atleta_fuente: COPY 18190
+[2026-10-14 21:41:54] CARGA anio/01_paris_2024: fin en 5.719s
+[2026-10-14 21:41:59] BACKUP FULL anio -> /backups/anio/full
+pg_basebackup: initiating base backup, waiting for checkpoint to complete
+pg_basebackup: checkpoint completed
+pg_basebackup: write-ahead log start point: 0/3000028 on timeline 1
+pg_basebackup: starting background WAL receiver
+pg_basebackup: created temporary replication slot "pg_basebackup_419"
+pg_basebackup: write-ahead log end point: 0/3000120
+pg_basebackup: waiting for background process to finish streaming ...
+pg_basebackup: syncing data to disk ...
+pg_basebackup: renaming backup_manifest.tmp to backup_manifest
+pg_basebackup: base backup completed
+[2026-10-14 21:42:00] BACKUP FULL anio: 0.956s, 59356 KB
+[2026-10-14 21:42:01] CARGA anio/02_tokio_2020: inicio
+  pais: COPY 0
+  noc: COPY 0
+  ciudad: COPY 0
+  edicion: COPY 1
+  sede: COPY 1
+  deporte: COPY 2
+  disciplina: COPY 3
+  evento: COPY 256
+  evento_edicion: COPY 347
+  atleta: COPY 8044
+  participacion: COPY 9018
+  participacion_atleta: COPY 13950
+  atleta_fuente: COPY 14577
+[2026-10-14 21:42:10] CARGA anio/02_tokio_2020: fin en 9.130s
+[2026-10-14 21:42:17] BACKUP INCREMENTAL anio #1 -> /backups/anio/inc1 (base: /backups/anio/full)
+pg_basebackup: initiating base backup, waiting for checkpoint to complete
+pg_basebackup: checkpoint completed
+pg_basebackup: write-ahead log start point: 0/6000028 on timeline 1
+pg_basebackup: starting background WAL receiver
+pg_basebackup: created temporary replication slot "pg_basebackup_779"
+pg_basebackup: write-ahead log end point: 0/6000120
+pg_basebackup: waiting for background process to finish streaming ...
+pg_basebackup: syncing data to disk ...
+pg_basebackup: renaming backup_manifest.tmp to backup_manifest
+pg_basebackup: base backup completed
+[2026-10-14 21:42:18] BACKUP INCREMENTAL anio #1: 1.053s, 39324 KB
+[2026-10-14 21:42:19] CARGA anio/03_rio_2016: inicio
+  pais: COPY 0
+  noc: COPY 0
+  ciudad: COPY 0
+  edicion: COPY 1
+  sede: COPY 1
+  deporte: COPY 0
+  disciplina: COPY 0
+  evento: COPY 19
+  evento_edicion: COPY 317
+  atleta: COPY 7416
+  participacion: COPY 9389
+  participacion_atleta: COPY 13742
+  atleta_fuente: COPY 21438
+[2026-10-14 21:42:28] CARGA anio/03_rio_2016: fin en 9.467s
+[2026-10-14 21:42:36] BACKUP INCREMENTAL anio #2 -> /backups/anio/inc2 (base: /backups/anio/inc1)
+pg_basebackup: initiating base backup, waiting for checkpoint to complete
+pg_basebackup: checkpoint completed
+pg_basebackup: write-ahead log start point: 0/9000028 on timeline 1
+pg_basebackup: starting background WAL receiver
+pg_basebackup: created temporary replication slot "pg_basebackup_1148"
+pg_basebackup: write-ahead log end point: 0/9000120
+pg_basebackup: waiting for background process to finish streaming ...
+pg_basebackup: syncing data to disk ...
+pg_basebackup: renaming backup_manifest.tmp to backup_manifest
+pg_basebackup: base backup completed
+[2026-10-14 21:42:38] BACKUP INCREMENTAL anio #2: 1.280s, 48100 KB
+[2026-10-14 21:42:39] CARGA anio/04_londres_2012: inicio
+  pais: COPY 0
+  noc: COPY 0
+  ciudad: COPY 0
+  edicion: COPY 1
+  sede: COPY 1
+  deporte: COPY 0
+  disciplina: COPY 0
+  evento: COPY 6
+  evento_edicion: COPY 314
+  atleta: COPY 6545
+  participacion: COPY 8915
+  participacion_atleta: COPY 12975
+  atleta_fuente: COPY 19664
+[2026-10-14 21:42:45] CARGA anio/04_londres_2012: fin en 6.401s
+[2026-10-14 21:42:55] BACKUP INCREMENTAL anio #3 -> /backups/anio/inc3 (base: /backups/anio/inc2)
+pg_basebackup: initiating base backup, waiting for checkpoint to complete
+pg_basebackup: checkpoint completed
+pg_basebackup: write-ahead log start point: 0/C000028 on timeline 1
+pg_basebackup: starting background WAL receiver
+pg_basebackup: created temporary replication slot "pg_basebackup_1515"
+pg_basebackup: write-ahead log end point: 0/C000120
+pg_basebackup: waiting for background process to finish streaming ...
+pg_basebackup: syncing data to disk ...
+pg_basebackup: renaming backup_manifest.tmp to backup_manifest
+pg_basebackup: base backup completed
+[2026-10-14 21:42:57] BACKUP INCREMENTAL anio #3: 1.671s, 39852 KB
+[2026-10-14 21:42:58] RESTORE anio [full]: inicio
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Container proyectofase2-db-run-d677a24f125f Creating 
+ Container proyectofase2-db-run-d677a24f125f Created 
+[2026-10-14 21:43:07] RESTORE anio [full]: archivos 2.120s + recuperación 6.602s = total 8.722s
+[2026-10-14 21:43:18] RESTORE anio [full+inc1]: inicio
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Container proyectofase2-db-run-5b3f141749f5 Creating 
+ Container proyectofase2-db-run-5b3f141749f5 Created 
+[2026-10-14 21:43:27] RESTORE anio [full+inc1]: archivos 1.942s + recuperación 6.319s = total 8.260s
+[2026-10-14 21:43:38] RESTORE anio [full+inc1+inc2]: inicio
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Container proyectofase2-db-run-2405c3312e78 Creating 
+ Container proyectofase2-db-run-2405c3312e78 Created 
+[2026-10-14 21:43:47] RESTORE anio [full+inc1+inc2]: archivos 2.416s + recuperación 6.936s = total 9.353s
+[2026-10-14 21:43:58] RESTORE anio [full+inc1+inc2+inc3]: inicio
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Container proyectofase2-db-run-6341c5940365 Creating 
+ Container proyectofase2-db-run-6341c5940365 Created 
+[2026-10-14 21:44:07] RESTORE anio [full+inc1+inc2+inc3]: archivos 3.118s + recuperación 6.157s = total 9.275s
+[2026-10-14 21:44:15] ######## CICLO anio COMPLETO ########
+[2026-10-15 12:49:21] CARGA anio/01_paris_2024: inicio
+  pais: COPY 205
+  noc: COPY 236
+  ciudad: COPY 42
+  edicion: COPY 1
+  sede: COPY 1
+  deporte: COPY 32
+  disciplina: COPY 47
+  evento: COPY 351
+  evento_edicion: COPY 351
+  atleta: COPY 11095
+  participacion: COPY 9579
+  participacion_atleta: COPY 14891
+  atleta_fuente: COPY 18190
+[2026-10-15 12:49:25] CARGA anio/01_paris_2024: fin en 4.270s
+[2026-10-15 13:04:30] BACKUP FULL anio -> /backups/anio/full
+pg_basebackup: initiating base backup, waiting for checkpoint to complete
+pg_basebackup: checkpoint completed
+pg_basebackup: write-ahead log start point: 0/3000028 on timeline 1
+pg_basebackup: starting background WAL receiver
+pg_basebackup: created temporary replication slot "pg_basebackup_1752"
+pg_basebackup: write-ahead log end point: 0/3000120
+pg_basebackup: waiting for background process to finish streaming ...
+pg_basebackup: syncing data to disk ...
+pg_basebackup: renaming backup_manifest.tmp to backup_manifest
+pg_basebackup: base backup completed
+[2026-10-15 13:04:31] BACKUP FULL anio: 1.024s, 59228 KB
+[2026-10-15 13:33:18] CARGA anio/01_paris_2024: inicio
+[2026-10-15 13:34:25] CARGA anio/01_paris_2024: inicio
+  pais: COPY 205
+  noc: COPY 236
+  ciudad: COPY 42
+  edicion: COPY 1
+  sede: COPY 1
+  deporte: COPY 32
+  disciplina: COPY 47
+  evento: COPY 351
+  evento_edicion: COPY 351
+  atleta: COPY 11095
+  participacion: COPY 9579
+  participacion_atleta: COPY 14891
+  atleta_fuente: COPY 18190
+[2026-10-15 13:34:30] CARGA anio/01_paris_2024: fin en 4.457s
+[2026-10-15 13:35:52] BACKUP INCREMENTAL anio #0-1 -> /backups/anio/inc0-1 (base: /backups/anio/full)
+pg_basebackup: error: could not upload manifest: ERROR:  system identifier in backup manifest is 7696968412195606562, but database system identifier is 7696980025622470690
+pg_basebackup: removing data directory "/backups/anio/inc0-1"
+[2026-10-15 13:36:23] BACKUP INCREMENTAL anio #N-1 -> /backups/anio/incN-1 (base: /backups/anio/full)
+pg_basebackup: error: could not upload manifest: ERROR:  system identifier in backup manifest is 7696968412195606562, but database system identifier is 7696980025622470690
+pg_basebackup: removing data directory "/backups/anio/incN-1"
+[2026-10-15 13:36:33] BACKUP INCREMENTAL anio #0 -> /backups/anio/inc0 (base: /backups/anio/full)
+pg_basebackup: error: could not upload manifest: ERROR:  system identifier in backup manifest is 7696968412195606562, but database system identifier is 7696980025622470690
+pg_basebackup: removing data directory "/backups/anio/inc0"
+[2026-10-15 13:36:37] BACKUP INCREMENTAL anio #1 -> /backups/anio/inc1 (base: /backups/anio/full)
+pg_basebackup: error: could not upload manifest: ERROR:  system identifier in backup manifest is 7696968412195606562, but database system identifier is 7696980025622470690
+pg_basebackup: removing data directory "/backups/anio/inc1"
+[2026-10-15 13:43:52] BACKUP INCREMENTAL anio #N-1 -> /backups/anio/incN-1 (base: /backups/anio/full)
+pg_basebackup: error: could not upload manifest: ERROR:  system identifier in backup manifest is 7696968412195606562, but database system identifier is 7696980025622470690
+pg_basebackup: removing data directory "/backups/anio/incN-1"
+[2026-10-15 13:44:59] BACKUP INCREMENTAL anio #1 -> /backups/anio/inc1 (base: /backups/anio/full)
+pg_basebackup: error: could not upload manifest: ERROR:  system identifier in backup manifest is 7696968412195606562, but database system identifier is 7696980025622470690
+pg_basebackup: removing data directory "/backups/anio/inc1"
+[2026-10-15 14:07:25] CARGA anio/01_paris_2024: inicio
+  pais: COPY 205
+  noc: COPY 236
+  ciudad: COPY 42
+  edicion: COPY 1
+  sede: COPY 1
+  deporte: COPY 32
+  disciplina: COPY 47
+  evento: COPY 351
+  evento_edicion: COPY 351
+  atleta: COPY 11095
+  participacion: COPY 9579
+  participacion_atleta: COPY 14891
+  atleta_fuente: COPY 18190
+[2026-10-15 14:07:30] CARGA anio/01_paris_2024: fin en 4.729s
+[2026-10-15 14:07:35] BACKUP FULL anio -> /backups/anio/full
+pg_basebackup: initiating base backup, waiting for checkpoint to complete
+pg_basebackup: checkpoint completed
+pg_basebackup: write-ahead log start point: 0/3000028 on timeline 1
+pg_basebackup: starting background WAL receiver
+pg_basebackup: created temporary replication slot "pg_basebackup_231"
+pg_basebackup: write-ahead log end point: 0/3000120
+pg_basebackup: waiting for background process to finish streaming ...
+pg_basebackup: syncing data to disk ...
+pg_basebackup: renaming backup_manifest.tmp to backup_manifest
+pg_basebackup: base backup completed
+[2026-10-15 14:07:36] BACKUP FULL anio: 0.889s, 59484 KB
+[2026-10-15 14:07:45] CARGA anio/02_tokio_2020: inicio
+  pais: COPY 0
+  noc: COPY 0
+  ciudad: COPY 0
+  edicion: COPY 1
+  sede: COPY 1
+  deporte: COPY 2
+  disciplina: COPY 3
+  evento: COPY 256
+  evento_edicion: COPY 347
+  atleta: COPY 8044
+  participacion: COPY 9018
+  participacion_atleta: COPY 13950
+  atleta_fuente: COPY 14577
+[2026-10-15 14:07:49] CARGA anio/02_tokio_2020: fin en 4.384s
+[2026-10-15 14:08:04] BACKUP INCREMENTAL anio #1 -> /backups/anio/inc1 (base: /backups/anio/full)
+pg_basebackup: initiating base backup, waiting for checkpoint to complete
+pg_basebackup: checkpoint completed
+pg_basebackup: write-ahead log start point: 0/6000028 on timeline 1
+pg_basebackup: starting background WAL receiver
+pg_basebackup: created temporary replication slot "pg_basebackup_394"
+pg_basebackup: write-ahead log end point: 0/6000120
+pg_basebackup: waiting for background process to finish streaming ...
+pg_basebackup: syncing data to disk ...
+pg_basebackup: renaming backup_manifest.tmp to backup_manifest
+pg_basebackup: base backup completed
+[2026-10-15 14:08:05] BACKUP INCREMENTAL anio #1: 0.767s, 41320 KB
+[2026-10-15 14:10:42] RESTORE anio [full]: inicio
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Container proyectofase2-db-run-4fb11ef0679f Creating 
+ Container proyectofase2-db-run-4fb11ef0679f Created 
+[2026-10-15 14:10:49] RESTORE anio [full]: archivos 1.178s + recuperación 6.247s = total 7.425s
+[2026-10-15 14:13:44] RESTORE anio [full+inc1]: inicio
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Container proyectofase2-db-run-597cbb12f7a2 Creating 
+ Container proyectofase2-db-run-597cbb12f7a2 Created 
+[2026-10-15 14:13:51] RESTORE anio [full+inc1]: archivos 1.459s + recuperación 5.984s = total 7.442s
+[2026-10-15 14:14:58] RESTORE anio [full+inc1+inc2]: inicio
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Container proyectofase2-db-run-68b9fba4fa30 Creating 
+ Container proyectofase2-db-run-68b9fba4fa30 Created 
+pg_combinebackup: error: /backups/anio/inc1/global/pg_control: expected system identifier 7696734737133727778, but found 7696988653626036258
+
+[2026-10-15 14:15:13] RESTORE anio [full+inc1+inc2+inc3]: inicio
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Creating 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Volume proyectofase2_olimpiadas_f2_pgdata Created 
+ Container proyectofase2-db-run-995ade98e960 Creating 
+ Container proyectofase2-db-run-995ade98e960 Created 
+pg_combinebackup: error: /backups/anio/inc1/global/pg_control: expected system identifier 7696734737133727778, but found 7696988653626036258
+

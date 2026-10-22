@@ -1,10 +1,10 @@
-=== FRAGMENTACION anio_carga01_full — 2026-10-12 19:38:55 CST ===
+=== FRAGMENTACION anio_carga01_full — 2026-10-15 13:05:15 CST ===
         tabla         |   tamano   | tuplas_vivas | tuplas_muertas | dead_pct | free_pct 
 ----------------------+------------+--------------+----------------+----------+----------
- atleta_fuente        | 1664 kB    |        18190 |              0 |     0.00 |     0.31
- atleta               | 1216 kB    |        11095 |              0 |     0.00 |     0.52
- participacion        | 1024 kB    |         9579 |              0 |     0.00 |     0.35
- participacion_atleta | 768 kB     |        14891 |              0 |     0.00 |     0.77
+ atleta_fuente        | 1304 kB    |        18190 |              0 |     0.00 |     0.40
+ atleta               | 904 kB     |        11095 |              0 |     0.00 |     0.71
+ participacion_atleta | 648 kB     |        14891 |              0 |     0.00 |     0.92
+ participacion        | 576 kB     |         9579 |              0 |     0.00 |     0.62
  evento               | 24 kB      |          351 |              0 |     0.00 |    22.09
  pais                 | 16 kB      |          205 |              0 |     0.00 |    43.14
  noc                  | 16 kB      |          236 |              0 |     0.00 |    26.51
@@ -21,10 +21,10 @@
                      indice                     | tamano | densidad_hoja_pct | fragmentacion_hoja_pct 
 ------------------------------------------------+--------+-------------------+------------------------
  idx_af_fuente_id                               | 824 kB |             59.87 |                  32.67
- participacion_atleta_pkey                      | 680 kB |             61.92 |                  45.78
+ participacion_atleta_pkey                      | 696 kB |             60.47 |                  49.41
  atleta_fuente_pkey                             | 576 kB |             89.54 |                   0.00
  idx_atleta_nombre_norm                         | 512 kB |             65.70 |                  48.39
- idx_pa_atleta                                  | 376 kB |             76.59 |                  48.89
+ idx_pa_atleta                                  | 384 kB |             74.24 |                  45.65
  atleta_pkey                                    | 264 kB |             88.09 |                   0.00
  participacion_pkey                             | 232 kB |             87.33 |                   0.00
  idx_part_noc                                   | 96 kB  |             83.64 |                  40.00
@@ -52,4 +52,4 @@
  deporte_nombre_key                             | 16 kB  |              9.96 |                   0.00
 (30 rows)
 
-=== fin 2026-10-12 19:38:55 CST ===
+=== fin 2026-10-15 13:05:15 CST ===
