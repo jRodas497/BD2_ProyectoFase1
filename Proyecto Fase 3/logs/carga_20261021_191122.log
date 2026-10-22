@@ -1,0 +1,148 @@
+Fase 3 — carga completa a MongoDB. Inicio: 2026-10-21 19:11:22 CST   Equipo: Fedora-Rodas
+
+######## PASO 1/6: levantar MongoDB — 2026-10-21 19:11:22 ########
+ Container olimpiadas-mongo-f3 Recreate 
+ Container olimpiadas-mongo-f3 Recreated 
+ Container olimpiadas-mongo-f3 Starting 
+ Container olimpiadas-mongo-f3 Started 
+ Container olimpiadas-mongo-f3 Waiting 
+ Container olimpiadas-mongo-f3 Healthy 
+ Image proyectofase3-loader Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 597B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile.loader
+#2 transferring dockerfile: 185B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 0.5s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:cb33f7f771ecec2ef1225cf39b159591a040391bd73e4c01f00fdfc4c47611d2
+#5 resolve docker.io/library/python:3.12-slim@sha256:cb33f7f771ecec2ef1225cf39b159591a040391bd73e4c01f00fdfc4c47611d2 0.0s done
+#5 DONE 0.0s
+
+#6 [2/3] RUN pip install --no-cache-dir pymongo==4.10.1
+#6 CACHED
+
+#7 [3/3] WORKDIR /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:5787eb34858e2b49daad43f91f531d74b408d8d88233d0e50dd3eee6c3e759d5 done
+#8 exporting config sha256:556f9f86175e1abee74392c5e5da1ba249b448cf07415099d8f4cfadbc07fb9c done
+#8 exporting attestation manifest sha256:e82bde11c3ac5a278a8c48eeee9ba43ef24a7327993a72c229a8163abc999d62 0.0s done
+#8 exporting manifest list sha256:db974b6ab488dc298d77225d6d5882be563cbf020f7cc84a1a11d67ca9e353b4 0.0s done
+#8 naming to docker.io/library/proyectofase3-loader:latest done
+#8 unpacking to docker.io/library/proyectofase3-loader:latest done
+#8 DONE 0.1s
+
+#9 resolving provenance for metadata file
+#9 DONE 0.0s
+ Image proyectofase3-loader Built 
+
+######## PASO 2/6: corregir datos de Fase 1 — 2026-10-21 19:11:30 ########
+ Container olimpiadas-mongo-f3 Running 
+ Container olimpiadas-mongo-f3 Waiting 
+ Container olimpiadas-mongo-f3 Healthy 
+ Container proyectofase3-loader-run-6cdfaf9e8ed7 Creating 
+ Container proyectofase3-loader-run-6cdfaf9e8ed7 Created 
+[2026-10-21 19:11:31] Corrección de datos de Fase 1 -> /app/datos/corregidos
+  participaciones: 212,376 -> 221,204 (separadas 6,400)
+  eventos con flag cambiado: 119 | NOC históricos: 13 | nombres NOC: 28
+  reporte: /app/docs/reporte-correcciones.md
+[2026-10-21 19:11:34] Corrección terminada
+
+######## PASO 3/6: crear colecciones — 2026-10-21 19:11:35 ########
+MongoServerError: Authentication failed.
+
+######## PASO 4/6: cargar documentos — 2026-10-21 19:11:35 ########
+ Container olimpiadas-mongo-f3 Running 
+ Container olimpiadas-mongo-f3 Waiting 
+ Container olimpiadas-mongo-f3 Healthy 
+ Container proyectofase3-loader-run-97c5521a7301 Creating 
+ Container proyectofase3-loader-run-97c5521a7301 Created 
+[2026-10-21 19:11:36] Carga a MongoDB, base 'olimpiadas', origen /app/datos/corregidos
+[2026-10-21 19:11:36] Colección comites
+Traceback (most recent call last):
+  File "/app/scripts/03_cargar_mongo.py", line 263, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/app/scripts/03_cargar_mongo.py", line 114, in main
+    db.comites.delete_many({})
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/collection.py", line 1686, in delete_many
+    self._delete_retryable(
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/collection.py", line 1562, in _delete_retryable
+    return self._database.client._retryable_write(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1898, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1784, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1830, in _retry_internal
+    ).run()
+      ^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2554, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2663, in _write
+    with self._client._checkout(self._server, self._session) as conn:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1593, in _checkout
+    with server.checkout(handler=err_handler) as conn:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/pool.py", line 1336, in checkout
+    conn = self._get_conn(checkout_started_time, handler=handler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/pool.py", line 1495, in _get_conn
+    conn = self.connect(handler=handler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/pool.py", line 1296, in connect
+    conn.authenticate()
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/pool.py", line 648, in authenticate
+    auth.authenticate(creds, self, reauthenticate=reauthenticate)
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/auth.py", line 452, in authenticate
+    auth_func(credentials, conn)
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/auth.py", line 354, in _authenticate_default
+    return _authenticate_scram(credentials, conn, "SCRAM-SHA-256")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/auth.py", line 134, in _authenticate_scram
+    res = conn.command(source, cmd)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/helpers.py", line 45, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/pool.py", line 538, in command
+    return command(
+           ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pymongo/synchronous/network.py", line 218, in command
+    helpers_shared._check_command_response(
+  File "/usr/local/lib/python3.12/site-packages/pymongo/helpers_shared.py", line 247, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: Authentication failed., full error: {'ok': 0.0, 'errmsg': 'Authentication failed.', 'code': 18, 'codeName': 'AuthenticationFailed'}
+
+
+######## PASO 5/6: crear índices — 2026-10-21 19:11:37 ########
+MongoServerError: Authentication failed.
+
+######## PASO 6/6: validar — 2026-10-21 19:11:37 ########
+MongoServerError: Authentication failed.
+
+Fin: 2026-10-21 19:11:37 CST   Duración total: 15 s

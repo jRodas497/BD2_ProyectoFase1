@@ -1,0 +1,5 @@
+fuente_id,nombre,url,descripcion
+1,Olympedia (KeithGalli/Olympics-Dataset),https://github.com/KeithGalli/Olympics-Dataset,"F1 — espina dorsal de atleta, puesto y biografia"
+2,Kaggle 120 years of Olympic history,https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results,"F2 — ciudad sede, equipos, catalogo NOC-region"
+3,Kaggle Summer Olympics Medals 1896-2024,https://www.kaggle.com/datasets/stefanydeoliveira/summer-olympics-medals-1896-2024,F3 — Tokio 2020 y Paris 2024
+4,DataCamp DataLab r-olympics,https://www.datacamp.com/datalab/datasets/r-olympics,F4 — subconjunto de muestra de F2

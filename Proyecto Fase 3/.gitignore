@@ -1,0 +1,6 @@
+# Fase 3 — datos derivados y secretos
+.env
+# datos/corregidos/ se regenera con scripts/01_corregir_datos.py desde datos/fase1/
+datos/corregidos/
+__pycache__/
+*.py[cod]

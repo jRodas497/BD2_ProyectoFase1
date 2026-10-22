@@ -10,8 +10,9 @@ Repositorio único con las dos fases del proyecto. Cada fase es autosuficiente: 
 |---------|-----------|-----------------|------------|
 | [`Proyecto Fase 1/`](Proyecto%20Fase%201/) | Modelo ER, unificación de fuentes, carga y stored procedures. **Congelada**: no se modifica. | 5434 | `olimpiadas-postgres` |
 | [`Proyecto Fase 2/`](Proyecto%20Fase%202/) | Parte de una copia de Fase 1 y es donde continúa el desarrollo. Incluye el enunciado (PDF). | 5435 | `olimpiadas-postgres-f2` |
+| [`Proyecto Fase 3/`](Proyecto%20Fase%203/) | Datos de Fase 1 migrados a **MongoDB**, con correcciones y consultas por atleta y por país. | 27018 | `olimpiadas-mongo-f3` |
 
-> Desde Fase 2 en adelante **solo se modifica `Proyecto Fase 2/`**.
+> Cada fase es independiente: la Fase 3 trae sus propios datos fuente (`datos/fase1/`) y su propio `docker-compose.yml`.
 
 ## Uso
 

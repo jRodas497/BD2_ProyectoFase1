@@ -1,0 +1,46 @@
+# Fase 3 — MongoDB. Ejecutar desde esta carpeta: docker compose up -d --wait
+# Nombre de proyecto, contenedor, volumen y puerto propios: conviven con Fase 1 y Fase 2.
+name: proyectofase3
+
+services:
+  mongo:
+    image: mongo:7.0
+    container_name: olimpiadas-mongo-f3
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USER}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
+      TZ: America/Guatemala                  # fecha y hora local en los logs
+    ports:
+      - "${MONGO_PORT}:27017"
+    volumes:
+      - olimpiadas_f3_mongodata:/data/db     # almacenamiento persistente
+      - ./scripts:/scripts:ro                # scripts de mongosh (colecciones, índices, consultas)
+    healthcheck:
+      test: ["CMD-SHELL", "mongosh --quiet --eval \"db.adminCommand('ping').ok\" | grep -q 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  # Cargador (Python + pymongo). Solo se usa con: docker compose run --rm loader <script>
+  loader:
+    build:
+      context: .
+      dockerfile: Dockerfile.loader
+    profiles: ["tools"]
+    user: "${HOST_UID:-1000}:${HOST_GID:-1000}"   # los archivos generados quedan a nombre del usuario, no de root
+    depends_on:
+      mongo:
+        condition: service_healthy
+    environment:
+      MONGO_URI: mongodb://${MONGO_USER}:${MONGO_PASSWORD}@mongo:27017/?authSource=admin   # ejecutar.sh la reemplaza si .env define MONGO_URI (modo nube)
+      MONGO_DB: ${MONGO_DB}
+      TZ: America/Guatemala
+    volumes:
+      - ./datos:/app/datos
+      - ./scripts:/app/scripts:ro
+      - ./logs:/app/logs
+      - ./docs:/app/docs
+
+volumes:
+  olimpiadas_f3_mongodata:

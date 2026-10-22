@@ -1,0 +1,30 @@
+$ scripts/consulta_atleta.sh Michael Phelps Swimming  2012
+[2026-10-21 19:29:34] CONSULTA POR ATLETA: "Michael Phelps"  | filtros: deporte=Swimming, anio=2012
+Atletas que coinciden: 2
+
+====================================================================================================
+ATLETA: Michael Phelps   [id 93860]
+====================================================================================================
+Sexo: M  |  Nacimiento: 1985-06-30, Baltimore, Maryland, USA
+Estatura: 193 cm  |  Peso: 91 kg
+Trayectoria: 30 participaciones, 2000–2016, deportes: Aquatics
+MEDALLAS (carrera): Oro 23 | Plata 3 | Bronce 2 | Total 28
+MEDALLAS (con los filtros): Oro 4 | Plata 2 | Bronce 0 | Total 6
+
+PARTICIPACIONES (filtradas): 7
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+2012 Verano    Aquatics / Swimming             4 × 100 metres Freestyle Relay M    USA  2       Plata   United States (8 integrantes)
+2012 Verano    Aquatics / Swimming             4 × 200 metres Freestyle Relay M    USA  1       Oro     United States (7 integrantes)
+2012 Verano    Aquatics / Swimming             100 metres Butterfly M              USA  1       Oro     
+2012 Verano    Aquatics / Swimming             200 metres Butterfly M              USA  2       Plata   
+2012 Verano    Aquatics / Swimming             200 metres Individual Medley M      USA  1       Oro     
+2012 Verano    Aquatics / Swimming             400 metres Individual Medley M      USA  4       -       
+2012 Verano    Aquatics / Swimming             4 × 100 metres Medley Relay M       USA  1       Oro     United States (8 integrantes)
+
+Fuentes: F1:93860
+
+1 atleta(s) más coinciden con "Michael Phelps" (sin resultados para los filtros, o fuera del límite): Michael Fred Phelps, II
+Sea más específico (nombre completo) o suba LIMITE para detallarlos.
+
+[2026-10-21 19:29:34] Consulta resuelta en 120 ms

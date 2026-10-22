@@ -1,0 +1,183 @@
+$ scripts/consulta_pais.sh Francia 2024
+[2026-10-21 19:29:37] CONSULTA POR PAÍS: "Francia"  | filtros: anio=2024
+
+====================================================================================================
+PAÍS: France (Francia)
+====================================================================================================
+Comités (NOC): FRA France
+Sede de los Juegos: SÍ — 1900 Verano (Paris), 1924 Invierno (Chamonix), 1924 Verano (Paris), 1968 Invierno (Grenoble), 1992 Invierno (Albertville), 2024 Verano (Paris)
+
+RESUMEN (con filtros): 407 participaciones (entradas a un evento) | 601 atletas distintos | 1 ediciones
+MEDALLERO: Oro 16 | Plata 26 | Bronce 22 | Total 64   (un equipo cuenta una sola medalla)
+
+PARTICIPACIÓN POR EDICIÓN:
+AÑO   TEMPORADA   PARTIC.  ATLETAS   ORO  PLATA  BRONCE  SEDE
+2024  Verano          407      601    16     26      22  ◄ sede
+
+MEDALLAS POR DEPORTE (top 10):
+  Judo                       Oro    2  Plata    2  Bronce    6  Total   10
+  Cycling                    Oro    3  Plata    3  Bronce    3  Total    9
+  Fencing                    Oro    1  Plata    4  Bronce    2  Total    7
+  Aquatics                   Oro    4  Plata    1  Bronce    2  Total    7
+  Basketball                 Oro    0  Plata    3  Bronce    0  Total    3
+  Canoeing                   Oro    1  Plata    2  Bronce    0  Total    3
+  Boxing                     Oro    0  Plata    2  Bronce    1  Total    3
+  Surfing                    Oro    1  Plata    0  Bronce    1  Total    2
+  Triathlon                  Oro    1  Plata    0  Bronce    1  Total    2
+  Taekwondo                  Oro    1  Plata    0  Bronce    1  Total    2
+
+RESULTADOS (primeros 150; suba TOPE para ver más):
+AÑO  DEPORTE                         EVENTO                            NOC  PUESTO  MEDALLA ATLETAS
+--------------------------------------------------------------------------------------------------------------
+2024 Aquatics / Swimming             200m Breaststroke M               FRA  -       Oro     Léon Marchand
+2024 Aquatics / Swimming             400m Individual Medley M          FRA  -       Oro     Léon Marchand
+2024 Aquatics / Swimming             200m Butterfly M                  FRA  -       Oro     Léon Marchand
+2024 Aquatics / Swimming             200m Individual Medley M          FRA  -       Oro     Léon Marchand
+2024 Canoeing / Canoe Slalom         Canoe Single M                    FRA  -       Oro     Nicolas Gestin
+2024 Cycling / Cycling Mountain Bike Cross-country F                   FRA  -       Oro     Pauline Ferrand
+2024 Cycling / Cycling BMX Racing    Men M                             FRA  -       Oro     Joris Daudet
+2024 Cycling / Cycling Track         Omnium M                          FRA  -       Oro     Benjamin Thomas
+2024 Fencing                         Sabre Individual F                FRA  -       Oro     Manon Brunet
+2024 Judo                            Team Mixto                        FRA  -       Oro     [France] Teddy Riner, Clarisse Agbegnenou, Walide Khyar +11
+2024 Judo                            +100 kg M                         FRA  -       Oro     Teddy Riner
+2024 Rugby / Rugby Sevens            Men M                             FRA  -       Oro     [France] Stephen Parez, Pascal Barraque, Antoine Dupont +10
+2024 Surfing                         Men M                             FRA  -       Oro     Kauli Vaast
+2024 Taekwondo                       +67kg F                           FRA  -       Oro     Althéa Laurin
+2024 Triathlon                       Individual F                      FRA  -       Oro     Cassandre Beaugrand
+2024 Volleyball                      Men M                             FRA  -       Oro     [France] Benjamin Toniutti, Jénia Grebennikov, Kévin Tillie +10
+2024 Aquatics / Swimming             1500m Freestyle F                 FRA  -       Plata   Anastasiia Kirpichnikova
+2024 Archery                         Team M                            FRA  -       Plata   [France] Jean-Charles Valladont, Thomas Chirault, Baptiste Addis
+2024 Athletics                       100m Hurdles F                    FRA  -       Plata   Cyréna Samba-Mayéla
+2024 Basketball                      Women F                           FRA  -       Plata   [France] Marine Johannès, Sarah Michel, Gabby Williams +9
+2024 Basketball / 3x3 Basketball     Men M                             FRA  -       Plata   [France] Timothe Vergiat, Franck Seguela, Lucas Dussoulier +1
+2024 Basketball                      Men M                             FRA  -       Plata   [France] Nicolas Batum, Rudy Gobert, Andrew Albicy +9
+2024 Boxing                          51kg M                            FRA  -       Plata   Billal Bennama
+2024 Boxing                          63.5kg M                          FRA  -       Plata   Sofiane Oumiha
+2024 Breaking                        B-Boys Abierto                    FRA  -       Plata   Dann Dany
+2024 Canoeing / Canoe Slalom         Kayak Single M                    FRA  -       Plata   Titouan Castryck
+2024 Canoeing / Canoe Slalom         Kayak Cross F                     FRA  -       Plata   Angele Hug
+2024 Cycling / Cycling Road          Road Race M                       FRA  -       Plata   Valentin Madouas
+2024 Cycling / Cycling Mountain Bike Cross-country M                   FRA  -       Plata   Victor Koretzky
+2024 Cycling / Cycling BMX Racing    Men M                             FRA  -       Plata   Sylvain André
+2024 Equestrian / Equestrian EventingTeam Abierto                      FRA  -       Plata   [France] Nicolas Touzaint, Florent Laghouag, Stephane Landois +1
+2024 Fencing                         Épée Team F                       FRA  -       Plata   [France] Coraline Vitalis, Marie-Florence Candassamy, Auriane Mallo-breton +1
+2024 Fencing                         Épée Individual F                 FRA  -       Plata   Auriane Mallo-breton
+2024 Fencing                         Épée Individual M                 FRA  -       Plata   Yannick Borel
+2024 Fencing                         Sabre Individual F                FRA  -       Plata   Sara Balzer
+2024 Football                        Men M                             FRA  -       Plata   [France] Maghnes Akliouche, Rayan Cherki, Joris Chotard +18
+2024 Handball                        Women F                           FRA  -       Plata   [France] Cléopâtre Darleux, Grâce Zaadi, Laura Glauser +14
+2024 Judo                            73 kg M                           FRA  -       Plata   Joan-benjamin Gaba
+2024 Judo                            60 kg M                           FRA  -       Plata   Luka Mkheidze
+2024 Modern Pentathlon               Individual F                      FRA  -       Plata   Élodie Clouvel
+2024 Sailing                         Kite F                            FRA  -       Plata   Lauriane Nolot
+2024 Shooting                        25m Pistol F                      FRA  -       Plata   Camille Jedrzejewski
+2024 Aquatics / Swimming             4 x 100m Medley Relay M           FRA  -       Bronce  [France] Florent Manaudou, Léon Marchand, Maxime Grousset +3
+2024 Aquatics / Swimming             50m Freestyle M                   FRA  -       Bronce  Florent Manaudou
+2024 Archery                         Individual F                      FRA  -       Bronce  Lisa Barbelin
+2024 Boxing                          +92kg M                           FRA  -       Bronce  Djamili-dini Aboudou
+2024 Cycling / Cycling BMX Freestyle Park M                            FRA  -       Bronce  Anthony Jeanjean
+2024 Cycling / Cycling Road          Road Race M                       FRA  -       Bronce  Christophe Laporte
+2024 Cycling / Cycling BMX Racing    Men M                             FRA  -       Bronce  Romain Mahieu
+2024 Equestrian / Equestrian Jumping Team Abierto                      FRA  -       Bronce  [France] Simon Delestre, Kévin Staut, Julien Epaillard +1
+2024 Fencing                         Sabre Team M                      FRA  -       Bronce  [France] Boladé Apithy, Maxime Pianfetti, Sebastien Patrice +1
+2024 Fencing                         Foil Team M                       FRA  -       Bronce  [France] Enzo Lefort, Julien Mertine, Maxime Pauty +1
+2024 Judo                            +78 kg F                          FRA  -       Bronce  Romane Dicko
+2024 Judo                            90 kg M                           FRA  -       Bronce  Maxime-gael Ngayap
+2024 Judo                            52 kg F                           FRA  -       Bronce  Amandine Buchard
+2024 Judo                            63 kg F                           FRA  -       Bronce  Clarisse Agbegnenou
+2024 Judo                            48 kg F                           FRA  -       Bronce  Shirine Boukli
+2024 Judo                            57 kg F                           FRA  -       Bronce  Leonie Cysique
+2024 Sailing                         Skiff F                           FRA  -       Bronce  [France] Sarah Steyaert, Charline Picon
+2024 Surfing                         Women F                           FRA  -       Bronce  Johanne Defay
+2024 Table Tennis                    Singles M                         FRA  -       Bronce  Felix Lebrun
+2024 Table Tennis                    Team M                            FRA  -       Bronce  [France] Simon Gauzy, Alexis Lebrun, Felix Lebrun
+2024 Taekwondo                       58kg M                            FRA  -       Bronce  Cyrian Ravet
+2024 Triathlon                       Individual M                      FRA  -       Bronce  Léo Bergère
+2024 Aquatics / Swimming             4 x 100m Medley Relay F           FRA  -       -       [France] Charlotte Bonnet, Béryl Gastaldello, Marie Wattel +2
+2024 Aquatics / Swimming             4 x 100m Freestyle Relay F        FRA  -       -       [France] Charlotte Bonnet, Béryl Gastaldello, Marie Wattel +2
+2024 Aquatics / Artistic Swimming    Team Abierto                      FRA  -       -       [France] Laura González, Charlotte Tremble, Laura Tremble +6
+2024 Aquatics / Marathon Swimming    10km M                            FRA  -       -       Marc-Antoine Olivier
+2024 Aquatics / Swimming             50m Freestyle F                   FRA  -       -       Béryl Gastaldello
+2024 Aquatics / Swimming             800m Freestyle M                  FRA  -       -       David Aubry
+2024 Aquatics / Swimming             100m Freestyle F                  FRA  -       -       Marie Wattel
+2024 Aquatics / Swimming             Relay Only Athlete Abierto        FRA  -       -       [France] Assia Touati, Lucile Tessariol, Antoine Viquerat +9
+2024 Aquatics / Swimming             1500m Freestyle M                 FRA  -       -       David Aubry
+2024 Aquatics / Marathon Swimming    10km M                            FRA  -       -       Logan Fontaine
+2024 Aquatics / Marathon Swimming    10km F                            FRA  -       -       Oceane Cassignol
+2024 Aquatics / Marathon Swimming    10km F                            FRA  -       -       Caroline Jouisse
+2024 Aquatics / Diving               Synchronised 10m Platform M       FRA  -       -       [France] Gary Hunt, Lois Szymczak
+2024 Aquatics / Diving               3m Springboard M                  FRA  -       -       Gwendal Bisch
+2024 Aquatics / Swimming             100m Butterfly F                  FRA  -       -       Marie Wattel
+2024 Aquatics / Diving               3m Springboard M                  FRA  -       -       Jules Bouyer
+2024 Aquatics / Diving               Synchronised 3m Springboard M     FRA  -       -       [France] Jules Bouyer, Alexis Jandard
+2024 Aquatics / Swimming             100m Butterfly M                  FRA  -       -       Maxime Grousset
+2024 Aquatics / Swimming             800m Freestyle M                  FRA  -       -       Pacome Bricout
+2024 Aquatics / Swimming             50m Freestyle F                   FRA  -       -       Mélanie Henique
+2024 Aquatics / Swimming             100m Freestyle F                  FRA  -       -       Béryl Gastaldello
+2024 Aquatics / Artistic Swimming    Duet Abierto                      FRA  -       -       [France] Anastasia Bayandina, Romane Lunel
+2024 Aquatics / Swimming             1500m Freestyle M                 FRA  -       -       Damien Joly
+2024 Aquatics / Swimming             100m Backstroke M                 FRA  -       -       Yohann N'Doye Brouard
+2024 Aquatics / Swimming             800m Freestyle F                  FRA  -       -       Anastasiia Kirpichnikova
+2024 Aquatics / Diving               Synchronised 3m Springboard F     FRA  -       -       [France] Nais Gillet, Juliette Landi
+2024 Aquatics / Water Polo           Women F                           FRA  -       -       [France] Lara Andres, Aurelie Battu, Camelia Bouloukbachi +10
+2024 Aquatics / Swimming             400m Freestyle F                  FRA  -       -       Anastasiia Kirpichnikova
+2024 Aquatics / Swimming             100m Backstroke F                 FRA  -       -       Béryl Gastaldello
+2024 Aquatics / Swimming             4 x 200m Freestyle Relay M        FRA  -       -       [France] Hadrien Salvan, Roman Fuchs, le Yann +1
+2024 Aquatics / Swimming             4 x 200m Freestyle Relay F        FRA  -       -       [France] Assia Touati, Lucile Tessariol, Anastasiia Kirpichnikova +1
+2024 Aquatics / Swimming             100m Backstroke F                 FRA  -       -       Emma Terebo
+2024 Aquatics / Diving               Synchronised 10m Platform F       FRA  -       -       [France] Jade Gillet, Emily Hallifax
+2024 Aquatics / Water Polo           Men M                             FRA  -       -       [France] Enzo Khasz, Mehdi Marzouki, Rémi Saudadier +10
+2024 Aquatics / Swimming             4 x 100m Freestyle Relay M        FRA  -       -       [France] Hadrien Salvan, Rafael Fente--damers, Guillaume Guth +1
+2024 Aquatics / Swimming             200m Backstroke F                 FRA  -       -       Emma Terebo
+2024 Aquatics / Swimming             4 x 100m Medley Relay Mixto       FRA  -       -       [France] Béryl Gastaldello, Marie Wattel, Antoine Viquerat +3
+2024 Aquatics / Swimming             100m Butterfly M                  FRA  -       -       Clement Secchi
+2024 Aquatics / Swimming             200m Backstroke M                 FRA  -       -       Yohann N'Doye Brouard
+2024 Aquatics / Swimming             200m Backstroke M                 FRA  -       -       Mewen Tomac
+2024 Aquatics / Swimming             50m Freestyle M                   FRA  -       -       Maxime Grousset
+2024 Aquatics / Swimming             200m Individual Medley F          FRA  -       -       Charlotte Bonnet
+2024 Aquatics / Swimming             400m Freestyle M                  FRA  -       -       David Aubry
+2024 Aquatics / Swimming             100m Backstroke M                 FRA  -       -       Mewen Tomac
+2024 Aquatics / Swimming             200m Backstroke F                 FRA  -       -       Pauline Mahieu
+2024 Aquatics / Swimming             100m Freestyle M                  FRA  -       -       Rafael Fente--damers
+2024 Aquatics / Swimming             100m Freestyle M                  FRA  -       -       Maxime Grousset
+2024 Archery                         Individual F                      FRA  -       -       Amelie Cordeau
+2024 Archery                         Individual F                      FRA  -       -       Caroline Lopez
+2024 Archery                         Team F                            FRA  -       -       [France] Lisa Barbelin, Amelie Cordeau, Caroline Lopez
+2024 Archery                         Team Mixto                        FRA  -       -       [France] Lisa Barbelin, Baptiste Addis
+2024 Archery                         Individual M                      FRA  -       -       Baptiste Addis
+2024 Archery                         Individual M                      FRA  -       -       Thomas Chirault
+2024 Archery                         Individual M                      FRA  -       -       Jean-Charles Valladont
+2024 Athletics                       Discus Throw M                    FRA  -       -       Lolassonn Djouhan
+2024 Athletics                       High Jump F                       FRA  -       -       Solene Gicquel
+2024 Athletics                       Javelin Throw M                   FRA  -       -       Teura'itera'i Tupaia
+2024 Athletics                       Discus Throw M                    FRA  -       -       Tom Reux
+2024 Athletics                       Hammer Throw F                    FRA  -       -       Rose Loga
+2024 Athletics                       200m F                            FRA  -       -       Gemima Joseph
+2024 Athletics                       Heptathlon F                      FRA  -       -       Auriana Lazraq-khlass
+2024 Athletics                       400m Hurdles M                    FRA  -       -       Clement Ducos
+2024 Athletics                       High Jump F                       FRA  -       -       Nawal Meniker
+2024 Athletics                       800m M                            FRA  -       -       le Corentin
+2024 Athletics                       1500m M                           FRA  -       -       Azeddine Habz
+2024 Athletics                       800m M                            FRA  -       -       Benjamin Robert
+2024 Athletics                       800m F                            FRA  -       -       Lena Kandissounon
+2024 Athletics                       4 x 400m Relay F                  FRA  -       -       [France] Amandine Brossier, Diana Iscaye, Alexe Deau +4
+2024 Athletics                       4 x 400m Relay Mixto              FRA  -       -       [France] Amandine Brossier, Teo Andant, Abdallah Kounta +4
+2024 Athletics                       800m F                            FRA  -       -       Rénelle Lamote
+2024 Athletics                       3000m Steeplechase M              FRA  -       -       Louis Gilavert
+2024 Athletics                       Hammer Throw M                    FRA  -       -       Yann Chaussinand
+2024 Athletics                       20km Race Walk M                  FRA  -       -       Gabriel Bordier
+2024 Athletics                       Hammer Throw F                    FRA  -       -       Alexandra Tavernier
+2024 Athletics                       3000m Steeplechase M              FRA  -       -       Nicolas-marie Daru
+2024 Athletics                       1500m M                           FRA  -       -       Mael Gouyette
+2024 Athletics                       200m F                            FRA  -       -       Helene Parisot
+2024 Athletics                       800m F                            FRA  -       -       Anais Bourgoin
+2024 Athletics                       20km Race Walk F                  FRA  -       -       Pauline Stey
+2024 Athletics                       20km Race Walk M                  FRA  -       -       Aurelien Quinion
+2024 Athletics                       400m Hurdles F                    FRA  -       -       Louise Maraval
+2024 Athletics                       Marathon F                        FRA  -       -       Melody Julien
+2024 Athletics                       400m Hurdles M                    FRA  -       -       Wilfried Happio
+2024 Athletics                       Marathon F                        FRA  -       -       Meline Rollin
+2024 Athletics                       200m M                            FRA  -       -       Ryan Zézé
+2024 Athletics                       5000m M                           FRA  -       -       Jimmy Gressier
+
+[2026-10-21 19:29:37] Consulta resuelta en 53 ms

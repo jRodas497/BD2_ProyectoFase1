@@ -1,0 +1,230 @@
+$ scripts/consulta_pais.sh Soviet Union
+[2026-10-21 19:29:39] CONSULTA POR PAÍS: "Soviet Union"
+
+====================================================================================================
+PAÍS: Russia (Rusia)
+====================================================================================================
+Comités (NOC): EUN Unified Team [disuelto]  |  ROC Russian Olympic Committee  |  RUS Russia  |  URS Soviet Union [disuelto]
+Sede de los Juegos: SÍ — 1980 Verano (Moskva), 2014 Invierno (Sochi)
+
+RESUMEN: 8,891 participaciones (entradas a un evento) | 6,062 atletas distintos | 42 ediciones
+MEDALLERO: Oro 748 | Plata 633 | Bronce 625 | Total 2006   (un equipo cuenta una sola medalla)
+
+POR COMITÉ:
+  URS   participaciones   3929   Oro  473  Plata  376  Bronce  355
+  RUS   participaciones   3641   Oro  194  Plata  169  Bronce  188
+  ROC   participaciones    734   Oro   27  Plata   44  Bronce   45
+  EUN   participaciones    587   Oro   54  Plata   44  Bronce   37
+
+PARTICIPACIÓN POR EDICIÓN:
+AÑO   TEMPORADA   PARTIC.  ATLETAS   ORO  PLATA  BRONCE  SEDE
+1900  Verano            6        4     0      0       0  
+1908  Verano            7        6     1      2       0  
+1912  Verano          222      158     0      2       3  
+1924  Verano            1        1     0      0       0  
+1952  Verano          336      297    22     30      19  
+1956  Invierno         62       54     7      3       6  
+1956  Verano          290      272    37     29      32  
+1960  Invierno         69       62     7      5       9  
+1960  Verano          305      284    43     29      31  
+1964  Invierno         85       70    11      8       6  
+1964  Verano          328      317    30     31      35  
+1968  Invierno         95       76     5      5       3  
+1968  Verano          333      313    29     32      30  
+1972  Invierno         86       76     8      5       3  
+1972  Verano          363      372    50     27      22  
+1976  Invierno         87       79    13      6       8  
+1976  Verano          369      410    49     41      35  
+1980  Invierno         94       86    10      6       6  
+1980  Verano          411      489    80     69      46  ◄ sede
+1984  Invierno         99       99     6     10       9  
+1988  Invierno        116      103    11      9       9  
+1988  Verano          401      481    55     31      46  
+1992  Invierno        163      133     9      6       8  
+1992  Verano          424      480    45     38      29  
+1994  Invierno        156      115    11      8       4  
+1996  Verano          388      391    26     21      16  
+1998  Invierno        146      122     9      6       3  
+2000  Verano          411      436    32     28      29  
+2002  Invierno        172      152     5      4       4  
+2004  Verano          424      447    28     26      36  
+2006  Invierno        195      176     8      6       8  
+2008  Verano          420      455    24     13      23  
+2010  Invierno        189      175     3      5       7  
+2012  Invierno          2        2     0      0       0  
+2012  Verano          377      429    18     21      26  
+2014  Invierno        238      215    10     10       9  ◄ sede
+2016  Invierno          2        2     0      0       0  
+2016  Verano          278      284    19     17      20  
+2018  Invierno        159      167     2      6       9  
+2020  Invierno          7       13     0      0       0  
+2020  Verano          344      320    20     25      22  
+2022  Invierno        231      197     5     13      14  
+
+MEDALLAS POR DEPORTE (top 10):
+  Gymnastics                 Oro  107  Plata   97  Bronce   74  Total  278
+  Athletics                  Oro   90  Plata   88  Bronce   96  Total  274
+  Wrestling                  Oro  103  Plata   50  Bronce   46  Total  199
+  Aquatics                   Oro   47  Plata   51  Bronce   57  Total  155
+  Skiing                     Oro   49  Plata   48  Bronce   56  Total  153
+  Skating                    Oro   60  Plata   49  Bronce   40  Total  149
+  Shooting                   Oro   31  Plata   35  Bronce   32  Total   98
+  Boxing                     Oro   25  Plata   26  Bronce   38  Total   89
+  Fencing                    Oro   35  Plata   26  Bronce   27  Total   88
+  Weightlifting              Oro   48  Plata   32  Bronce    8  Total   88
+
+RESULTADOS CON MEDALLA (primeros 150; suba TOPE para ver más):
+AÑO  DEPORTE                         EVENTO                            NOC  PUESTO  MEDALLA ATLETAS
+--------------------------------------------------------------------------------------------------------------
+1908 Skating / Figure Skating        Special Figures M                 RUS  1       Oro     Nikolay Kolomenkin
+1908 Wrestling                       Lightweight, Greco-Roman M        RUS  2       Plata   Nikolay Orlov
+1908 Wrestling                       Heavyweight, Greco-Roman M        RUS  2       Plata   Aleksandr Petrov
+1912 Shooting                        Dueling Pistol, 30 metres, Team M RUS  2       Plata   [Russia] Amos Kash, Nikolay Melnitsky, Georgy Panteleymonov +1
+1912 Wrestling                       Middleweight A, Greco-Roman M     RUS  2       Plata   Martin Klein
+1912 Rowing                          Single Sculls M                   RUS  =3      Bronce  Mart Kuusik
+1912 Sailing                         10 metres Abierto                 RUS  3       Bronce  [Gallia II] Esper Beloselsky, Ernst Brasche, Karl Lindholm +4
+1912 Shooting                        Trap M                            RUS  3       Bronce  Harry Blaus
+1952 Athletics                       Shot Put F                        URS  1       Oro     Galina Zybina
+1952 Athletics                       Discus Throw F                    URS  1       Oro     Nina Romashkova-Ponomaryova
+1952 Gymnastics / Artistic GymnasticsBalance Beam F                    URS  1       Oro     Nina Bocharova
+1952 Gymnastics / Artistic GymnasticsTeam All-Around M                 URS  1       Oro     [Soviet Union] Vladimir Belyakov, Iosif Berdiyev, Yevgeny Korolkov +5
+1952 Gymnastics / Artistic GymnasticsIndividual All-Around M           URS  1       Oro     Viktor Chukarin
+1952 Gymnastics / Artistic GymnasticsRings M                           URS  1       Oro     Hrant Shahinyan
+1952 Gymnastics / Artistic GymnasticsIndividual All-Around F           URS  1       Oro     Mariya Gorokhovskaya
+1952 Gymnastics / Artistic GymnasticsHorse Vault F                     URS  1       Oro     Yekaterina Kalinchuk
+1952 Gymnastics / Artistic GymnasticsTeam All-Around F                 URS  1       Oro     [Soviet Union] Nina Bocharova, Pelageya Danilova, Medeya Jugeli +5
+1952 Gymnastics / Artistic GymnasticsPommelled Horse M                 URS  1       Oro     Viktor Chukarin
+1952 Gymnastics / Artistic GymnasticsHorse Vault M                     URS  1       Oro     Viktor Chukarin
+1952 Rowing                          Single Sculls M                   URS  1       Oro     Yury Tyukalov
+1952 Shooting                        Free Rifle, Three Positions, 300 mURS  1       Oro     Anatoly Bogdanov
+1952 Weightlifting                   Light-Heavyweight M               URS  1       Oro     Trofim Lomakin
+1952 Weightlifting                   Bantamweight M                    URS  1       Oro     Ivan Udodov
+1952 Weightlifting                   Featherweight M                   URS  1       Oro     Rapael Chimishk'iani
+1952 Wrestling                       Featherweight, Greco-Roman M      URS  1       Oro     Yakov Punkin
+1952 Wrestling                       Flyweight, Greco-Roman M          URS  1       Oro     Boris Gurevich
+1952 Wrestling                       Middleweight, Freestyle M         URS  1       Oro     Davit Tsimak'uridze
+1952 Wrestling                       Heavyweight, Greco-Roman M        URS  1       Oro     Johannes Kotkas
+1952 Wrestling                       Lightweight, Greco-Roman M        URS  1       Oro     Shazam Safin
+1952 Wrestling                       Heavyweight, Freestyle M          URS  1       Oro     Arsen Mek'ok'ishvili
+1952 Athletics                       3,000 metres Steeplechase M       URS  2       Plata   Vladimir Kazantsev
+1952 Athletics                       4 × 100 metres Relay M            URS  2       Plata   [Soviet Union] Lev Kalyayev, Levan Sanadze, Vladimir Sukharev +1
+1952 Athletics                       Discus Throw F                    URS  2       Plata   Yelizaveta Bagryantseva
+1952 Athletics                       400 metres Hurdles M              URS  2       Plata   Yury Lituyev
+1952 Athletics                       Long Jump F                       URS  2       Plata   Aleksandra Chudina
+1952 Athletics                       Triple Jump M                     URS  2       Plata   Leonid Shcherbakov
+1952 Athletics                       80 metres Hurdles F               URS  2       Plata   Mariya Golubnichaya
+1952 Athletics                       Javelin Throw F                   URS  2       Plata   Aleksandra Chudina
+1952 Basketball                      Basketball M                      URS  2       Plata   [Soviet Union] Ilmar Kullam, Justinas Lagunavičius, Aleksandr Moiseyev +11
+1952 Boxing                          Light-Welterweight M              URS  2       Plata   Viktor Mednov
+1952 Boxing                          Welterweight M                    URS  2       Plata   Sergey Shcherbakov
+1952 Gymnastics / Artistic GymnasticsUneven Bars F                     URS  2       Plata   Mariya Gorokhovskaya
+1952 Gymnastics / Artistic GymnasticsTeam Portable Apparatus F         URS  2       Plata   [Soviet Union] Nina Bocharova, Pelageya Danilova, Medeya Jugeli +5
+1952 Gymnastics / Artistic GymnasticsIndividual All-Around M           URS  2       Plata   Hrant Shahinyan
+1952 Gymnastics / Artistic GymnasticsRings M                           URS  2       Plata   Viktor Chukarin
+1952 Gymnastics / Artistic GymnasticsParallel Bars M                   URS  2       Plata   Viktor Chukarin
+1952 Gymnastics / Artistic GymnasticsPommelled Horse M                 URS  =2      Plata   Yevgeny Korolkov
+1952 Gymnastics / Artistic GymnasticsIndividual All-Around F           URS  2       Plata   Nina Bocharova
+1952 Gymnastics / Artistic GymnasticsBalance Beam F                    URS  2       Plata   Mariya Gorokhovskaya
+1952 Gymnastics / Artistic GymnasticsHorse Vault F                     URS  2       Plata   Mariya Gorokhovskaya
+1952 Gymnastics / Artistic GymnasticsPommelled Horse M                 URS  =2      Plata   Hrant Shahinyan
+1952 Gymnastics / Artistic GymnasticsFloor Exercise F                  URS  2       Plata   Mariya Gorokhovskaya
+1952 Rowing                          Double Sculls M                   URS  2       Plata   [equipo] Igor Yemchuk, Georgy Zhilin
+1952 Rowing                          Eights M                          URS  2       Plata   [Soviet Union] Slava Amiragov, Igor Borisov, Yevgeny Brago +6
+1952 Shooting                        Small-Bore Rifle, Prone, 50 metresURS  2       Plata   Boris Andreyev
+1952 Weightlifting                   Middle-Heavyweight M              URS  2       Plata   Grigory Novak
+1952 Weightlifting                   Featherweight M                   URS  2       Plata   Nikolay Saksonov
+1952 Weightlifting                   Lightweight M                     URS  2       Plata   Yevgeny Lopatin
+1952 Wrestling                       Light-Heavyweight, Greco-Roman M  URS  2       Plata   Shalva Chikhladze
+1952 Wrestling                       Bantamweight, Freestyle M         URS  2       Plata   Rəşid Məmmədbəyov
+1952 Athletics                       Shot Put F                        URS  3       Bronce  Klavdiya Tochonova
+1952 Athletics                       200 metres F                      URS  3       Bronce  Nadezhda Khnik'ina-Dvalishvili
+1952 Athletics                       High Jump F                       URS  3       Bronce  Aleksandra Chudina
+1952 Athletics                       10,000 metres M                   URS  3       Bronce  Aleksandr Anufriyev
+1952 Athletics                       Javelin Throw F                   URS  3       Bronce  Yelena Gorchakova
+1952 Athletics                       Discus Throw F                    URS  3       Bronce  Nino Dumbadze
+1952 Athletics                       10 kilometres Race Walk M         URS  3       Bronce  Bruno Junk
+1952 Boxing                          Light-Heavyweight M               URS  =3      Bronce  Anatoly Perov
+1952 Boxing                          Bantamweight M                    URS  =3      Bronce  Gennady Garbuzov
+1952 Boxing                          Flyweight M                       URS  =3      Bronce  Anatoly Bulakov
+1952 Boxing                          Light-Middleweight M              URS  =3      Bronce  Boris Tishin
+1952 Canoeing / Canoe Sprint         Kayak Singles, 500 metres F       URS  3       Bronce  Nina Savina
+1952 Gymnastics / Artistic GymnasticsRings M                           URS  =3      Bronce  Dmitry Leonkin
+1952 Gymnastics / Artistic GymnasticsHorse Vault F                     URS  3       Bronce  Galina Minaicheva
+1952 Shooting                        Small-Bore Rifle, Three Positions,URS  3       Bronce  Boris Andreyev
+1952 Shooting                        Free Rifle, Three Positions, 300 mURS  3       Bronce  Lev Vaynshteyn
+1952 Weightlifting                   Light-Heavyweight M               URS  3       Bronce  Arkady Vorobyov
+1952 Wrestling                       Middleweight, Greco-Roman M       URS  3       Bronce  Nikolay Belov
+1952 Wrestling                       Bantamweight, Greco-Roman M       URS  3       Bronce  Artyom Teryan
+1956 Athletics                       20 kilometres Race Walk M         URS  1       Oro     Leonid Spirin
+1956 Athletics                       Shot Put F                        URS  1       Oro     Tamara Tyshkevich
+1956 Athletics                       10,000 metres M                   URS  1       Oro     Vladimir Kuts
+1956 Athletics                       5,000 metres M                    URS  1       Oro     Vladimir Kuts
+1956 Athletics                       Javelin Throw F                   URS  1       Oro     Inese Jaunzeme
+1956 Boxing                          Featherweight M                   URS  1       Oro     Vladimir Safronov
+1956 Boxing                          Light-Welterweight M              URS  1       Oro     Vladimir Engibaryan
+1956 Boxing                          Middleweight M                    URS  1       Oro     Gennady Shatkov
+1956 Canoeing / Canoe Sprint         Canadian Doubles, 10,000 metres M URS  1       Oro     [equipo] Gratsian Botev, Pavel Kharin
+1956 Canoeing / Canoe Sprint         Kayak Singles, 500 metres F       URS  1       Oro     Yelizaveta Dementyeva
+1956 Football                        Football M                        URS  1       Oro     [Soviet Union] Anatoly Bashashkin, Yozhef Betsa, Anatoly Ilyin +15
+1956 Gymnastics / Artistic GymnasticsRings M                           URS  1       Oro     Albert Azaryan
+1956 Gymnastics / Artistic GymnasticsFloor Exercise F                  URS  =1      Oro     Larisa Latynina
+1956 Gymnastics / Artistic GymnasticsFloor Exercise M                  URS  1       Oro     Valentin Muratov
+1956 Gymnastics / Artistic GymnasticsHorse Vault F                     URS  1       Oro     Larisa Latynina
+1956 Gymnastics / Artistic GymnasticsTeam All-Around F                 URS  1       Oro     [Soviet Union] Polina Astakhova, Lyudmila Yegorova, Lidiya Kalinina-Ivanova +3
+1956 Gymnastics / Artistic GymnasticsPommelled Horse M                 URS  1       Oro     Boris Shakhlin
+1956 Gymnastics / Artistic GymnasticsIndividual All-Around F           URS  1       Oro     Larisa Latynina
+1956 Gymnastics / Artistic GymnasticsParallel Bars M                   URS  1       Oro     Viktor Chukarin
+1956 Gymnastics / Artistic GymnasticsIndividual All-Around M           URS  1       Oro     Viktor Chukarin
+1956 Gymnastics / Artistic GymnasticsTeam All-Around M                 URS  1       Oro     [Soviet Union] Albert Azaryan, Valentin Muratov, Boris Shakhlin +3
+1956 Gymnastics / Artistic GymnasticsHorse Vault M                     URS  =1      Oro     Valentin Muratov
+1956 Ice Hockey                      Ice Hockey M                      URS  1       Oro     [Soviet Union] Yevgeny Babich, Vsevolod Bobrov, Aleksey Guryshev +14
+1956 Modern Pentathlon               Team M                            URS  1       Oro     [Soviet Union] Ivan Deryugin, Igor Novikov, Aleksandr Tarasov
+1956 Rowing                          Double Sculls M                   URS  1       Oro     [equipo] Aleksandr Berkutov, Yury Tyukalov
+1956 Rowing                          Single Sculls M                   URS  1       Oro     Vyacheslav Ivanov
+1956 Shooting                        Running Target, Single and Double URS  1       Oro     Vitaly Romanenko
+1956 Shooting                        Small-Bore Rifle, Three Positions,URS  1       Oro     Anatoly Bogdanov
+1956 Shooting                        Free Rifle, Three Positions, 300 mURS  1       Oro     Vasily Borisov
+1956 Skating / Speed Skating         1,500 metres M                    URS  =1      Oro     Yury Mikhaylov
+1956 Skating / Speed Skating         500 metres M                      URS  1       Oro     Yevgeny Grishin
+1956 Skating / Speed Skating         1,500 metres M                    URS  =1      Oro     Yevgeny Grishin
+1956 Skating / Speed Skating         5,000 metres M                    URS  1       Oro     Boris Shilkov
+1956 Skiing / Cross Country Skiing   10 kilometres F                   URS  1       Oro     Lyubov Kozyreva-Baranova
+1956 Skiing / Cross Country Skiing   4 × 10 kilometres Relay M         URS  1       Oro     [Soviet Union] Nikolay Anikin, Pavel Kolchin, Vladimir Kuzin +1
+1956 Weightlifting                   Middleweight M                    URS  1       Oro     Fyodor Bogdanovsky
+1956 Weightlifting                   Middle-Heavyweight M              URS  1       Oro     Arkady Vorobyov
+1956 Weightlifting                   Lightweight M                     URS  1       Oro     Igor Rybak
+1956 Wrestling                       Light-Heavyweight, Greco-Roman M  URS  1       Oro     Valentin Nikolayev
+1956 Wrestling                       Bantamweight, Greco-Roman M       URS  1       Oro     Konstantin Vyrupayev
+1956 Wrestling                       Flyweight, Freestyle M            URS  1       Oro     Mirian Tsalkalamanidze
+1956 Wrestling                       Flyweight, Greco-Roman M          URS  1       Oro     Nikolay Solovyov
+1956 Wrestling                       Middleweight, Greco-Roman M       URS  1       Oro     Givi K'art'ozia
+1956 Wrestling                       Heavyweight, Greco-Roman M        URS  1       Oro     Anatoly Parfyonov
+1956 Athletics                       High Jump F                       URS  =2      Plata   Mariya Pisareva
+1956 Athletics                       20 kilometres Race Walk M         URS  2       Plata   Antanas Mikėnas
+1956 Athletics                       50 kilometres Race Walk M         URS  2       Plata   Yevgeny Maskinskov
+1956 Athletics                       4 × 100 metres Relay M            URS  2       Plata   [Soviet Union] Leonid Bartenev, Yury Konovalov, Vladimir Sukharev +1
+1956 Athletics                       Shot Put F                        URS  2       Plata   Galina Zybina
+1956 Athletics                       Hammer Throw M                    URS  2       Plata   Mikhail Krivonosov
+1956 Athletics                       Discus Throw F                    URS  2       Plata   Irina Beglyakova
+1956 Basketball                      Basketball M                      URS  2       Plata   [Soviet Union] Arkady Bochkaryov, Jānis Krūmiņš, Algirdas Lauritėnas +9
+1956 Boxing                          Heavyweight M                     URS  2       Plata   Lev Mukhin
+1956 Canoeing / Canoe Sprint         Kayak Singles, 1,000 metres M     URS  2       Plata   Igor Pisarev
+1956 Canoeing / Canoe Sprint         Kayak Doubles, 1,000 metres M     URS  2       Plata   [equipo] Anatoly Demitkov, Mihhail Kaaleste
+1956 Canoeing / Canoe Sprint         Canadian Doubles, 1,000 metres M  URS  2       Plata   [equipo] Gratsian Botev, Pavel Kharin
+1956 Gymnastics / Artistic GymnasticsBalance Beam F                    URS  =2      Plata   Tamara Manina
+1956 Gymnastics / Artistic GymnasticsHorse Vault F                     URS  2       Plata   Tamara Manina
+1956 Gymnastics / Artistic GymnasticsHorizontal Bar M                  URS  2       Plata   Yury Titov
+1956 Gymnastics / Artistic GymnasticsUneven Bars F                     URS  2       Plata   Larisa Latynina
+1956 Gymnastics / Artistic GymnasticsRings M                           URS  2       Plata   Valentin Muratov
+1956 Gymnastics / Artistic GymnasticsFloor Exercise M                  URS  =2      Plata   Viktor Chukarin
+1956 Rowing                          Coxless Pairs M                   URS  2       Plata   [equipo] Igor Buldakov, Viktor Ivanov
+1956 Shooting                        Free Pistol, 50 metres M          URS  2       Plata   Makhmud Umarov
+1956 Shooting                        Free Rifle, Three Positions, 300 mURS  2       Plata   Allan Erdman
+1956 Shooting                        Rapid-Fire Pistol, 25 metres M    URS  2       Plata   Yevgeny Cherkasov
+1956 Shooting                        Small-Bore Rifle, Prone, 50 metresURS  2       Plata   Vasily Borisov
+1956 Skating / Speed Skating         500 metres M                      URS  2       Plata   Rafael Grach
+1956 Skiing / Cross Country Skiing   10 kilometres F                   URS  2       Plata   Radya Yeroshina
+1956 Skiing / Cross Country Skiing   3 × 5 kilometres Relay F          URS  2       Plata   [Soviet Union] Lyubov Kozyreva-Baranova, Alevtina Kolchina, Radya Yeroshina
+1956 Weightlifting                   Light-Heavyweight M               URS  2       Plata   Vasīlijs Stepanovs
+
+[2026-10-21 19:29:39] Consulta resuelta en 191 ms

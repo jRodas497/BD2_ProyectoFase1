@@ -1,0 +1,168 @@
+Fase 3 — carga completa a MongoDB. Inicio: 2026-10-21 18:04:13 CST   Equipo: Fedora-Rodas
+
+######## PASO 1/6: levantar MongoDB — 2026-10-21 18:04:13 ########
+ Network proyectofase3_default Creating 
+ Network proyectofase3_default Creating 
+ Volume proyectofase3_olimpiadas_f3_mongodata Creating 
+ Volume proyectofase3_olimpiadas_f3_mongodata Creating 
+ Volume proyectofase3_olimpiadas_f3_mongodata Created 
+ Volume proyectofase3_olimpiadas_f3_mongodata Created 
+ Network proyectofase3_default Created 
+ Network proyectofase3_default Created 
+ Container olimpiadas-mongo-f3 Creating 
+ Container olimpiadas-mongo-f3 Created 
+ Container olimpiadas-mongo-f3 Starting 
+ Container olimpiadas-mongo-f3 Started 
+ Container olimpiadas-mongo-f3 Waiting 
+ Container olimpiadas-mongo-f3 Healthy 
+ Image proyectofase3-loader Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 597B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile.loader
+#2 transferring dockerfile: 185B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 0.6s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:cb33f7f771ecec2ef1225cf39b159591a040391bd73e4c01f00fdfc4c47611d2
+#5 resolve docker.io/library/python:3.12-slim@sha256:cb33f7f771ecec2ef1225cf39b159591a040391bd73e4c01f00fdfc4c47611d2 0.0s done
+#5 DONE 0.0s
+
+#6 [2/3] RUN pip install --no-cache-dir pymongo==4.10.1
+#6 CACHED
+
+#7 [3/3] WORKDIR /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:5787eb34858e2b49daad43f91f531d74b408d8d88233d0e50dd3eee6c3e759d5 done
+#8 exporting config sha256:556f9f86175e1abee74392c5e5da1ba249b448cf07415099d8f4cfadbc07fb9c done
+#8 exporting attestation manifest sha256:3940c6dabf7453c191764ccd2cdb1ba7b1c2c6c06ecccd67c80b701e352704c0 0.0s done
+#8 exporting manifest list sha256:a6a3ea9e1d82dde973cde28e4787fb7aea7efb643b78ef8c4e831d841e798ad6 0.0s done
+#8 naming to docker.io/library/proyectofase3-loader:latest done
+#8 unpacking to docker.io/library/proyectofase3-loader:latest done
+#8 DONE 0.1s
+
+#9 resolving provenance for metadata file
+#9 DONE 0.0s
+ Image proyectofase3-loader Built 
+
+######## PASO 2/6: corregir datos de Fase 1 — 2026-10-21 18:04:20 ########
+ Container olimpiadas-mongo-f3 Running 
+ Container olimpiadas-mongo-f3 Waiting 
+ Container olimpiadas-mongo-f3 Healthy 
+ Container proyectofase3-loader-run-6393b4df7829 Creating 
+ Container proyectofase3-loader-run-6393b4df7829 Created 
+[2026-10-21 18:04:21] Corrección de datos de Fase 1 -> /app/datos/corregidos
+  participaciones: 212,376 -> 221,204 (separadas 6,400)
+  eventos con flag cambiado: 119 | NOC históricos: 13 | nombres NOC: 28
+  reporte: /app/docs/reporte-correcciones.md
+[2026-10-21 18:04:24] Corrección terminada
+
+######## PASO 3/6: crear colecciones — 2026-10-21 18:04:24 ########
+[2026-10-21 18:04:25] Creando colecciones en la base "olimpiadas"
+  colección creada: comites
+  colección creada: paises
+  colección creada: ediciones
+  colección creada: eventos
+  colección creada: atletas
+  colección creada: participaciones
+[2026-10-21 18:04:25] Colecciones listas: atletas, comites, ediciones, eventos, paises, participaciones
+
+######## PASO 4/6: cargar documentos — 2026-10-21 18:04:25 ########
+ Container olimpiadas-mongo-f3 Running 
+ Container olimpiadas-mongo-f3 Waiting 
+ Container olimpiadas-mongo-f3 Healthy 
+ Container proyectofase3-loader-run-9b6ff76ac277 Creating 
+ Container proyectofase3-loader-run-9b6ff76ac277 Created 
+[2026-10-21 18:04:26] Carga a MongoDB, base 'olimpiadas', origen /app/datos/corregidos
+[2026-10-21 18:04:26] Colección comites
+[2026-10-21 18:04:26]   comites: 236 documentos
+[2026-10-21 18:04:26] Colección ediciones
+[2026-10-21 18:04:26]   ediciones: 63 documentos
+[2026-10-21 18:04:26] Colección paises
+[2026-10-21 18:04:26]   paises: 205 documentos
+[2026-10-21 18:04:26] Colección eventos
+[2026-10-21 18:04:26]   eventos: 1,761 documentos
+[2026-10-21 18:04:26] Colección participaciones (leyendo atletas para embeber sus nombres)
+[2026-10-21 18:04:33]   participaciones: 221,204 documentos
+[2026-10-21 18:04:33] Colección atletas (con resumen de medallas y trazabilidad de fuentes)
+[2026-10-21 18:04:40]   atletas: 239,678 documentos
+[2026-10-21 18:04:40] Carga terminada
+
+######## PASO 5/6: crear índices — 2026-10-21 18:04:41 ########
+[2026-10-21 18:04:41] Creando índices en "olimpiadas"
+  atletas.nombre_normalizado_1  (360 ms)
+  atletas.resumen.total_medallas_-1  (287 ms)
+  participaciones.atletas._id_1_edicion.anio_1  (427 ms)
+  participaciones.noc.codigo_1_edicion.anio_1  (300 ms)
+  participaciones.pais._id_1_medalla_orden_1  (291 ms)
+  participaciones.deporte.nombre_1_edicion.anio_1  (306 ms)
+  participaciones.edicion._id_1  (273 ms)
+  participaciones.evento_edicion_id_1  (270 ms)
+  participaciones.medalla_orden_1_noc.codigo_1  (126 ms)
+  comites.nombre_comite_1  (12 ms)
+  comites.pais_id_1  (13 ms)
+  comites.pais_1  (13 ms)
+  paises.nombre_1  (16 ms)
+  paises.nombre_es_1  (12 ms)
+  paises.nocs.codigo_1  (13 ms)
+  ediciones.anio_1_temporada_1  (17 ms)
+  eventos.nombre_1  (15 ms)
+  eventos.deporte.nombre_1_disciplina.nombre_1  (14 ms)
+[2026-10-21 18:04:44] Índices listos
+  atletas: 3 índices (incluye _id)
+  comites: 4 índices (incluye _id)
+  ediciones: 2 índices (incluye _id)
+  eventos: 3 índices (incluye _id)
+  paises: 4 índices (incluye _id)
+  participaciones: 8 índices (incluye _id)
+
+######## PASO 6/6: validar — 2026-10-21 18:04:44 ########
+[2026-10-21 18:04:45] VALIDACIÓN de "olimpiadas"
+
+1. Conteos (esperados: Fase 1 + correcciones de docs/reporte-correcciones.md)
+  [OK]    comites: 236 (esperado 236)
+  [OK]    paises: 205 (esperado 205)
+  [OK]    ediciones: 63 (esperado 63)
+  [OK]    eventos: 1761 (esperado 1761)
+  [OK]    atletas: 239678 (esperado 239678)
+  [OK]    participaciones: 221204 (esperado 221204)
+
+2. Integridad
+  [OK]    toda participación tiene al menos un atleta
+  [OK]    todo atleta embebido en participaciones existe en la colección atletas
+  [OK]    ninguna participación individual tiene más de un atleta (0)
+  [OK]    todo NOC de participaciones existe en comites
+  [OK]    toda edición de participaciones existe en ediciones
+
+3. Medalleros (una medalla de equipo cuenta UNA vez, no una por atleta)
+  [OK]    Francia 2024 = 16/26/22 (oficial 16/26/22)
+  [OK]    Guatemala = 1/1/1 (oficial 1/1/1)
+  [OK]    Michael Phelps = 23/3/2 (23/3/2)
+  [OK]    Usain Bolt = 8 oros (8)
+  [OK]    Rugby Sevens Francia 2024: 1 oro (el equipo cuenta 1 vez; en Fase 1 contaba 13)
+
+4. Correcciones respecto a Fase 1
+  [OK]    Maratón masculino es individual (en Fase 1 figuraba por equipos)
+  [OK]    FRG: histórico y nombre 'West Germany'
+
+5. Tamaños
+  atletas            239678 docs   datos 159.1 MB   índices 7.6 MB
+  comites               236 docs   datos 0.0 MB   índices 0.1 MB
+  ediciones              63 docs   datos 0.0 MB   índices 0.0 MB
+  eventos              1761 docs   datos 0.4 MB   índices 0.1 MB
+  paises                205 docs   datos 0.0 MB   índices 0.1 MB
+  participaciones    221204 docs   datos 118.6 MB   índices 11.9 MB
+
+[2026-10-21 18:05:22] VALIDACIÓN COMPLETA: todo en orden
+
+Fin: 2026-10-21 18:05:22 CST   Duración total: 69 s

@@ -1,0 +1,31 @@
+$ scripts/consulta_atleta.sh Nadia Comaneci
+[2026-10-21 19:29:34] CONSULTA POR ATLETA: "Nadia Comaneci"
+Atletas que coinciden: 1
+
+====================================================================================================
+ATLETA: Nadia Comăneci   [id 28995]
+====================================================================================================
+Sexo: F  |  Nacimiento: 1961-11-12, Onești, Bacău, Romania
+Estatura: 162 cm  |  Peso: 45 kg
+Trayectoria: 12 participaciones, 1976–1980, deportes: Gymnastics
+MEDALLAS (carrera): Oro 5 | Plata 3 | Bronce 1 | Total 9
+
+PARTICIPACIONES: 12
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+1976 Verano    Gymnastics / Artistic GymnasticsIndividual All-Around F             ROU  1       Oro     
+1976 Verano    Gymnastics / Artistic GymnasticsTeam All-Around F                   ROU  2       Plata   Romania (6 integrantes)
+1976 Verano    Gymnastics / Artistic GymnasticsFloor Exercise F                    ROU  3       Bronce  
+1976 Verano    Gymnastics / Artistic GymnasticsHorse Vault F                       ROU  4       -       
+1976 Verano    Gymnastics / Artistic GymnasticsUneven Bars F                       ROU  1       Oro     
+1976 Verano    Gymnastics / Artistic GymnasticsBalance Beam F                      ROU  1       Oro     
+1980 Verano    Gymnastics / Artistic GymnasticsIndividual All-Around F             ROU  =2      Plata   
+1980 Verano    Gymnastics / Artistic GymnasticsTeam All-Around F                   ROU  2       Plata   Romania (6 integrantes)
+1980 Verano    Gymnastics / Artistic GymnasticsFloor Exercise F                    ROU  =1      Oro     
+1980 Verano    Gymnastics / Artistic GymnasticsHorse Vault F                       ROU  5       -       
+1980 Verano    Gymnastics / Artistic GymnasticsUneven Bars F                       ROU  =20     -       
+1980 Verano    Gymnastics / Artistic GymnasticsBalance Beam F                      ROU  1       Oro     
+
+Fuentes: F1:28995
+
+[2026-10-21 19:29:34] Consulta resuelta en 133 ms

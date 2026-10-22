@@ -1,0 +1,240 @@
+$ scripts/consulta_pais.sh Alemania
+[2026-10-21 19:29:38] CONSULTA POR PAÍS: "Alemania"
+
+====================================================================================================
+PAÍS: Germany (Alemania)
+====================================================================================================
+Comités (NOC): FRG West Germany [disuelto]  |  GDR East Germany [disuelto]  |  GER Germany  |  SAA Saar [disuelto]
+Sede de los Juegos: SÍ — 1936 Invierno (Garmisch-Partenkirchen), 1936 Verano (Berlin), 1972 Verano (Munich)
+
+RESUMEN: 11,827 participaciones (entradas a un evento) | 8,090 atletas distintos | 52 ediciones
+MEDALLERO: Oro 614 | Plata 621 | Bronce 618 | Total 1853   (un equipo cuenta una sola medalla)
+
+POR COMITÉ:
+  GER   participaciones   7591   Oro  355  Plata  374  Bronce  362
+  FRG   participaciones   2247   Oro   67  Plata   82  Bronce   94
+  GDR   participaciones   1912   Oro  192  Plata  165  Bronce  162
+  SAA   participaciones     77   Oro    0  Plata    0  Bronce    0
+
+PARTICIPACIÓN POR EDICIÓN:
+AÑO   TEMPORADA   PARTIC.  ATLETAS   ORO  PLATA  BRONCE  SEDE
+1896  Verano          127       19     9      5       2  
+1900  Verano           68       77     4      3       1  
+1904  Verano           66       20     5      4       5  
+1908  Verano          163       92     3      5       5  
+1912  Verano          211      184     5     14       7  
+1928  Invierno         34       44     0      0       1  
+1928  Verano          182      216    12      7      14  
+1932  Invierno          8       22     0      0       2  
+1932  Verano           91       85     3     12       5  
+1936  Invierno         47       55     3      3       0  ◄ sede
+1936  Verano          286      349    33     26      30  ◄ sede
+1952  Invierno         54       53     3      2       2  
+1952  Verano          342      244     0      7      18  
+1956  Invierno         60       63     1      0       1  
+1956  Verano          182      160     4     10       6  
+1960  Invierno         89       74     4      3       1  
+1960  Verano          316      299    12     19      11  
+1964  Invierno        110       96     3      3       3  
+1964  Verano          348      341    10     22      18  
+1968  Invierno        161      144     3      4       5  
+1968  Verano          556      507    14     20      17  
+1972  Invierno        147      120     7      4       8  
+1972  Verano          725      724    33     34      39  ◄ sede
+1976  Invierno        147      130     9     10      10  
+1976  Verano          600      561    50     37      42  
+1980  Invierno        152      133     9      9      10  
+1980  Verano          336      348    47     37      42  
+1984  Invierno        167      140    11     10       7  
+1984  Verano          356      392    17     19      23  
+1988  Invierno        192      149    11     14       8  
+1988  Verano          620      607    48     49      45  
+1992  Invierno        147      114    10     10       6  
+1992  Verano          428      465    33     21      28  
+1994  Invierno        136      112     9      7       8  
+1996  Verano          398      469    20     18      27  
+1998  Invierno        156      126    12      9       8  
+2000  Verano          377      426    13     17      26  
+2002  Invierno        175      157    12     16       8  
+2004  Verano          379      446    13     16      20  
+2006  Invierno        169      155    11     12       6  
+2008  Verano          340      425    16     11      14  
+2010  Invierno        183      148    10     13       7  
+2012  Invierno          2        2     0      0       0  
+2012  Verano          345      386    11     20      13  
+2014  Invierno        199      151     8      6       5  
+2016  Invierno          1        1     0      0       0  
+2016  Verano          351      422    17     10      17  
+2018  Invierno        192      145    14     10       7  
+2020  Invierno          8       18     0      0       0  
+2020  Verano          352      398    10     11      17  
+2022  Invierno        180      139    11     10       5  
+2024  Verano          366      457    11     12       8  
+
+MEDALLAS POR DEPORTE (top 10):
+  Athletics                  Oro   79  Plata   98  Bronce   98  Total  275
+  Aquatics                   Oro   66  Plata   74  Bronce   90  Total  230
+  Canoeing                   Oro   56  Plata   39  Bronce   40  Total  135
+  Rowing                     Oro   65  Plata   31  Bronce   29  Total  125
+  Skiing                     Oro   44  Plata   47  Bronce   33  Total  124
+  Equestrian                 Oro   47  Plata   23  Bronce   27  Total   97
+  Skating                    Oro   33  Plata   35  Bronce   28  Total   96
+  Luge                       Oro   38  Plata   26  Bronce   23  Total   87
+  Cycling                    Oro   26  Plata   32  Bronce   28  Total   86
+  Gymnastics                 Oro   22  Plata   26  Bronce   34  Total   82
+
+RESULTADOS CON MEDALLA (primeros 150; suba TOPE para ver más):
+AÑO  DEPORTE                         EVENTO                            NOC  PUESTO  MEDALLA ATLETAS
+--------------------------------------------------------------------------------------------------------------
+1896 Athletics                       Horizontal Bar, Teams M           GER  1       Oro     Carl Schuhmann
+1896 Athletics                       Unlimited Class, Greco-Roman M    GER  1       Oro     Carl Schuhmann
+1896 Athletics                       Parallel Bars, Teams M            GER  1       Oro     Carl Schuhmann
+1896 Athletics                       Horse Vault M                     GER  1       Oro     Carl Schuhmann
+1896 Athletics                       Doubles M                         GER  1       Oro     Fritz Traun
+1896 Gymnastics / Artistic GymnasticsHorizontal Bar M                  GER  1       Oro     Hermann Weingärtner
+1896 Gymnastics / Artistic GymnasticsParallel Bars, Teams M            GER  1       Oro     [Germany] Conrad Böcker, Alfred Flatow, Georg Hillmar +6
+1896 Gymnastics / Artistic GymnasticsParallel Bars M                   GER  1       Oro     Alfred Flatow
+1896 Gymnastics / Artistic GymnasticsHorizontal Bar, Teams M           GER  1       Oro     [Germany] Conrad Böcker, Alfred Flatow, Georg Hillmar +6
+1896 Athletics                       100 metres M                      GER  2       Plata   Fritz Hofmann
+1896 Cycling / Cycling Road          Road Race, Individual M           GER  2       Plata   Anton Gödrich
+1896 Gymnastics / Artistic GymnasticsHorizontal Bar M                  GER  2       Plata   Alfred Flatow
+1896 Gymnastics / Artistic GymnasticsRings M                           GER  2       Plata   Hermann Weingärtner
+1896 Gymnastics / Artistic GymnasticsPommelled Horse M                 GER  2       Plata   Hermann Weingärtner
+1896 Athletics                       Rope Climbing M                   GER  3       Bronce  Fritz Hofmann
+1896 Gymnastics / Artistic GymnasticsHorse Vault M                     GER  3       Bronce  Hermann Weingärtner
+1900 Aquatics / Swimming             200 metres Backstroke M           GER  1       Oro     Ernst Hoppenberg
+1900 Aquatics / Swimming             200 metres Team Swimming M        GER  1       Oro     [Deutscher Schwimm Verband Berlin] Max Hainle, Ernst Hoppenberg, Ernst Lührsen +1
+1900 Rowing                          Coxed Fours M                     GER  1       Oro     [Germania Ruder Club, Hamburg] Carl Heinrich Goßler, Gustav Goßler, Oscar Goßler +2
+1900 Sailing                         1-2 Ton Abierto                   GER  1       Oro     [Aschenbrodel] Georg Naue, Heinrich Peters, Ottokar Weise +1
+1900 Cycling / Cycling Track         Points Race M                     GER  2       Plata   Karl Duill
+1900 Rugby                           Rugby M                           GER  =2      Plata   [Frankfurt Club] Albert Amrhein, Hugo Betting, Jacob Hermann +12
+1900 Sailing                         Open Abierto                      GER  2       Plata   [Aschenbrodel] Georg Naue, Heinrich Peters, Ottokar Weise +1
+1900 Rowing                          Coxed Fours M                     GER  3       Bronce  [equipo] Max Ammermann, Wilhelm Carstens, Ernst Felle +8
+1904 Aquatics / Swimming             880 yards Freestyle M             GER  1       Oro     Emil Rausch
+1904 Aquatics / Swimming             440 yards Breaststroke M          GER  1       Oro     Georg Zacharias
+1904 Aquatics / Swimming             1 mile Freestyle M                GER  1       Oro     Emil Rausch
+1904 Aquatics / Swimming             100 yards Backstroke M            GER  1       Oro     Walter Brack
+1904 Gymnastics / Artistic GymnasticsIndividual All-Around, Apparatus WGER  1       Oro     Adolf Spinnler
+1904 Aquatics / Diving               Springboard M                     GER  2       Plata   Georg Hoffmann
+1904 Aquatics / Diving               100 yards Backstroke M            GER  2       Plata   Georg Hoffmann
+1904 Aquatics / Swimming             440 yards Breaststroke M          GER  2       Plata   Walter Brack
+1904 Gymnastics / Artistic GymnasticsIndividual All-Around M           GER  2       Plata   Wilhelm Weber
+1904 Aquatics / Swimming             220 yards Freestyle M             GER  3       Bronce  Emil Rausch
+1904 Aquatics / Swimming             100 yards Backstroke M            GER  3       Bronce  Georg Zacharias
+1904 Athletics                       High Jump M                       GER  3       Bronce  Paul Weinstein
+1904 Gymnastics / Artistic GymnasticsIndividual All-Around M           GER  3       Bronce  Adolf Spinnler
+1904 Gymnastics / Artistic GymnasticsIndividual All-Around, Apparatus WGER  3       Bronce  Wilhelm Weber
+1908 Aquatics / Diving               Springboard M                     GER  1       Oro     Albert Zürner
+1908 Aquatics / Swimming             100 metres Backstroke M           GER  1       Oro     Arno Bieberstein
+1908 Skating / Figure Skating        Pairs Mixto                       GER  1       Oro     [equipo] Annie Hübler, Heinrich Burger
+1908 Aquatics / Diving               Springboard M                     GER  2       Plata   Kurt Behrens
+1908 Athletics                       1,600 metres Medley Relay M       GER  2       Plata   [Germany] Hanns Braun, Hans Eicke, Arthur Hoffmann +1
+1908 Cycling / Cycling Track         Team Pursuit, 1,980 yards M       GER  2       Plata   [Germany] Max Goetze, Richard Katzer, Hermann Martens +1
+1908 Skating / Figure Skating        Singles F                         GER  2       Plata   Elsa Rendschmidt
+1908 Tennis                          Singles M                         GER  2       Plata   Otto Froitzheim
+1908 Aquatics / Diving               Springboard M                     GER  =3      Bronce  Gottlob Walz
+1908 Athletics                       800 metres M                      GER  3       Bronce  Hanns Braun
+1908 Cycling / Cycling Track         Sprint M                          GER  3       Bronce  Karl Neumer
+1908 Rowing                          Single Sculls M                   GER  =3      Bronce  Bernhard von Gaza
+1908 Rowing                          Coxless Pairs M                   GER  =3      Bronce  [equipo] Willy Düskow, Martin Stahnke
+1912 Aquatics / Swimming             400 metres Breaststroke M         GER  1       Oro     Walter Bathe
+1912 Aquatics / Diving               Springboard M                     GER  1       Oro     Paul Günther
+1912 Aquatics / Swimming             200 metres Breaststroke M         GER  1       Oro     Walter Bathe
+1912 Rowing                          Coxed Fours, Outriggers M         GER  1       Oro     [Ludwigshafener Ruderverein] Albert Arnheiter, Otto Fickeisen, Rudolf Fickeisen +2
+1912 Tennis                          Doubles Mixto                     GER  1       Oro     [equipo] Dora Köring, Heinrich Schomburgk
+1912 Aquatics / Swimming             100 metres Backstroke M           GER  2       Plata   Otto Fahr
+1912 Aquatics / Swimming             4 × 100 metres Freestyle Relay F  GER  2       Plata   [Germany] Wally Dressel, Louise Otto, Grete Rosenberg +1
+1912 Aquatics / Diving               Platform M                        GER  2       Plata   Albert Zürner
+1912 Aquatics / Diving               Springboard M                     GER  2       Plata   Hans Luber
+1912 Aquatics / Swimming             200 metres Breaststroke M         GER  2       Plata   Willy Lützow
+1912 Athletics                       400 metres M                      GER  2       Plata   Hanns Braun
+1912 Athletics                       High Jump M                       GER  2       Plata   Hans Liesche
+1912 Equestrian / Equestrian Jumping Individual M                      GER  2       Plata   Rabod Wilhelm von Kröcher
+1912 Equestrian / Equestrian EventingTeam M                            GER  2       Plata   [equipo] Eduard von Lütcken, Harry von Rochow, Richard, Graf von Schaesberg-Thannheim
+1912 Equestrian / Equestrian DressageTeam M                            GER  2       Plata   [equipo] Carl von Moers
+1912 Equestrian / Equestrian EventingIndividual M                      GER  2       Plata   Harry von Rochow
+1912 Shooting                        Trap M                            GER  2       Plata   Alfred Goeldel-Bronikoven
+1912 Tennis                          Singles F                         GER  2       Plata   Dora Köring
+1912 Wrestling                       Featherweight, Greco-Roman M      GER  2       Plata   Georg Gerstacker
+1912 Aquatics / Swimming             100 metres Backstroke M           GER  3       Bronce  Paul Kellner
+1912 Aquatics / Diving               Springboard M                     GER  3       Bronce  Kurt Behrens
+1912 Aquatics / Swimming             200 metres Breaststroke M         GER  3       Bronce  Paul Malisch
+1912 Equestrian / Equestrian Jumping Team M                            GER  3       Bronce  [equipo] Ernst Deloch, Sigismund Freyer, Friedrich Karl, Prinz von Preußen +1
+1912 Rowing                          Eights M                          GER  3       Bronce  [Berliner Ruderverein von 1876] Fritz Bartholomae, Willi Bartholomae, Max Broeske +6
+1912 Shooting                        Trap, Team M                      GER  3       Bronce  [Germany] Erich, Graf von Bernstorff-Gyldensteen, Alfred Goeldel-Bronikoven, Horst Goeldel-Bronikoven +3
+1912 Tennis                          Singles M                         GER  3       Bronce  Oskar Kreuzer
+1928 Aquatics / Swimming             200 metres Breaststroke F         GER  1       Oro     Hilde Schrader
+1928 Aquatics / Water Polo           Water Polo M                      GER  1       Oro     [Germany] Max Amann, Emil Benecke, Johann Blank +4
+1928 Aquatics / Swimming             Water Polo M                      GER  1       Oro     [equipo] Erich Rademacher
+1928 Athletics                       800 metres F                      GER  1       Oro     Lina Radke-Batschauer
+1928 Equestrian / Equestrian Jumping Team M                            GER  1       Oro     [equipo] Carl-Friedrich Freiherr von Langen
+1928 Equestrian / Equestrian Jumping Individual M                      GER  1       Oro     Carl-Friedrich Freiherr von Langen
+1928 Equestrian / Equestrian DressageTeam M                            GER  1       Oro     [equipo] Hermann Linkenbach, Eugen Freiherr von Lotzbeck
+1928 Fencing                         Foil, Individual F                GER  1       Oro     Helene Mayer
+1928 Rowing                          Coxless Pairs M                   GER  1       Oro     [equipo] Bruno Müller, Kurt Moeschter
+1928 Weightlifting                   Heavyweight M                     GER  1       Oro     Josef Straßberger
+1928 Weightlifting                   Lightweight M                     GER  =1      Oro     Kurt Helbig
+1928 Wrestling                       Bantamweight, Greco-Roman M       GER  1       Oro     Kurt Leucht
+1928 Aquatics / Swimming             200 metres Breaststroke M         GER  2       Plata   Erich Rademacher
+1928 Athletics                       4 × 100 metres Relay M            GER  2       Plata   [Germany] Richard Corts, Hubert Houben, Helmut Körnig +1
+1928 Athletics                       4 × 400 metres Relay M            GER  2       Plata   [Germany] Hermann Engelhard, Richard Krebs, Otto Neumann +1
+1928 Boxing                          Light-Heavyweight M               GER  2       Plata   Ernst Pistulla
+1928 Fencing                         Foil, Individual M                GER  2       Plata   Erwin Casmir
+1928 Wrestling                       Light-Heavyweight, Greco-Roman M  GER  2       Plata   Adolf Rieger
+1928 Wrestling                       Lightweight, Greco-Roman M        GER  2       Plata   Ede Sperling
+1928 Aquatics / Swimming             200 metres Breaststroke F         GER  3       Bronce  Lotte Mühe
+1928 Athletics                       Shot Put M                        GER  3       Bronce  Emil Hirschfeld
+1928 Athletics                       400 metres M                      GER  3       Bronce  Jochen Büchner
+1928 Athletics                       200 metres M                      GER  3       Bronce  Helmut Körnig
+1928 Athletics                       800 metres M                      GER  3       Bronce  Hermann Engelhard
+1928 Athletics                       4 × 100 metres Relay F            GER  3       Bronce  [Germany] Anni Holdmann, Leni Junker, Rosa Kellner +1
+1928 Athletics                       100 metres M                      GER  3       Bronce  Georg Lammers
+1928 Bobsleigh                       Four/Five M                       GER  3       Bronce  [Germany 2] Hans Heß, Sebastian Huber, Hanns Kilian +2
+1928 Cycling / Cycling Track         Tandem Sprint, 2,000 metres M     GER  3       Bronce  [equipo] Hans Bernhardt, Karl Köther
+1928 Equestrian / Equestrian EventingIndividual M                      GER  3       Bronce  Bruno Neumann
+1928 Fencing                         Foil, Individual F                GER  3       Bronce  Olga Oelkers
+1928 Hockey                          Hockey M                          GER  3       Bronce  [Germany] Benno Boche, Georg Brunner, Erwin Franzkowiak +16
+1928 Modern Pentathlon               Individual M                      GER  3       Bronce  Helmut Kahl
+1928 Weightlifting                   Featherweight M                   GER  3       Bronce  Hans Wölpert
+1928 Wrestling                       Heavyweight, Greco-Roman M        GER  3       Bronce  Georg Gehring
+1932 Rowing                          Coxed Fours M                     GER  1       Oro     [Germany] Hans Eller, Horst Höck, Walter Meyer +2
+1932 Weightlifting                   Middleweight M                    GER  1       Oro     Rudolf Ismayr
+1932 Wrestling                       Bantamweight, Greco-Roman M       GER  1       Oro     Jakob Brendel
+1932 Aquatics / Water Polo           Water Polo M                      GER  2       Plata   [Germany] Heiko Schwartz, Emil Benecke, Otto Cordes +5
+1932 Athletics                       4 × 100 metres Relay M            GER  2       Plata   [Germany] Erich Borchmeyer, Fritz Hendrix, Arthur Jonath +1
+1932 Athletics                       Javelin Throw F                   GER  2       Plata   Ellen Braumüller
+1932 Boxing                          Featherweight M                   GER  2       Plata   Josef Schleinkofer
+1932 Boxing                          Welterweight M                    GER  2       Plata   Erich Campe
+1932 Boxing                          Bantamweight M                    GER  2       Plata   Hans Ziglarski
+1932 Rowing                          Double Sculls M                   GER  2       Plata   [equipo] Herbert Buhtz, Gerhard Boetzelen
+1932 Rowing                          Coxless Fours M                   GER  2       Plata   [Germany] Karl Aletter, Walter Flinsch, Ernst Gaber +1
+1932 Shooting                        Rapid-Fire Pistol, 25 metres M    GER  2       Plata   Heinz Hax
+1932 Weightlifting                   Featherweight M                   GER  2       Plata   Hans Wölpert
+1932 Wrestling                       Featherweight, Greco-Roman M      GER  2       Plata   Wolfgang Ehrl
+1932 Wrestling                       Middleweight, Greco-Roman M       GER  2       Plata   Jean Földeak
+1932 Athletics                       100 metres M                      GER  3       Bronce  Arthur Jonath
+1932 Athletics                       Decathlon M                       GER  3       Bronce  Wolrad Eberle
+1932 Athletics                       Javelin Throw F                   GER  3       Bronce  Tilly Fleischer
+1932 Bobsleigh                       Four M                            GER  3       Bronce  [Germany 1] Sebastian Huber, Hanns Kilian, Max Ludwig +1
+1932 Ice Hockey                      Ice Hockey M                      GER  3       Bronce  [Germany] Rudi Ball, Alfred Heinrich, Erich Herker +7
+1932 Weightlifting                   Heavyweight M                     GER  3       Bronce  Josef Straßberger
+1932 Wrestling                       Lightweight, Greco-Roman M        GER  3       Bronce  Ede Sperling
+1936 Athletics                       Hammer Throw M                    GER  1       Oro     Karl Hein
+1936 Athletics                       Discus Throw F                    GER  1       Oro     Gisela Mauermayer
+1936 Athletics                       Javelin Throw F                   GER  1       Oro     Tilly Fleischer
+1936 Athletics                       Javelin Throw M                   GER  1       Oro     Gerhard Stöck
+1936 Athletics                       Shot Put M                        GER  1       Oro     Hans Woellke
+1936 Boxing                          Flyweight M                       GER  1       Oro     Willi Kaiser
+1936 Boxing                          Heavyweight M                     GER  1       Oro     Herbert Runge
+1936 Canoeing / Canoe Marathon       Kayak Singles, 10,000 metres M    GER  1       Oro     Ernst Krebs
+1936 Canoeing / Canoe Marathon       Kayak Doubles, 10,000 metres M    GER  1       Oro     [equipo] Ludwig Landen, Paul Wevers
+1936 Cycling / Cycling Track         Tandem Sprint, 2,000 metres M     GER  1       Oro     [equipo] Ernst Ihbe, Carl Lorenz
+1936 Cycling / Cycling Track         Sprint M                          GER  1       Oro     Toni Merkens
+1936 Equestrian / Equestrian EventingIndividual M                      GER  1       Oro     Ludwig Stubbendorff
+1936 Equestrian / Equestrian Jumping Team M                            GER  1       Oro     [equipo] Heinz Brandt, Kurt Hasse, Marten von Barnekow
+1936 Equestrian / Equestrian DressageTeam M                            GER  1       Oro     [equipo] Friedrich Gerhard, Heinz Pollay, Hermann von Oppeln-Bronikowski
+1936 Equestrian / Equestrian DressageIndividual M                      GER  1       Oro     Heinz Pollay
+1936 Equestrian / Equestrian Jumping Individual M                      GER  1       Oro     Kurt Hasse
+1936 Equestrian / Equestrian EventingTeam M                            GER  1       Oro     [equipo] Rudolf Lippert, Ludwig Stubbendorff, Konrad Freiherr von Wangenheim
+
+[2026-10-21 19:29:38] Consulta resuelta en 225 ms

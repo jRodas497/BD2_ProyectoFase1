@@ -1,0 +1,200 @@
+$ scripts/consulta_pais.sh USA  Verano Swimming Oro
+[2026-10-21 19:29:37] CONSULTA POR PAÍS: "USA"  | filtros: deporte=Swimming, temporada=Verano, medalla=Oro
+
+====================================================================================================
+PAÍS: USA (Estados Unidos)
+====================================================================================================
+Comités (NOC): USA United States
+Sede de los Juegos: SÍ — 1904 Verano (St. Louis), 1932 Invierno (Lake Placid), 1932 Verano (Los Angeles), 1960 Invierno (Squaw Valley), 1980 Invierno (Lake Placid), 1984 Verano (Los Angeles), 1996 Verano (Atlanta), 2002 Invierno (Salt Lake City)
+
+RESUMEN (con filtros): 272 participaciones (entradas a un evento) | 344 atletas distintos | 27 ediciones
+MEDALLERO: Oro 272 | Plata 0 | Bronce 0 | Total 272   (un equipo cuenta una sola medalla)
+
+PARTICIPACIÓN POR EDICIÓN:
+AÑO   TEMPORADA   PARTIC.  ATLETAS   ORO  PLATA  BRONCE  SEDE
+1904  Verano            5        8     5      0       0  ◄ sede
+1908  Verano            1        1     1      0       0  
+1912  Verano            2        2     2      0       0  
+1920  Verano            8        9     8      0       0  
+1924  Verano            9       12     9      0       0  
+1928  Verano            6        8     6      0       0  
+1932  Verano            5        6     5      0       0  ◄ sede
+1936  Verano            2        2     2      0       0  
+1948  Verano            8       10     8      0       0  
+1952  Verano            4        6     4      0       0  
+1956  Verano            2        2     2      0       0  
+1960  Verano            9       15     9      0       0  
+1964  Verano           13       17    13      0       0  
+1968  Verano           21       22    21      0       0  
+1972  Verano           17       20    17      0       0  
+1976  Verano           13       12    13      0       0  
+1984  Verano           23       32    23      0       0  ◄ sede
+1988  Verano            8       14     8      0       0  
+1992  Verano           13       28    13      0       0  
+1996  Verano           14       42    14      0       0  ◄ sede
+2000  Verano           14       26    14      0       0  
+2004  Verano           12       22    12      0       0  
+2008  Verano           12       19    12      0       0  
+2012  Verano           16       27    16      0       0  
+2016  Verano           16       33    16      0       0  
+2020  Verano           11       14    11      0       0  
+2024  Verano            8       20     8      0       0  
+
+MEDALLAS POR DEPORTE (top 10):
+  Aquatics                   Oro  272  Plata  199  Bronce  155  Total  626
+
+RESULTADOS (primeros 150; suba TOPE para ver más):
+AÑO  DEPORTE                         EVENTO                            NOC  PUESTO  MEDALLA ATLETAS
+--------------------------------------------------------------------------------------------------------------
+1904 Aquatics / Swimming             220 yards Freestyle M             USA  1       Oro     Charlie Daniels
+1904 Aquatics / Swimming             Water Polo M                      USA  1       Oro     [New York Athletic Club] Budd Goodwin, Lou Handley, George Van Cleaf +3
+1904 Aquatics / Swimming             440 yards Freestyle M             USA  1       Oro     Charlie Daniels
+1904 Aquatics / Swimming             4 × 50 yards Freestyle Relay M    USA  1       Oro     [New York Athletic Club #1] Charlie Daniels, Budd Goodwin, Lou Handley +1
+1904 Aquatics / Swimming             Plunge For Distance M             USA  1       Oro     Billy Dickey
+1908 Aquatics / Swimming             100 metres Freestyle M            USA  1       Oro     Charlie Daniels
+1912 Aquatics / Swimming             100 metres Backstroke M           USA  1       Oro     Harry Hebner
+1912 Aquatics / Swimming             100 metres Freestyle M            USA  1       Oro     Duke Kahanamoku
+1920 Aquatics / Swimming             1,500 metres Freestyle M          USA  1       Oro     Norman Ross
+1920 Aquatics / Swimming             400 metres Freestyle M            USA  1       Oro     Norman Ross
+1920 Aquatics / Swimming             300 metres Freestyle F            USA  1       Oro     Ethelda Bleibtrey
+1920 Aquatics / Swimming             4 × 100 metres Freestyle Relay F  USA  1       Oro     [United States] Ethelda Bleibtrey, Irene Guest, Frances Schroth +1
+1920 Aquatics / Swimming             100 metres Freestyle M            USA  1       Oro     Duke Kahanamoku
+1920 Aquatics / Swimming             4 × 200 metres Freestyle Relay M  USA  1       Oro     [United States] Duke Kahanamoku, Pua Kele Kealoha, Perry McGillivray +1
+1920 Aquatics / Swimming             100 metres Backstroke M           USA  1       Oro     Warren Kealoha
+1920 Aquatics / Swimming             100 metres Freestyle F            USA  1       Oro     Ethelda Bleibtrey
+1924 Aquatics / Swimming             100 metres Backstroke F           USA  1       Oro     Sybil Bauer
+1924 Aquatics / Swimming             4 × 100 metres Freestyle Relay F  USA  1       Oro     [United States] Fraze Donnelly, Trudy Ederle, Ethel Lackie +1
+1924 Aquatics / Swimming             100 metres Freestyle F            USA  1       Oro     Ethel Lackie
+1924 Aquatics / Swimming             400 metres Freestyle F            USA  1       Oro     Martha Norelius
+1924 Aquatics / Swimming             4 × 200 metres Freestyle Relay M  USA  1       Oro     [United States] Ralph Breyer, Harry Glancy, Johnny Weissmuller +1
+1924 Aquatics / Swimming             100 metres Backstroke M           USA  1       Oro     Warren Kealoha
+1924 Aquatics / Swimming             200 metres Breaststroke M         USA  1       Oro     Bob Skelton
+1924 Aquatics / Swimming             100 metres Freestyle M            USA  1       Oro     Johnny Weissmuller
+1924 Aquatics / Swimming             400 metres Freestyle M            USA  1       Oro     Johnny Weissmuller
+1928 Aquatics / Swimming             4 × 100 metres Freestyle Relay F  USA  1       Oro     [United States] Eleanor Garatti-Saville, Adelaide Lambert, Martha Norelius +1
+1928 Aquatics / Swimming             400 metres Freestyle F            USA  1       Oro     Martha Norelius
+1928 Aquatics / Swimming             100 metres Freestyle F            USA  1       Oro     Albina Osipowich
+1928 Aquatics / Swimming             4 × 200 metres Freestyle Relay M  USA  1       Oro     [United States] Austin Clapp, George Kojac, Walter Laufer +1
+1928 Aquatics / Swimming             100 metres Backstroke M           USA  1       Oro     George Kojac
+1928 Aquatics / Swimming             100 metres Freestyle M            USA  1       Oro     Johnny Weissmuller
+1932 Aquatics / Swimming             4 × 100 metres Freestyle Relay F  USA  1       Oro     [United States] Eleanor Garatti-Saville, Helen Johns, Helene Madison +1
+1932 Aquatics / Swimming             100 metres Backstroke F           USA  1       Oro     Eleanor Holm
+1932 Aquatics / Swimming             100 metres Freestyle F            USA  1       Oro     Helene Madison
+1932 Aquatics / Swimming             400 metres Freestyle F            USA  1       Oro     Helene Madison
+1932 Aquatics / Swimming             400 metres Freestyle M            USA  1       Oro     Buster Crabbe
+1936 Aquatics / Swimming             100 metres Backstroke M           USA  1       Oro     Adolph Kiefer
+1936 Aquatics / Swimming             400 metres Freestyle M            USA  1       Oro     Jack Medica
+1948 Aquatics / Swimming             4 × 100 metres Freestyle Relay F  USA  1       Oro     [United States] Marie Corridon, Ann Curtis, Brenda Helser +1
+1948 Aquatics / Swimming             400 metres Freestyle F            USA  1       Oro     Ann Curtis
+1948 Aquatics / Swimming             1,500 metres Freestyle M          USA  1       Oro     Jimmy McLane
+1948 Aquatics / Swimming             4 × 200 metres Freestyle Relay M  USA  1       Oro     [United States] Jimmy McLane, Wally Ris, Bill Smith +1
+1948 Aquatics / Swimming             100 metres Freestyle M            USA  1       Oro     Wally Ris
+1948 Aquatics / Swimming             400 metres Freestyle M            USA  1       Oro     Bill Smith
+1948 Aquatics / Swimming             100 metres Backstroke M           USA  1       Oro     Allen Stack
+1948 Aquatics / Swimming             200 metres Breaststroke M         USA  1       Oro     Joe Verdeur
+1952 Aquatics / Swimming             1,500 metres Freestyle M          USA  1       Oro     Ford Konno
+1952 Aquatics / Swimming             4 × 200 metres Freestyle Relay M  USA  1       Oro     [United States] Ford Konno, Jimmy McLane, Wayne Moore +1
+1952 Aquatics / Swimming             100 metres Backstroke M           USA  1       Oro     Yoshi Oyakawa
+1952 Aquatics / Swimming             100 metres Freestyle M            USA  1       Oro     Clarke Scholes
+1956 Aquatics / Swimming             100 metres Butterfly F            USA  1       Oro     Shelley Mann
+1956 Aquatics / Swimming             200 metres Butterfly M            USA  1       Oro     Bill Yorzyk
+1960 Aquatics / Swimming             100 metres Backstroke F           USA  1       Oro     Lynn Burke
+1960 Aquatics / Swimming             4 × 100 metres Medley Relay F     USA  1       Oro     [United States] Lynn Burke, Patty Kempner, Carolyn Schuler +1
+1960 Aquatics / Swimming             100 metres Butterfly F            USA  1       Oro     Carolyn Schuler
+1960 Aquatics / Swimming             4 × 100 metres Freestyle Relay F  USA  1       Oro     [United States] Joan Spillane, Shirley Stobs, Chris von Saltza +1
+1960 Aquatics / Swimming             400 metres Freestyle F            USA  1       Oro     Chris von Saltza
+1960 Aquatics / Swimming             4 × 200 metres Freestyle Relay M  USA  1       Oro     [United States] Dick Blick, Jeff Farrell, George Harrison +1
+1960 Aquatics / Swimming             4 × 100 metres Medley Relay M     USA  1       Oro     [United States] Jeff Farrell, Paul Hait, Lance Larson +1
+1960 Aquatics / Swimming             200 metres Breaststroke M         USA  1       Oro     Bill Mulliken
+1960 Aquatics / Swimming             200 metres Butterfly M            USA  1       Oro     Mike Troy
+1964 Aquatics / Swimming             400 metres Freestyle F            USA  1       Oro     Ginny Duenkel
+1964 Aquatics / Swimming             4 × 100 metres Medley Relay F     USA  1       Oro     [United States] Kathy Ellis, Cathy Ferguson, Cynthia Goyette +1
+1964 Aquatics / Swimming             100 metres Backstroke F           USA  1       Oro     Cathy Ferguson
+1964 Aquatics / Swimming             100 metres Butterfly F            USA  1       Oro     Sharon Stouder
+1964 Aquatics / Swimming             4 × 100 metres Freestyle Relay M  USA  1       Oro     [United States] Mike Austin, Steve Clark, Gary Ilman +1
+1964 Aquatics / Swimming             4 × 200 metres Freestyle Relay M  USA  1       Oro     [United States] Steve Clark, Gary Ilman, Don Schollander +1
+1964 Aquatics / Swimming             4 × 100 metres Medley Relay M     USA  1       Oro     [United States] Steve Clark, Bill Craig, Thompson Mann +1
+1964 Aquatics / Swimming             200 metres Backstroke M           USA  1       Oro     Jed Graef
+1964 Aquatics / Swimming             400 metres Individual Medley M    USA  1       Oro     Dick Roth
+1964 Aquatics / Swimming             100 metres Freestyle M            USA  1       Oro     Don Schollander
+1964 Aquatics / Swimming             400 metres Freestyle M            USA  1       Oro     Don Schollander
+1964 Aquatics / Swimming             4 × 100 metres Freestyle Relay F  USA  1       Oro     [United States] Donna de Varona, Kathy Ellis, Sharon Stouder +1
+1964 Aquatics / Swimming             400 metres Individual Medley F    USA  1       Oro     Donna de Varona
+1968 Aquatics / Swimming             4 × 100 metres Medley Relay F     USA  1       Oro     [United States] Catie Ball, Ellie Daniel, Kaye Hall +1
+1968 Aquatics / Swimming             4 × 100 metres Freestyle Relay F  USA  1       Oro     [United States] Jane Barkman, Linda Gustavson, Jan Henne +1
+1968 Aquatics / Swimming             100 metres Backstroke F           USA  1       Oro     Kaye Hall
+1968 Aquatics / Swimming             100 metres Freestyle F            USA  1       Oro     Jan Henne
+1968 Aquatics / Swimming             200 metres Individual Medley F    USA  1       Oro     Claudia Kolb
+1968 Aquatics / Swimming             400 metres Individual Medley F    USA  1       Oro     Claudia Kolb
+1968 Aquatics / Swimming             200 metres Freestyle F            USA  1       Oro     Debbie Meyer
+1968 Aquatics / Swimming             400 metres Freestyle F            USA  1       Oro     Debbie Meyer
+1968 Aquatics / Swimming             800 metres Freestyle F            USA  1       Oro     Debbie Meyer
+1968 Aquatics / Swimming             200 metres Backstroke F           USA  1       Oro     Pokey Watson
+1968 Aquatics / Swimming             200 metres Breaststroke F         USA  1       Oro     Sharon Wichman
+1968 Aquatics / Swimming             400 metres Freestyle M            USA  1       Oro     Mike Burton
+1968 Aquatics / Swimming             1,500 metres Freestyle M          USA  1       Oro     Mike Burton
+1968 Aquatics / Swimming             200 metres Individual Medley M    USA  1       Oro     Charlie Hickcox
+1968 Aquatics / Swimming             400 metres Individual Medley M    USA  1       Oro     Charlie Hickcox
+1968 Aquatics / Swimming             4 × 100 metres Medley Relay M     USA  1       Oro     [United States] Charlie Hickcox, Don McKenzie, Doug Russell +1
+1968 Aquatics / Swimming             100 metres Breaststroke M         USA  1       Oro     Don McKenzie
+1968 Aquatics / Swimming             4 × 200 metres Freestyle Relay M  USA  1       Oro     [United States] John Nelson, Steve Rerych, Don Schollander +1
+1968 Aquatics / Swimming             4 × 100 metres Freestyle Relay M  USA  1       Oro     [United States] Steve Rerych, Mark Spitz, Ken Walsh +1
+1968 Aquatics / Swimming             200 metres Butterfly M            USA  1       Oro     Carl Robie
+1968 Aquatics / Swimming             100 metres Butterfly M            USA  1       Oro     Doug Russell
+1972 Aquatics / Swimming             4 × 100 metres Freestyle Relay F  USA  1       Oro     [United States] Shirley Babashoff, Jane Barkman, Jenny Kemp +1
+1972 Aquatics / Swimming             100 metres Backstroke F           USA  1       Oro     Melissa Belote
+1972 Aquatics / Swimming             200 metres Backstroke F           USA  1       Oro     Melissa Belote
+1972 Aquatics / Swimming             4 × 100 metres Medley Relay F     USA  1       Oro     [United States] Melissa Belote, Cathy Carr, Deena Deardurff +1
+1972 Aquatics / Swimming             100 metres Breaststroke F         USA  1       Oro     Cathy Carr
+1972 Aquatics / Swimming             200 metres Butterfly F            USA  1       Oro     Karen Moe-Thornton
+1972 Aquatics / Swimming             100 metres Freestyle F            USA  1       Oro     Sandy Neilson
+1972 Aquatics / Swimming             800 metres Freestyle F            USA  1       Oro     Keena Rothhammer
+1972 Aquatics / Swimming             4 × 100 metres Medley Relay M     USA  1       Oro     [United States] Tom Bruce, Jerry Heidenreich, Mark Spitz +1
+1972 Aquatics / Swimming             1,500 metres Freestyle M          USA  1       Oro     Mike Burton
+1972 Aquatics / Swimming             4 × 100 metres Freestyle Relay M  USA  1       Oro     [United States] Dave Edgar, Jerry Heidenreich, John Murphy +1
+1972 Aquatics / Swimming             4 × 200 metres Freestyle Relay M  USA  1       Oro     [United States] Steve Genter, John Kinsella, Mark Spitz +1
+1972 Aquatics / Swimming             200 metres Breaststroke M         USA  1       Oro     John Hencken
+1972 Aquatics / Swimming             100 metres Freestyle M            USA  1       Oro     Mark Spitz
+1972 Aquatics / Swimming             200 metres Freestyle M            USA  1       Oro     Mark Spitz
+1972 Aquatics / Swimming             100 metres Butterfly M            USA  1       Oro     Mark Spitz
+1972 Aquatics / Swimming             200 metres Butterfly M            USA  1       Oro     Mark Spitz
+1976 Aquatics / Swimming             4 × 100 metres Freestyle Relay F  USA  1       Oro     [United States] Shirley Babashoff, Wendy Boglioli, Kim Peyton +1
+1976 Aquatics / Swimming             4 × 200 metres Freestyle Relay M  USA  1       Oro     [United States] Mike Bruner, Bruce Furniss, Jim Montgomery +1
+1976 Aquatics / Swimming             200 metres Butterfly M            USA  1       Oro     Mike Bruner
+1976 Aquatics / Swimming             200 metres Freestyle M            USA  1       Oro     Bruce Furniss
+1976 Aquatics / Swimming             400 metres Freestyle M            USA  1       Oro     Brian Goodell
+1976 Aquatics / Swimming             1,500 metres Freestyle M          USA  1       Oro     Brian Goodell
+1976 Aquatics / Swimming             100 metres Breaststroke M         USA  1       Oro     John Hencken
+1976 Aquatics / Swimming             4 × 100 metres Medley Relay M     USA  1       Oro     [United States] John Hencken, Jim Montgomery, John Naber +1
+1976 Aquatics / Swimming             100 metres Freestyle M            USA  1       Oro     Jim Montgomery
+1976 Aquatics / Swimming             100 metres Backstroke M           USA  1       Oro     John Naber
+1976 Aquatics / Swimming             200 metres Backstroke M           USA  1       Oro     John Naber
+1976 Aquatics / Swimming             400 metres Individual Medley M    USA  1       Oro     Rod Strachan
+1976 Aquatics / Swimming             100 metres Butterfly M            USA  1       Oro     Matt Vogel
+1984 Aquatics / Swimming             200 metres Individual Medley F    USA  1       Oro     Tracy Caulkins
+1984 Aquatics / Swimming             400 metres Individual Medley F    USA  1       Oro     Tracy Caulkins
+1984 Aquatics / Swimming             400 metres Freestyle F            USA  1       Oro     Tiffany Cohen
+1984 Aquatics / Swimming             800 metres Freestyle F            USA  1       Oro     Tiffany Cohen
+1984 Aquatics / Artistic Swimming    Duet F                            USA  1       Oro     [equipo] Candy Costie, Tracie Ruiz-Conforto
+1984 Aquatics / Swimming             100 metres Freestyle F            USA  =1      Oro     Nancy Hogshead
+1984 Aquatics / Swimming             100 metres Freestyle F            USA  =1      Oro     Carrie Steinseifer
+1984 Aquatics / Swimming             4 × 100 metres Freestyle Relay F  USA  1       Oro     [United States] Nancy Hogshead, Jenna Johnson, Carrie Steinseifer +3
+1984 Aquatics / Swimming             100 metres Butterfly F            USA  1       Oro     Mary T. Meagher
+1984 Aquatics / Swimming             200 metres Butterfly F            USA  1       Oro     Mary T. Meagher
+1984 Aquatics / Artistic Swimming    Solo F                            USA  1       Oro     Tracie Ruiz-Conforto
+1984 Aquatics / Swimming             200 metres Freestyle F            USA  1       Oro     Mary Wayte
+1984 Aquatics / Swimming             4 × 100 metres Freestyle Relay M  USA  1       Oro     [United States] Matt Biondi, Chris Cavanaugh, Rowdy Gaines +3
+1984 Aquatics / Swimming             100 metres Backstroke M           USA  1       Oro     Rick Carey
+1984 Aquatics / Swimming             200 metres Backstroke M           USA  1       Oro     Rick Carey
+1984 Aquatics / Swimming             4 × 100 metres Medley Relay M     USA  1       Oro     [United States] Rick Carey, Rowdy Gaines, Mike Heath +5
+1984 Aquatics / Swimming             400 metres Freestyle M            USA  1       Oro     George DiCarlo
+1984 Aquatics / Swimming             4 × 200 metres Freestyle Relay M  USA  1       Oro     [United States] Jeff Float, Geoff Gaberino, Bruce Hayes +3
+1984 Aquatics / Swimming             100 metres Freestyle M            USA  1       Oro     Rowdy Gaines
+1984 Aquatics / Swimming             100 metres Breaststroke M         USA  1       Oro     Steve Lundquist
+1984 Aquatics / Swimming             1,500 metres Freestyle M          USA  1       Oro     Mike O'Brien
+1984 Aquatics / Swimming             100 metres Backstroke F           USA  1       Oro     Theresa Andrews
+1984 Aquatics / Swimming             4 × 100 metres Medley Relay F     USA  1       Oro     [United States] Theresa Andrews, Tracy Caulkins, Nancy Hogshead +5
+1988 Aquatics / Swimming             400 metres Freestyle F            USA  1       Oro     Janet Evans
+1988 Aquatics / Swimming             800 metres Freestyle F            USA  1       Oro     Janet Evans
+
+[2026-10-21 19:29:37] Consulta resuelta en 182 ms

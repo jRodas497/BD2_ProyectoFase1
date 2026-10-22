@@ -1,0 +1,91 @@
+disciplina_id,deporte_id,nombre
+1,10,3x3 Basketball
+2,48,Alpine Skiing
+3,3,Archery
+4,4,Art Competitions
+5,26,Artistic Gymnastics
+6,2,Artistic Swimming
+7,5,Athletics
+8,6,Australian Rules Football
+9,7,Badminton
+10,1,Ballooning
+11,8,Bandy
+12,9,Baseball
+13,10,Basketball
+14,11,Basque pelota
+15,56,Beach Volleyball
+16,12,Biathlon
+17,20,Bicycle Polo
+18,13,Bobsleigh
+19,14,Boxing
+20,15,Breaking
+21,16,Canoe Marathon
+22,16,Canoe Slalom
+23,16,Canoe Sprint
+24,17,Cricket
+25,18,Croquet
+26,48,Cross Country Skiing
+27,19,Curling
+28,20,Cycling BMX Freestyle
+29,20,Cycling BMX Racing
+30,20,Cycling Mountain Bike
+31,20,Cycling Road
+32,20,Cycling Track
+33,2,Diving
+34,21,Equestrian Dressage
+35,21,Equestrian Driving
+36,21,Equestrian Eventing
+37,21,Equestrian Jumping
+38,21,Equestrian Vaulting
+39,22,Fencing
+40,47,Figure Skating
+41,23,Football
+42,48,Freestyle Skiing
+43,24,Glíma
+44,25,Golf
+45,27,Handball
+46,28,Hockey
+47,29,Ice Hockey
+48,30,Jeu De Paume
+49,31,Judo
+50,32,Karate
+51,33,Lacrosse
+52,34,Luge
+53,2,Marathon Swimming
+54,48,Military Ski Patrol
+55,35,Mixed Sports
+56,36,Modern Pentathlon
+57,37,Motorboating
+58,48,Nordic Combined
+59,38,Polo
+60,39,Racquets
+61,26,Rhythmic Gymnastics
+62,41,Roque
+63,42,Rowing
+64,43,Rugby
+65,43,Rugby Sevens
+66,44,Sailing
+67,45,Savate
+68,46,Shooting
+69,47,Short Track Speed Skating
+70,40,Skateboarding
+71,13,Skeleton
+72,48,Ski Jumping
+73,48,Snowboarding
+74,9,Softball
+75,47,Speed Skating
+76,48,Speed Skiing
+77,49,Sport Climbing
+78,50,Surfing
+79,2,Swimming
+80,51,Table Tennis
+81,52,Taekwondo
+82,53,Tennis
+83,26,Trampolining
+84,54,Triathlon
+85,55,Tug-Of-War
+86,56,Volleyball
+87,2,Water Polo
+88,57,Weightlifting
+89,58,Winter Pentathlon
+90,59,Wrestling

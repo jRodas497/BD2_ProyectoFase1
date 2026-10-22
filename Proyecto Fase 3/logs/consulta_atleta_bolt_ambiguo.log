@@ -1,0 +1,203 @@
+$ scripts/consulta_atleta.sh Bolt
+[2026-10-21 19:29:35] CONSULTA POR ATLETA: "Bolt"
+Atletas que coinciden: 49
+
+====================================================================================================
+ATLETA: Usain Bolt   [id 105512]
+====================================================================================================
+Sexo: M  |  Nacimiento: 1986-08-21, Sherwood Content, Trelawny, Jamaica
+Estatura: 196 cm  |  Peso: 95 kg
+Trayectoria: 10 participaciones, 2004–2016, deportes: Athletics
+MEDALLAS (carrera): Oro 8 | Plata 0 | Bronce 0 | Total 8
+
+PARTICIPACIONES: 10
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+2004 Verano    Athletics                       200 metres M                        JAM  5       -       
+2008 Verano    Athletics                       4 × 100 metres Relay M              JAM  -       -       Jamaica (5 integrantes)
+2008 Verano    Athletics                       100 metres M                        JAM  1       Oro     
+2008 Verano    Athletics                       200 metres M                        JAM  1       Oro     
+2012 Verano    Athletics                       4 × 100 metres Relay M              JAM  1       Oro     Jamaica (5 integrantes)
+2012 Verano    Athletics                       100 metres M                        JAM  1       Oro     
+2012 Verano    Athletics                       200 metres M                        JAM  1       Oro     
+2016 Verano    Athletics                       4 × 100 metres Relay M              JAM  1       Oro     Jamaica (6 integrantes)
+2016 Verano    Athletics                       100 metres M                        JAM  1       Oro     
+2016 Verano    Athletics                       200 metres M                        JAM  1       Oro     
+
+Fuentes: F1:105512, F2:13029, F3:24876, F3:24877, F3:24878, F3:24879, F3:24880, F3:24881, F3:24882, F3:24883, F3:24884, F3:24885
+
+====================================================================================================
+ATLETA: Gustaf Adolf Boltenstern, Jr.   [id 11642]
+====================================================================================================
+Sexo: U  |  Nacimiento: 1904-05-15, Stockholm, Stockholm, Sweden
+Defunción: 1995-03-31
+Estatura: s/d  |  Peso: s/d
+Trayectoria: 6 participaciones, 1932–1952, deportes: Equestrian
+MEDALLAS (carrera): Oro 1 | Plata 1 | Bronce 1 | Total 3
+
+PARTICIPACIONES: 6
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+1932 Verano    Equestrian / Equestrian DressageIndividual M                        SWE  8       -       
+1932 Verano    Equestrian / Equestrian DressageTeam M                              SWE  2       Plata   (3 integrantes)
+1948 Verano    Equestrian / Equestrian DressageIndividual M                        SWE  3       Bronce  
+1948 Verano    Equestrian / Equestrian DressageTeam M                              SWE  -       -       (3 integrantes)
+1952 Verano    Equestrian / Equestrian DressageIndividual Abierto                  SWE  5       -       
+1952 Verano    Equestrian / Equestrian DressageTeam Abierto                        SWE  1       Oro     (3 integrantes)
+
+Fuentes: F1:11642, F2:13033, F3:24890, F3:24891, F3:24892, F3:24893, F3:24894, F3:24895, F3:24896, F3:24897
+
+====================================================================================================
+ATLETA: Ruthie Bolton-Holifield   [id 5152]
+====================================================================================================
+Sexo: F  |  Nacimiento: 1967-05-25, Lucedale, Mississippi, USA
+Estatura: 173 cm  |  Peso: 68 kg
+Trayectoria: 2 participaciones, 1996–2000, deportes: Basketball
+MEDALLAS (carrera): Oro 2 | Plata 0 | Bronce 0 | Total 2
+
+PARTICIPACIONES: 2
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+1996 Verano    Basketball                      Basketball F                        USA  1       Oro     United States (12 integrantes)
+2000 Verano    Basketball                      Basketball F                        USA  1       Oro     United States (11 integrantes)
+
+Fuentes: F1:5152
+
+====================================================================================================
+ATLETA: Gustaf Adolf Boltenstern, Sr.   [id 11643]
+====================================================================================================
+Sexo: M  |  Nacimiento: 1861-04-01, Helsingborg, Skåne, Sweden
+Defunción: 1935-10-09
+Estatura: s/d  |  Peso: s/d
+Trayectoria: 2 participaciones, 1912–1920, deportes: Equestrian
+MEDALLAS (carrera): Oro 0 | Plata 1 | Bronce 0 | Total 1
+
+PARTICIPACIONES: 2
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+1912 Verano    Equestrian / Equestrian DressageIndividual M                        SWE  2       Plata   
+1920 Verano    Equestrian / Equestrian DressageIndividual M                        SWE  -       -       
+
+Fuentes: F1:11643, F2:13034, F3:24898, F3:24899
+
+====================================================================================================
+ATLETA: Courtney Rumbolt   [id 99889]
+====================================================================================================
+Sexo: M  |  Nacimiento: 1969-07-26, London, England, UK
+Estatura: 185 cm  |  Peso: 104 kg
+Trayectoria: 1 participaciones, 1998–1998, deportes: Bobsleigh
+MEDALLAS (carrera): Oro 0 | Plata 0 | Bronce 1 | Total 1
+
+PARTICIPACIONES: 1
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+1998 Invierno  Bobsleigh                       Four M                              GBR  =3      Bronce  Great Britain (4 integrantes)
+
+Fuentes: F1:99889, F2:103464
+
+====================================================================================================
+ATLETA: Davlat Boltaev   [id 239653]
+====================================================================================================
+Sexo: M  |  Nacimiento: s/d
+Estatura: s/d  |  Peso: s/d
+Trayectoria: 1 participaciones, 2024–2024, deportes: Boxing
+MEDALLAS (carrera): Oro 0 | Plata 0 | Bronce 1 | Total 1
+
+PARTICIPACIONES: 1
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+2024 Verano    Boxing                          92kg M                              TJK  -       Bronce  
+
+Fuentes: F3:1909011
+
+====================================================================================================
+ATLETA: Janez Ožbolt   [id 96126]
+====================================================================================================
+Sexo: M  |  Nacimiento: 1970-08-22, Stari Trg pri Ložu, Loška Dolina, Slovenia
+Estatura: 175 cm  |  Peso: 74 kg
+Trayectoria: 12 participaciones, 1992–2006, deportes: Biathlon
+MEDALLAS (carrera): Oro 0 | Plata 0 | Bronce 0 | Total 0
+
+PARTICIPACIONES: 12
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+1992 Invierno  Biathlon                        4 × 7.5 kilometres Relay M          SLO  20      -       Slovenia (4 integrantes)
+1992 Invierno  Biathlon                        10 kilometres Sprint M              SLO  43      -       
+1992 Invierno  Biathlon                        20 kilometres M                     SLO  33      -       
+1994 Invierno  Biathlon                        4 × 7.5 kilometres Relay M          SLO  10      -       Slovenia (4 integrantes)
+1994 Invierno  Biathlon                        10 kilometres Sprint M              SLO  9       -       
+1994 Invierno  Biathlon                        20 kilometres M                     SLO  29      -       
+1998 Invierno  Biathlon                        4 × 7.5 kilometres Relay M          SLO  12      -       Slovenia (4 integrantes)
+1998 Invierno  Biathlon                        20 kilometres M                     SLO  58      -       
+2002 Invierno  Biathlon                        20 kilometres M                     SLO  82      -       
+2006 Invierno  Biathlon                        10 kilometres Sprint M              SLO  68      -       
+2006 Invierno  Biathlon                        20 kilometres M                     SLO  69      -       
+2006 Invierno  Biathlon                        4 × 7.5 kilometres Relay M          SLO  10      -       Slovenia (4 integrantes)
+
+Fuentes: F1:96126
+
+====================================================================================================
+ATLETA: Stjepan Boltižar   [id 31485]
+====================================================================================================
+Sexo: M  |  Nacimiento: 1913-08-01, Varaždin, Varaždinska županija, Croatia
+Defunción: 1989-11-30
+Estatura: s/d  |  Peso: s/d
+Trayectoria: 8 participaciones, 1948–1948, deportes: Gymnastics
+MEDALLAS (carrera): Oro 0 | Plata 0 | Bronce 0 | Total 0
+
+PARTICIPACIONES: 8
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+1948 Verano    Gymnastics / Artistic GymnasticsIndividual All-Around M             YUG  78      -       
+1948 Verano    Gymnastics / Artistic GymnasticsTeam All-Around M                   YUG  10      -       Yugoslavia (8 integrantes)
+1948 Verano    Gymnastics / Artistic GymnasticsFloor Exercise M                    YUG  69      -       
+1948 Verano    Gymnastics / Artistic GymnasticsHorse Vault M                       YUG  91      -       
+1948 Verano    Gymnastics / Artistic GymnasticsParallel Bars M                     YUG  =87     -       
+1948 Verano    Gymnastics / Artistic GymnasticsHorizontal Bar M                    YUG  95      -       
+1948 Verano    Gymnastics / Artistic GymnasticsRings M                             YUG  =67     -       
+1948 Verano    Gymnastics / Artistic GymnasticsPommelled Horse M                   YUG  65      -       
+
+Fuentes: F1:31485
+
+====================================================================================================
+ATLETA: Kylie Shadbolt   [id 28069]
+====================================================================================================
+Sexo: F  |  Nacimiento: 1972-11-08
+Estatura: s/d  |  Peso: s/d
+Trayectoria: 6 participaciones, 1992–1992, deportes: Gymnastics
+MEDALLAS (carrera): Oro 0 | Plata 0 | Bronce 0 | Total 0
+
+PARTICIPACIONES: 6
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+1992 Verano    Gymnastics / Artistic GymnasticsTeam All-Around F                   AUS  7       -       Australia (6 integrantes)
+1992 Verano    Gymnastics / Artistic GymnasticsIndividual All-Around F             AUS  36      -       
+1992 Verano    Gymnastics / Artistic GymnasticsFloor Exercise F                    AUS  50      -       
+1992 Verano    Gymnastics / Artistic GymnasticsHorse Vault F                       AUS  =51     -       
+1992 Verano    Gymnastics / Artistic GymnasticsUneven Bars F                       AUS  =43     -       
+1992 Verano    Gymnastics / Artistic GymnasticsBalance Beam F                      AUS  =63     -       
+
+Fuentes: F1:28069, F2:109090, F3:217184, F3:217185, F3:217186, F3:217187, F3:217188, F3:217189
+
+====================================================================================================
+ATLETA: Cam Bolton   [id 127314]
+====================================================================================================
+Sexo: U  |  Nacimiento: 1990-11-21, Clayton, Victoria, Australia
+Estatura: 191 cm  |  Peso: 82 kg
+Trayectoria: 4 participaciones, 2014–2022, deportes: Skiing
+MEDALLAS (carrera): Oro 0 | Plata 0 | Bronce 0 | Total 0
+
+PARTICIPACIONES: 4
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+2014 Invierno  Skiing / Snowboarding           Cross M                             AUS  11      -       
+2018 Invierno  Skiing / Snowboarding           Cross M                             AUS  10      -       
+2022 Invierno  Skiing / Snowboarding           Team Cross Mixto                    AUS  =9      -       (2 integrantes)
+2022 Invierno  Skiing / Snowboarding           Cross M                             AUS  12      -       
+
+Fuentes: F1:127314
+
+39 atleta(s) más coinciden con "Bolt": Sharofiddin Boltaboev; Ada Bolten; Agnese Āboltiņa; Wim Bolten; Colleen Bolton; Jan Bolt; John Bolton; Lyndon Bolton; Martin Winbolt-Lewis; Noble Stibolt; Andrea Boltz; Anzor Boltukayev; Danny Böltz; Gérard Faetibolt; Hartmut Bölts; ...
+Sea más específico (nombre completo) o suba LIMITE para detallarlos.
+
+[2026-10-21 19:29:35] Consulta resuelta en 182 ms

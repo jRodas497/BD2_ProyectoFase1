@@ -1,0 +1,37 @@
+$ scripts/consulta_atleta.sh Erick Barrondo
+[2026-10-21 19:29:35] CONSULTA POR ATLETA: "Erick Barrondo"
+Atletas que coinciden: 2
+
+====================================================================================================
+ATLETA: Érick Barrondo   [id 123159]
+====================================================================================================
+Sexo: M  |  Nacimiento: 1991-06-14, San Cristóbal, Alta Verapaz, Guatemala
+Estatura: 178 cm  |  Peso: 60 kg
+Trayectoria: 4 participaciones, 2012–2020, deportes: Athletics
+MEDALLAS (carrera): Oro 0 | Plata 1 | Bronce 0 | Total 1
+
+PARTICIPACIONES: 4
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+2012 Verano    Athletics                       20 kilometres Race Walk M           GUA  2       Plata   
+2012 Verano    Athletics                       50 kilometres Race Walk M           GUA  -       -       
+2016 Verano    Athletics                       20 kilometres Race Walk M           GUA  50      -       
+2020 Verano    Athletics                       50 kilometres Race Walk M           GUA  -       -       
+
+Fuentes: F1:123159
+
+====================================================================================================
+ATLETA: Erick Bernab Barrondo Garca   [id 152946]
+====================================================================================================
+Sexo: M  |  Nacimiento: s/d
+Estatura: 178 cm  |  Peso: 60 kg
+Trayectoria: 0 participaciones, ?–?, deportes: 
+MEDALLAS (carrera): Oro 0 | Plata 0 | Bronce 0 | Total 0
+
+PARTICIPACIONES: 0
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+
+Fuentes: F2:8152
+
+[2026-10-21 19:29:35] Consulta resuelta en 123 ms

@@ -1,0 +1,29 @@
+$ scripts/consulta_atleta.sh Usain Bolt
+[2026-10-21 19:29:33] CONSULTA POR ATLETA: "Usain Bolt"
+Atletas que coinciden: 1
+
+====================================================================================================
+ATLETA: Usain Bolt   [id 105512]
+====================================================================================================
+Sexo: M  |  Nacimiento: 1986-08-21, Sherwood Content, Trelawny, Jamaica
+Estatura: 196 cm  |  Peso: 95 kg
+Trayectoria: 10 participaciones, 2004–2016, deportes: Athletics
+MEDALLAS (carrera): Oro 8 | Plata 0 | Bronce 0 | Total 8
+
+PARTICIPACIONES: 10
+AÑO  TEMPORADA DEPORTE                         EVENTO                              NOC  PUESTO  MEDALLA EQUIPO
+----------------------------------------------------------------------------------------------------------------
+2004 Verano    Athletics                       200 metres M                        JAM  5       -       
+2008 Verano    Athletics                       4 × 100 metres Relay M              JAM  -       -       Jamaica (5 integrantes)
+2008 Verano    Athletics                       100 metres M                        JAM  1       Oro     
+2008 Verano    Athletics                       200 metres M                        JAM  1       Oro     
+2012 Verano    Athletics                       4 × 100 metres Relay M              JAM  1       Oro     Jamaica (5 integrantes)
+2012 Verano    Athletics                       100 metres M                        JAM  1       Oro     
+2012 Verano    Athletics                       200 metres M                        JAM  1       Oro     
+2016 Verano    Athletics                       4 × 100 metres Relay M              JAM  1       Oro     Jamaica (6 integrantes)
+2016 Verano    Athletics                       100 metres M                        JAM  1       Oro     
+2016 Verano    Athletics                       200 metres M                        JAM  1       Oro     
+
+Fuentes: F1:105512, F2:13029, F3:24876, F3:24877, F3:24878, F3:24879, F3:24880, F3:24881, F3:24882, F3:24883, F3:24884, F3:24885
+
+[2026-10-21 19:29:33] Consulta resuelta en 119 ms
