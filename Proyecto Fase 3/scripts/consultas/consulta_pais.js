@@ -18,7 +18,7 @@ load("/scripts/consultas/lib.js");
   if (!texto) { print("Falta el parámetro PAIS"); return; }
 
   const comites = await resolverComites(texto);
-  const filtrosTxt = descFiltros().replace(/pais=[^,]*,? ?/, "");
+  const filtrosTxt = ["DEPORTE", "ANIO", "TEMPORADA", "MEDALLA"].filter(env).map((k) => `${k.toLowerCase()}=${env(k)}`).join(", ");
   print(`[${ahora()}] CONSULTA POR PAÍS: "${texto}"${filtrosTxt ? "  | filtros: " + filtrosTxt : ""}`);
   if (comites.length === 0) { print("No se reconoce ese país o comité."); return; }
 

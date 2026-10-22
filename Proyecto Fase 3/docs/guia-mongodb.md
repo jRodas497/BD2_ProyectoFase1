@@ -373,6 +373,90 @@ db.participaciones.find({ "atletas._id": 105512 }).explain("executionStats")
 
 ---
 
+### Consultas libres y formato de los scripts
+
+Una consulta que no encaja en los dos scripts se escribe directamente en el lenguaje de MongoDB. Hay varias formas;
+todas leen la misma base (Atlas si `.env` tiene `MONGO_URI`, el Docker local si no):
+
+| Forma | Comando / dónde | Cuándo conviene |
+|---|---|---|
+| **Una consulta suelta** | `scripts/ejecutar.sh eval 'db.atletas.countDocuments({sexo:"F"})'` | respuesta rápida desde la terminal |
+| **Consola interactiva** (`mongosh`) | `scripts/ejecutar.sh shell` | varias consultas seguidas; para pegar un bloque de varias líneas escribir `.editor`, pegar y terminar con Ctrl+D |
+| **Un archivo `.js`** | `scripts/ejecutar.sh js consultas/ejemplos.js` | consultas largas o repetibles (el archivo debe estar en `scripts/`) |
+| **Atlas, en el navegador** | cluster → *Browse Collections* → elegir colección → caja *Filter* (`{"noc.codigo": "GUA", "medalla": "Oro"}`) y la pestaña *Aggregations* para armar pipelines por pasos | mostrar datos de forma visual (la interfaz puede variar un poco) |
+| **MongoDB Compass** | aplicación de escritorio gratuita; conectar con la URI de `.env` | mismo estilo visual; incluye consola y constructor de agregaciones |
+| **Docker directo** (solo local) | `docker compose exec mongo mongosh "mongodb://USUARIO:CLAVE@localhost:27017/olimpiadas?authSource=admin"` | es lo mismo que `ejecutar.sh shell`, sin el ayudante |
+
+`scripts/ejecutar.sh eval '...'` y `shell` funcionan igual contra Atlas y contra local; no hace falta instalar nada
+en el equipo aparte de Docker. (DBeaver Community no soporta MongoDB.)
+
+**Formato de `consulta_atleta.sh`:** `scripts/consulta_atleta.sh "<nombre>" [deporte] [pais] [anio] [temporada] [medalla]`
+**Formato de `consulta_pais.sh`:** `scripts/consulta_pais.sh "<pais>" [anio] [temporada] [deporte] [medalla]`
+
+El orden de los argumentos es fijo; para omitir uno intermedio se escribe `""`. Opciones por variable de entorno:
+`LIMITE=3` (atletas a detallar), `DETALLE=1` (todas las participaciones), `TOPE=500` (filas del detalle),
+`MONGO_MODO=local` (usa el Docker aunque `.env` tenga `MONGO_URI`).
+
+```bash
+# por atleta
+scripts/consulta_atleta.sh "Usain Bolt"                          # todo sobre él
+scripts/consulta_atleta.sh "Michael Phelps" Swimming "" 2012     # solo natación 2012
+scripts/consulta_atleta.sh "Michael Phelps" "" "" "" "" Oro      # solo sus oros
+scripts/consulta_atleta.sh "Carl Lewis" "" USA 1984              # con país y año
+scripts/consulta_atleta.sh "nadia comaneci"                      # sin acentos ni mayúsculas
+scripts/consulta_atleta.sh "Bolt"                                # nombre ambiguo: lista las coincidencias
+# por país
+scripts/consulta_pais.sh Guatemala                               # medallas, años, sede
+scripts/consulta_pais.sh Francia 2024                            # un año
+scripts/consulta_pais.sh USA 2012 Verano Athletics Oro           # año, temporada, deporte y medalla
+scripts/consulta_pais.sh JAM "" "" Athletics                     # código NOC; solo atletismo
+scripts/consulta_pais.sh "Soviet Union" 1980                     # comité disuelto
+scripts/consulta_pais.sh Alemania                                # reúne GER, FRG, GDR y SAA
+DETALLE=1 scripts/consulta_pais.sh Guatemala                     # todas las participaciones
+```
+Para una consulta propia: `scripts/ejecutar.sh shell` y escribir, por ejemplo,
+`db.participaciones.countDocuments({"noc.codigo": "GUA"})`. Los 8 ejemplos de `consultas/ejemplos.js` cubren top de
+atletas, medallero de una edición, países que fueron sede varias veces, medallistas de un país, atletas distintos por
+edición, medallas de un atleta por deporte, oros por edición y eventos individuales frente a por equipos.
+
+### Equivalencias con SQL (para consultas sencillas)
+
+| SQL | MongoDB (`scripts/ejecutar.sh eval '...'`) |
+|---|---|
+| `SELECT * FROM atleta LIMIT 3` | `db.atletas.find().limit(3)` |
+| `SELECT nombre_completo, sexo FROM atleta LIMIT 3` | `db.atletas.find({}, {nombre_completo:1, sexo:1, _id:0}).limit(3)` |
+| `... WHERE sexo='F' AND estatura_cm > 190 ORDER BY estatura_cm DESC LIMIT 3` | `db.atletas.find({sexo:"F", estatura_cm:{$gt:190}}, {nombre_completo:1, estatura_cm:1, _id:0}).sort({estatura_cm:-1}).limit(3)` |
+| `SELECT COUNT(*) FROM participacion WHERE medalla='Oro'` | `db.participaciones.countDocuments({medalla:"Oro"})` → 6 965 |
+| `SELECT noc, COUNT(*) FROM participacion WHERE medalla IS NOT NULL GROUP BY noc ORDER BY 2 DESC LIMIT 3` | `db.participaciones.aggregate([{$match:{medalla:{$exists:true}}},{$group:{_id:"$noc.codigo", total:{$sum:1}}},{$sort:{total:-1}},{$limit:3}])` → USA 3113, URS 1204, GER 1091 |
+| `SELECT DISTINCT deporte FROM ...` | `db.participaciones.distinct("deporte.nombre")` → 59 deportes |
+| `... WHERE nombre LIKE '%bolt%'` | `db.atletas.find({nombre_normalizado:/bolt/})` |
+
+### Cómo resolver una pregunta nueva (receta para la calificación)
+
+1. **¿Es sobre un atleta o un país?** Si es "información de X atleta/país", usar directamente `consulta_atleta.sh` o
+   `consulta_pais.sh` con los filtros que pidan.
+2. **Si es otra cosa, ubicar la colección** con este mapa:
+
+   | La pregunta habla de… | Colección | Campos útiles |
+   |---|---|---|
+   | resultados, medallas, quién ganó, equipos | `participaciones` | `edicion.anio`, `edicion.temporada`, `deporte.nombre`, `disciplina.nombre`, `evento.nombre`, `evento.categoria_sexo`, `noc.codigo`, `medalla`, `puesto`, `atletas[]` |
+   | una persona (talla, nacimiento, sexo) | `atletas` | `nombre_completo`, `sexo`, `fecha_nacimiento`, `nacimiento.pais`, `estatura_cm`, `peso_kg`, `resumen.*` |
+   | un país o sus sedes | `paises` / `comites` | `nombre`, `nombre_es`, `nocs[]`, `sedes[]` |
+   | unos Juegos (año, ciudad) | `ediciones` | `anio`, `temporada`, `sedes[]` |
+   | el catálogo de eventos | `eventos` | `nombre`, `deporte.nombre`, `es_por_equipos` |
+
+3. **Ver un documento real** para confirmar los nombres de los campos: `db.participaciones.findOne()`.
+4. **Elegir la forma**: `find({...})` para listar, `countDocuments({...})` para contar y
+   `aggregate([{$match}, {$group}, {$sort}, {$limit}])` para sumar, agrupar o rankear.
+   Los datos anidados se escriben con punto (`"edicion.anio"`), y los de un arreglo igual (`"atletas._id"`, `"atletas.nombre"`).
+
+Plantillas probadas, una por tipo de pregunta (ganador de un evento, participaciones por país y deporte, medallistas de un
+país, ranking histórico, sede de unos Juegos, atletas por talla o lugar de nacimiento, atletas distintos, desglose por
+deporte, un evento a lo largo de los años, integrantes de un equipo): `scripts/ejecutar.sh js consultas/plantillas.js`.
+Para obtener el `_id` de un atleta: `db.atletas.find({nombre_normalizado: /phelps/}, {nombre_completo: 1})`.
+
+---
+
 ## 7. Estructura del proyecto
 
 ```
